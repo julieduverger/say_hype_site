@@ -232,15 +232,6 @@ a:hover{
 
 @media only screen and (max-width:780px){
 
-	#accueil-droite {
-    position: relative;
-    background-image: url(../images/photo_accueil.jpg);
-    height: 1250px;
-    overflow: hidden;
-    background-size: cover;
-    z-index: 10;
-    margin-left: 0;
-	}
 
     #section{
         margin-left: 0%;
@@ -270,6 +261,7 @@ a:hover{
         position: static;
         float:left;
         width: 8%;
+        z-index: 10;
 
         h1{
         display:none;
@@ -282,6 +274,7 @@ a:hover{
         width: 60px;
         height: 30px;
         cursor: pointer;
+        z-index: 10;
 
         &:after{
             content:" ";
