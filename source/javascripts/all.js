@@ -99,7 +99,7 @@ $svg.drawsvg('animate');
     inClass: 'fade-in',
     outClass: 'fade-out',
     inDuration: 1000,
-    outDuration: 1500,
+    outDuration: 1200,
     linkElement: '.animsition-link',
     // e.g. linkElement: 'a:not([target="_blank"]):not([href^=#])'
     loading: true,
