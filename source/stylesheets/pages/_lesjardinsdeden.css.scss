@@ -1,0 +1,138 @@
+#couverture_img_jardineden{
+	border: 1px solid #F4F2EE;
+	width: auto;
+	height: 520px;
+	background-image: url(../images/jardineden_presentation.jpg);
+	background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.presentation_projet{
+	max-width: 1000px;
+	min-width: 500px;
+	margin: 0 auto;
+	background-color: white;
+	height: 40%;
+	margin-top: -10%;
+	padding-left: 4%;
+    padding-right: 4%;
+
+    h2{
+    	font-size: 18px;
+    }
+	h3{
+		font-size: 15px;
+	}
+}
+
+.vertical_spacer{
+	background-color: white;
+	border: 1px solid white;
+}
+
+#projet_lesjardinsdeden_contenu1{
+    background-image: url(../images/);
+    background-clip: content-box;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: scroll;
+    height: 800px;
+    margin-top: 5%;
+    padding-left: 2%;
+
+}
+
+#projet_lesjardinsdeden_contenu2{
+    background-image: url(../images/lesjardinsdeden8_photos_projet.jpg);
+    background-clip: content-box;
+    background-size: contain;
+    height: 1000px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: scroll;
+    margin-top: 10%;  
+    padding-left: 2%;
+    padding-right: 1%;
+
+    img{
+    	margin-top: -44%;
+    }
+}
+
+#lesjardinsdeden_photo_pieddepage{
+	background-image: url(../images/.jpg);
+	height: 1000px;
+	background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 5%;
+    margin-left: 300px;
+}
+
+#projet_lesjardinsdeden_contenu3{
+    background-image: url(../images/lesjardinsdeden_photos3_projet.jpg);
+    background-size: contain;
+    height: 1000px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: scroll;
+    margin-top: 0%;
+    margin-bottom: 2%;
+}
+
+#photo_pieddepage_lesjardinsdeden{
+    margin-left: 300px;
+
+    img{
+        width:30%;
+        margin-top: 8%;
+    }
+}
+
+/* RESPONSIVE */
+
+@media only screen and (min-width: 800px)and (max-width: 1280px){
+
+	
+}
+
+@media only screen and (min-width: 800px)and (max-width: 1280px){
+
+    #projet_lesjardinsdeden_contenu1{
+    background-image: url(../images/);
+    background-clip: content-box;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: scroll;
+    height: 800px;
+    margin-top: -2%;
+    padding-left: 2%;
+
+    }
+
+	#projet_lesjardinsdeden_contenu3{
+    background-image: url(../images/lesjardinsdeden_photos3_projet.jpg);
+    background-size: contain;
+    height: 1000px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: scroll;
+    margin-top: -65%;
+    margin-bottom: -30%;
+    }
+
+    #lesjardinsdeden_photo_pieddepage{
+	background-image: url(../images/lesjardinsdeden_photos_projet.jpg);
+    height: 1000px;
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: -20%;
+    margin-left: 300px;
+    }
+    
+}
+

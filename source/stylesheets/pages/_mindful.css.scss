@@ -1,0 +1,161 @@
+#couverture_img_mindful{
+	border: 1px solid #F4F2EE;
+	width: auto;
+	height: 520px;
+	background-image: url(../images/mindful_presentation.jpg);
+	background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+ }
+
+.presentation_projet{
+	max-width: 1000px;
+	min-width: 500px;
+	margin: 0 auto;
+	background-color: white;
+	height: 40%;
+	margin-top: -10%;
+	padding-left: 4%;
+    padding-right: 4%;
+
+    h2{
+    	font-size: 18px;
+    }
+	h3{
+		font-size: 15px;
+	}
+}
+
+.vertical_spacer{
+	background-color: white;
+	border: 1px solid white;
+}
+
+#projet_mindful_contenu1{
+    background-image: url(../images/mindful_photos_projet.jpg);
+    background-clip: content-box;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: scroll;
+    height: 800px;
+    margin-top: 5%;
+    padding-left: 2%;
+}
+
+.col-lg-6, .col-md-12{
+ padding-right: 0px;
+}
+
+#projet_mindful_contenu2{
+    background-image: url(../images/mindful_photos2_projet.jpg);
+    background-clip: content-box;
+    background-size: contain;
+    height: 1000px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: scroll;
+    margin-top: 28%;  
+    padding-left: 1%;
+    padding-right: 2%;
+
+    img{
+        margin-top: -44%;
+        width: 60%;
+    }
+}
+
+#mindful_photo_pieddepage{
+    background-image: url(../images/mindful_photos4_projet.jpg);
+    height: 1000px;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 5%;
+    margin-left: 300px;
+}
+
+#projet_mindful_contenu3{
+    background-image: url(../images/mindful_photos3_projet.jpg);
+    background-size: contain;
+    height: 1000px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: scroll;
+    margin-top: 0%;
+    margin-bottom: 2%;
+}
+
+#description_role_mindful{
+    margin-top: -26%;
+    margin-left: 4%;
+
+    p{
+        text-align: left;
+    }
+}
+
+#frise_verticale_mindful{
+
+        margin-top: 82%;
+}
+
+.frise_bas{
+    position: absolute !important;
+    right: 1%;
+}
+
+.signature {
+    margin-left: 300px;
+    padding: 5px;
+
+    p{
+     font-size: 12px;
+    }
+}
+
+/* RESPONSIVE */
+
+@media only screen and (min-width: 800px)and (max-width: 1280px){
+
+    
+}
+
+@media only screen and (min-width: 800px)and (max-width: 1280px){
+
+    #projet_mindful_contenu1{
+    background-image: url(../images/mindful_photos_projet.jpg);
+    background-clip: content-box;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: scroll;
+    height: 800px;
+    margin-top: -2%;
+    padding-left: 2%;
+
+    }
+
+    #projet_mindful_contenu3{
+    background-image: url(../images/mindful_photos3_projet.jpg);
+    background-size: contain;
+    height: 1000px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: scroll;
+    margin-top: -65%;
+    margin-bottom: -30%;
+    }
+
+    #mindful_photo_pieddepage{
+    background-image: url(../images/mindful_photos4_projet.jpg);
+    height: 1000px;
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: -20%;
+    margin-left: 300px;
+    }
+    
+}
+

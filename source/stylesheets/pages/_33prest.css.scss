@@ -1,0 +1,225 @@
+#couverture_img_33prest{
+	border: 1px solid #F4F2EE;
+	width: auto;
+	height: 520px;
+	background-image: url(../images/33prest_presentation.jpg);
+	background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+.presentation_projet{
+	width: 1000px;
+	margin: 0 auto;
+	background-color: white;
+	height: 40%;
+	margin-top: -10%;
+	padding-left: 4%;
+    padding-right: 4%;
+    margin-left: 35% !important;
+
+    h2{
+    	font-size: 18px;
+    }
+	h3{
+		font-size: 15px;
+	}
+
+	img{
+		width: 2%;
+	}
+}
+
+.vertical_spacer{
+	background-color: #F6EFEF ;
+	border: none;
+}
+
+#projet_contenu1{
+    background-image: url(../images/33prest_photos_projet.jpg);
+    background-clip: content-box;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: scroll;
+    height: 1000px;
+    margin-top: 0%;
+    padding-left: 2%;
+
+
+    img{
+    margin-top: 90%;
+    width: 54%;
+    }
+}
+
+#projet_contenu2{
+    background-image: url(../images/33prest_photos2_projet.jpg);
+    background-clip: content-box;
+    background-size: contain;
+    height: 1000px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: scroll;
+    margin-top: 14%;  
+    padding-left: 7%;
+}
+
+#projet_contenu3{
+    background-image: url(../images/33prest_photos3_projet.jpg);
+    background-size: contain;
+    height: 1000px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: scroll;
+    margin-top: 0%;
+}
+
+#projet_contenu4{
+	height: 1000px;
+}
+
+#description_role_33prest{
+    margin-top: -32%;
+    margin-left: 3%;
+
+    p{
+        text-align: left;
+    }
+}
+
+#description_role_avecfrise_33prest{
+    margin-top: 20%;
+    margin-left: 0%;
+}
+
+#frise_verticale1{
+	margin-top: -2%;
+}
+
+#photo_pieddepage{
+	background-image: url(../images/33prest_photos5_projet.jpg);
+	height: 700px;
+	background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 5%;
+    margin-left: 300px;
+}
+
+.frise_haut{
+    margin-left: 290px;
+    position: relative;
+
+
+}
+
+
+
+
+@media (min-width: 1200px){
+	.container {
+    	width: 100%;
+	}
+}
+
+@media only screen and (min-width: 800px)and (max-width: 1280px){
+
+.presentation_projet{
+		width: 500px;
+		margin-left: 500px !important;
+	}
+	
+
+.photos_projet_33prest{
+	margin-top: 1% !important;
+    height: 800px;
+    background-image: url(../images/33prest_photos_projet.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin: 0 auto;
+    margin-left: 275px;
+	}
+
+	.photos_projet_33prest{
+		margin-top: -110px !important;
+	    height: 800px;
+	    background-image: url(../images/33prest_photos_projet.jpg);
+	    background-size: contain;
+	    background-repeat: no-repeat;
+	    background-position: center center;
+	    margin: 0 auto;
+	    margin-left: 300px;
+	}
+
+	#projet_contenu1{
+	    background-image: url(../images/33prest_photos_projet.jpg);
+	    background-clip: content-box;
+	    background-size: contain;
+	    background-repeat: no-repeat;
+	    background-position: center center;
+	    background-attachment: scroll;
+	    height: 800px;
+	    margin-top: -20%;
+	    padding-left: 0%;
+
+	    img{
+	    margin-top: 104%;
+	    width: 54%;
+	    }
+}
+
+	#projet_contenu2{
+	    background-image: url(../images/33prest_photos2_projet.jpg);
+	    background-clip: content-box;
+	    background-size: contain;
+	    height: 1000px;
+	    background-repeat: no-repeat;
+	    background-position: center center;
+	    background-attachment: scroll;
+	    margin-top: 0%;  
+	    padding-left: 0%;
+	}
+
+	#projet_contenu3{
+	    background-image: url(../images/33prest_photos3_projet.jpg);
+	    background-size: contain;
+	    height: 1000px;
+	    background-repeat: no-repeat;
+	    background-position: center center;
+	    background-attachment: scroll;
+	    margin-top: 0%;
+	}
+
+	.frise_haut{
+    margin-left: 290px;
+    position: relative;
+
+    img{
+	    position: absolute;
+	    width:20%;
+	    top: 30px;
+	    left:0;
+	    }
+    }
+
+	.frise_bas{
+    position: relative;
+
+    img{
+	    position: absolute;
+	    right: 0;
+	    width:14%;
+	    }
+    }
+}
+
+@media only screen and (max-width: 780px){
+	
+	#projet_contenu1 img {
+    margin-top: 98%;
+    width: 54%;
+	}
+}
+

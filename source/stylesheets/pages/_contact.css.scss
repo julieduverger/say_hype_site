@@ -1,0 +1,76 @@
+#presentation_contact{
+	margin-left: 300px;
+	background-color: $couleur_fond;
+}
+
+#contact{
+	max-width: 1000px;
+	margin: 0 auto;
+
+	.row{
+	margin-left: 0;
+	}
+}
+
+#description_contact{
+	margin: 0 auto;
+}
+
+.formulaire_contact{
+	margin: 0 auto;
+}
+
+.input-group {
+    position: relative;
+    display: table;
+    border-collapse: separate;
+    width: 100%;
+    border-bottom: 1px solid #B6925D ;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    height: 36px;
+    padding: 6px 12px;
+    font-size: 16px;
+    line-height: 1.4;
+    color: #000000;
+    background-color: #F6EFEF;
+    background-image: none;
+    border: 1px solid #F6EFEF;
+    border-radius: 2px;
+    -webkit-box-shadow: inset 0 1px 1px #F6EFEF;
+    box-shadow: inset 0 1px 1px #F6EFEF;
+    -webkit-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+    -o-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+    transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+}
+
+.envoyer{
+	width: 150px;
+	margin: 0 auto;
+	border: 1px solid #B6925D;
+    margin-top: 85px;
+    border-radius: 0;
+    text-transform: uppercase;
+    transition: all .5s ease;
+}
+
+#div_map .row{
+	margin-left: 0;
+	padding: 0;
+	padding-right: 15px;
+}
+#div_map .col-xs-12{
+	padding-left: 0;
+}
+
+#map{
+	width: 100%;
+}
+
+textarea:focus, input[type="text"]:focus, input[type="password"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="date"]:focus, input[type="month"]:focus, input[type="time"]:focus, input[type="week"]:focus, input[type="number"]:focus, input[type="email"]:focus, input[type="url"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="color"]:focus, .uneditable-input:focus {  
+border-color: #B6925D;
+box-shadow: 0 1px 1px #B6925D inset, 0 0 8px #B6925D;
+outline: 0 none;}

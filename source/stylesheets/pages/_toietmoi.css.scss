@@ -1,0 +1,130 @@
+#couverture_img_toietmoi{
+	border: 1px solid #F4F2EE;
+	width: auto;
+	height: 520px;
+	background-image: url(../images/toietmoi_presentation.jpg);
+	background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.presentation_projet{
+	max-width: 1000px;
+	min-width: 500px;
+	margin: 0 auto;
+	background-color: white;
+	height: 40%;
+	margin-top: -10%;
+	padding-left: 4%;
+    padding-right: 4%;
+
+    h2{
+    	font-size: 18px;
+    }
+	h3{
+		font-size: 15px;
+	}
+}
+
+.vertical_spacer{
+	background-color: white;
+	border: 1px solid white;
+}
+
+#projet_toietmoi_contenu1{
+    background-image: url(../images/toietmoi_photos9_projet.jpg);
+    background-clip: content-box;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: scroll;
+    height: 800px;
+    margin-top: 5%;
+    margin-left: 0%;
+    padding-right: 2%;
+}
+
+
+#projet_toietmoi_contenu2{
+    background-image: url(../images/toietmoi_photos2_projet.jpg);
+    background-clip: content-box;
+    background-size: contain;
+    height: 1000px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: scroll;
+    margin-top: 28%;  
+    padding-left: 0%;
+    padding-right: 1%;
+
+}
+
+#projet_toietmoi_contenu3{
+    background-size: contain;
+    height: 0px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: scroll;
+    margin-top: 0%;
+
+    img{
+    	width:40%;
+    	margin-top: -45%;
+    }
+}
+
+#photo_pieddepage_toietmoi{
+	margin-left: 300px;
+
+	img{
+		width:30%;
+		margin-top: 8%;
+	}
+}
+
+.frise_haut{
+    margin-left: 290px;
+    position: relative;
+
+    img{
+    position: absolute;
+    width:8%;
+    top: 80px;
+    }
+}
+
+.frise_bas{
+    position: relative;
+
+    img{
+    position: absolute;
+    right: 0;
+    width:8%;
+    }
+}
+
+#description_role_toietmoi{
+    margin-top: -48%;
+    margin-left: 5%;
+
+    p{
+        text-align: left;
+    }
+}
+
+#description_role_avecfrise_toietmoi{
+    margin-top: -50%;
+    margin-left: 4%;
+
+    img{
+        margin-top: -2%;
+    }
+}
+
+#signature{
+    height:50px;
+}
+
+.vertical_spacer{
+    height: 20px;
+}

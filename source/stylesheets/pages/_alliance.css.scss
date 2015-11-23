@@ -1,0 +1,131 @@
+#couverture_img_cotebassin{
+	border: 1px solid #F4F2EE;
+	width: auto;
+	height: 520px;
+	background-image: url(../images/cotebassin_presentation.jpg);
+	background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+.presentation_projet{
+	width: 1000px;
+	margin: 0 auto;
+	background-color: white;
+	height: 40%;
+	margin-top: -10%;
+	padding-left: 4%;
+    padding-right: 4%;
+    margin-left: 35% !important;
+
+    h2{
+    	font-size: 18px;
+    }
+	h3{
+		font-size: 15px;
+	}
+}
+
+.vertical_spacer{
+	background-color: white;
+	border: 1px solid white;
+}
+
+.navprojetdroit{
+	padding-right: 4%;
+}
+
+.nav_projet i{
+	color: #F6EFEF;
+
+	&:hover{
+		color: black;
+	}
+}
+
+#projet_alliance_contenu12{
+    background-image: url(../images/alliance_logo-01.svg);
+    background-clip: content-box;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: scroll;
+    height: 800px;
+    margin-top: 5%;
+    padding-left: 0%;
+    padding-right: 0%;
+
+}
+
+#projet_alliance_contenu22{
+    background-image: url(../images/alliance_photos2_projet.jpg);
+    background-clip: content-box;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: scroll;
+    height: 1000px;
+    margin-top: 0%;
+    padding-left: 0%;
+    padding-right: 0%;
+
+}
+
+#projet_alliance_contenu32{
+    background-clip: content-box;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: scroll;
+    height: 800px;
+    margin-top: 0%;
+    padding-left: 0%;
+    padding-right: 0%;
+
+    .container{
+    	padding: 0;
+    	margin-top: -5%;
+    }
+
+    .row{
+    margin-left: 0px;
+    padding: 0;
+    }
+
+}
+
+#projet_alliance_contenu321{
+	background-image: url(../images/alliance_photos3_projet.jpg);
+	background-clip: content-box;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: scroll;
+    height: 800px;
+    margin-top: 0%;
+    padding-left: 0%;
+    padding-right: 0.5%;
+}
+#projet_alliance_contenu322{
+	background-image: url(../images/alliance_photos4_projet.jpg);
+	background-clip: content-box;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: scroll;
+    height: 800px;
+    margin-top: 0%;
+    padding-left: 0.5%;
+    padding-right: 15px;
+}
+
+#alliance_photo_pieddepage{
+	background-image: url(../images/alliance_photos6_projet.jpg);
+	height: 1000px;
+	background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 5%;
+    margin-left: 300px;
+}
+

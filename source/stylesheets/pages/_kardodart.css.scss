@@ -1,0 +1,125 @@
+#couverture_img_karodart{
+	border: 1px solid #F4F2EE;
+	width: auto;
+	height: 520px;
+	background-image: url(../images/karodart_presentation.jpg);
+	background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .presentation_projet{
+	width: 1000px;
+	margin: 0 auto;
+	background-color: white;
+	height: 40%;
+	margin-top: -10%;
+	padding-left: 4%;
+    padding-right: 4%;
+    margin-left: 35% !important;
+
+    h2{
+    	font-size: 18px;
+    }
+	h3{
+		font-size: 15px;
+	}
+}
+
+.vertical_spacer{
+	background-color: white;
+	border: 1px solid white;
+}
+
+.navprojetdroit{
+	padding-right: 4%;
+}
+
+.nav_projet i{
+	color: #F6EFEF;
+
+	&:hover{
+		color: black;
+	}
+}
+
+#projet_karodart_contenu12{
+    background-image: url(../images/karodart_photos_projet.jpg);
+    background-clip: content-box;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: scroll;
+    height: 1000px;
+    margin-top: 5%;
+    padding-left: 0%;
+    padding-right: 0%;
+
+}
+
+#projet_karodart_contenu22{
+    background-image: url(../images/karodart_photos2_projet.jpg);
+    background-clip: content-box;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: scroll;
+    height: 1000px;
+    margin-top: 0%;
+    padding-left: 0%;
+    padding-right: 0%;
+
+}
+
+#projet_karodart_contenu32{
+    background-clip: content-box;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: scroll;
+    height: 800px;
+    margin-top: 0%;
+    padding-left: 0%;
+    padding-right: 0%;
+
+    .container{
+    	padding: 0;
+    	margin-top: -5%;
+    }
+
+    .row{
+    margin-left: 0px;
+    padding: 0;
+    }
+
+}
+
+#projet_karodart_contenu321{
+	background-image: url(../images/karodart_photos3_projet.jpg);
+	background-clip: content-box;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: scroll;
+    height: 800px;
+    margin-top: 0%;
+    padding-left: 0%;
+    padding-right: 0.5%;
+}
+#projet_karodart_contenu322{
+	background-image: url(../images/karodart_photos4_projet.jpg);
+	background-clip: content-box;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: scroll;
+    height: 800px;
+    margin-top: 0%;
+    padding-left: 0.5%;
+    padding-right: 15px;
+}
+
+#frise_bas_karodart{
+    right: 0;
+    width: 8%;
+}

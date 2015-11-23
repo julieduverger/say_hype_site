@@ -1,0 +1,114 @@
+.caption {
+    display: block;
+    position: relative;
+    z-index: 8;
+       
+    h3{
+    background-color: #130E0A;
+    color: white;
+    font-family : "brandon grotesque";
+    padding: 10px 20px;
+    letter-spacing: 2px;
+    font-size: 1.5vh;
+    margin-top: -38px;
+    z-index: 9;
+    margin-bottom: 0;;
+    }
+}
+
+.thumbnail .caption {
+    padding: 0;
+    color: #333333;
+    bottom : -21px;
+    margin-right: 23%;
+    margin-left: 23%;
+}
+
+.thumbnail {
+	display: inline-block;
+	position: relative;
+	border: 15px solid transparent;
+	padding: 0px;
+    margin-bottom: 15px;
+
+	&:hover{
+		background-color: #130E0A; 
+	} 
+}
+
+.row {
+    margin-left: -15px;
+    margin-right: -15px;
+    padding: 10px;
+    height: 100%;
+}
+
+#section{
+    margin-bottom: 1%;
+}
+
+.row {
+    margin-left: 300px;
+    margin-right: -15px;
+    padding: 10px;
+    height: 100%;
+}
+
+.titre{
+    padding-top: 1px;
+    margin-left: 300px;
+}
+
+
+
+
+                                        /* RESPONSIVE */
+
+@media only screen and (max-width:780px){
+    .row {
+    margin-left: 0px;
+    margin-right: -15px;
+    padding: 10px;
+    height: 100%;
+    }
+
+    .presentation_projet {
+    margin-left: 12px;
+    background-color: white;
+    height: 40%;
+    margin-top: -10%;
+    padding-left: 4%;
+    padding-right: 4%;
+    width: 500px;
+    margin-left: 18% !important;
+    }
+
+    .titre{
+    padding-top: 1px;
+    margin-left: 0px;
+}
+
+.signature{
+    margin-left: 0;
+}
+
+
+}
+
+@media only screen and (min-width: 780px)and (max-width: 1280px){
+
+    .presentation_projet {
+    margin-left: 12px;
+    background-color: white;
+    height: 40%;
+    margin-top: -10%;
+    padding-left: 4%;
+    padding-right: 4%;
+    width: 500px;
+    margin-left: 40% !important;
+    }
+
+    .titre{
+    margin-left: 300px;
+    }
+}
