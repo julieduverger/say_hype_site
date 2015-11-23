@@ -10,6 +10,13 @@ $(window).on("scroll",function(){
 });
     
 
+ /* MENU RESPONSIVE */   
+
+ $("#nav__icon").click(function(e){
+    e.preventDefault();
+    $("body").toggleClass("with--sidebar")
+ });
+
 /* ACCUEIL */
 
 var imageUrls = ["url(../images/cotebassin_presentation.jpg)", "url(../images/33prest_presentation.jpg)", "url(../images/toietmoi_presentation.jpg)", "4.jpg", "5.jpg"];
