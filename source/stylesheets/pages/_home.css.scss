@@ -277,7 +277,7 @@ a:hover{
         position: relative;
         margin-top: 15px;
         margin-bottom: 15px;
-        background-color: white;
+        background-color: $couleur_fond;
         display: block;
         width: 60px;
         height: 30px;
@@ -303,7 +303,7 @@ a:hover{
         width: 200px;
         background-color: $couleur_fond;
 
-        transform: translateX(250px * -1);
+        transform: translateX(210px * -1);
 
         a{
             display: block;
@@ -316,7 +316,7 @@ a:hover{
 
     .with--sidebar{
             .site-pusher{
-            transform: translateX(250px);
+            transform: translateX(210px);
             transition-duration: 0.3s;
             height: 100%;
         }
@@ -337,7 +337,7 @@ a:hover{
 
 
 
-
+/* RESPONSIVE 13 POUCES */
 
 @media only screen and (min-width: 780px)and (max-width: 1200px){
 
@@ -346,7 +346,7 @@ a:hover{
     background-color: white;
     overflow: hidden;
     position: fixed;
-    width: 300px;
+    width: 200px !important;
     left: 0px;
     top: 0px;
     z-index: 10;
