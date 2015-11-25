@@ -105,7 +105,7 @@
 
 .frise_bas{
     position: absolute !important;
-    right: 1%;
+    right: 0%;
 }
 
 .signature {
@@ -161,7 +161,7 @@
     background-position: center center;
     background-attachment: scroll;
     margin-top: 0%;
-    margin-bottom: 3%;
+    margin-bottom: 5%;
     }
 
     #cotebassin_photo_pieddepage{
@@ -198,6 +198,12 @@
     margin-left: 190px !important;
     position: relative;
     }
+
+    .frise_bas{
+    position: absolute !important;
+    right: 0%;
+    margin-top: -3%;
+}
 
     #description_role_cotebassin{
         margin-top: -56%;
