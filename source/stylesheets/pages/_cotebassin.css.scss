@@ -138,7 +138,7 @@
     border: 1px solid #F4F2EE;
     width: auto;
     height: 300px;
-  }
+    }
 
     #projet_cotebassin_contenu1{
     background-image: url(../images/cotebassin_photos_projet.jpg);
@@ -192,7 +192,6 @@
         img{
         width: 3%;
         }
-
     }
 
     .frise_haut{
@@ -201,34 +200,33 @@
     }
 
     #description_role_cotebassin{
-    margin-top: -64%;
-    margin-left: 4%;
+        margin-top: -64%;
+        margin-left: 4%;
 
-    p{
-        text-align: left;
-    }
+        p{
+            text-align: left;
+        }
 
-    #frise_verticale{
-        margin-top: 128%;
-    }
+        #frise_verticale{
+            margin-top: 128%;
+        }
 
-    #projet_cotebassin_contenu2{
-    background-image: url(../images/cotebassin_photos2_projet.jpg);
-    background-clip: content-box;
-    background-size: contain;
-    height: 1000px;
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-attachment: scroll;
-    margin-top: 28%;  
-    padding-left: 2%;
-    padding-right: 2%;
+        #projet_cotebassin_contenu2{
+        background-image: url(../images/cotebassin_photos2_projet.jpg);
+        background-clip: content-box;
+        background-size: contain;
+        height: 1000px;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-attachment: scroll;
+        margin-top: 28%;  
+        padding-left: 2%;
+        padding-right: 2%;
 
-    img{
-        margin-top: -35%;
-        width: 54%;
-    }
+            img{
+                margin-top: -35%;
+                width: 54%;
+            }
+        }
+    }    
 }
-
-
-    
