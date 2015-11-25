@@ -6,6 +6,7 @@
 	background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
+    margin-left: 300px;
 }
 
 .presentation_projet{
@@ -144,9 +145,8 @@
 @media only screen and (min-width: 780px)and (max-width: 1290px){
     
     #couverture_img_toietmoi{
-        border: 1px solid #F4F2EE;
-        width: auto;
         height: 300px;
+        margin-left: 200px;
     }
 
     #projet_toietmoi_contenu1{
