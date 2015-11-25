@@ -123,3 +123,48 @@
     right: 0;
     width: 8%;
 }
+/*----------------------
+------------------------*/
+/* RESPONSIVE */
+
+
+
+/* RESPONSIVE 13 POUCES */
+/*----------------------
+-----------------------*/
+
+@media only screen and (min-width: 780px)and (max-width: 1350px){
+    
+    #couverture_img_karodart{
+
+        height: 300px;
+
+      }
+
+    #projet_karodart_contenu12{
+        height: 500px;
+        margin-top: 2%;
+    }
+
+    #projet_karodart_contenu22{
+
+        height: 500px;
+        margin-top: 0%;
+    }
+
+    #projet_karodart_contenu321{
+        height: 400px;
+    }
+
+    #projet_karodart_contenu322{
+        height: 400px;
+    }
+
+
+    #projet_alliance_contenu32{
+        height: 350px;
+    }
+}
+
+
+}
