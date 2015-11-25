@@ -116,15 +116,15 @@
 	width: 100%;
 }
 
-------------------------
-------------------------
+/*----------------------
+------------------------*/
 /* RESPONSIVE */
 
 
 
 /* RESPONSIVE 13 POUCES */
---------------------------
---------------------------
+/*----------------------
+-----------------------*/
 
 
 @media only screen and (min-width: 780px)and (max-width: 1280px){
@@ -160,8 +160,8 @@
 	    padding-left: 0%;
 
 	    img{
-	    margin-top: 117%;
-	    width: 62%;
+	    margin-top: 130%;
+	    width: 68%;
 	    }
 }
 
@@ -187,6 +187,11 @@
 	    margin-top: 0%;
 	}
 
+	#projet_contenu4{
+		height: 600px;
+	}
+
+
 	#photo_pieddepage{
 	background-image: url(../images/33prest_photos5_projet.jpg);
 	height: 490px;
@@ -198,7 +203,7 @@
 	}
 
 	#description_role_33prest{
-	    margin-top: -32%;
+	    margin-top: -59%;
 	    margin-left: 3%;
 
 	    p{
@@ -221,6 +226,11 @@
 	    left:0;
 	    }
     }
+
+    #frise_verticale1{
+		margin-top: -2%;
+		height: 300px;
+	}	
 
 }
 
