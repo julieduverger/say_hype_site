@@ -200,17 +200,17 @@
     }
 
     #description_role_cotebassin{
-        margin-top: -64%;
+        margin-top: -56%;
         margin-left: 4%;
 
         p{
             text-align: left;
-        }
-        
+        }        
     }
 
     #frise_verticale{
         margin-top: 128%;
+        height: 300px;
     }
 
     #projet_cotebassin_contenu2{
@@ -224,6 +224,10 @@
         margin-top: 32%;  
         padding-left: 2%;
         padding-right: 2%;
+
+        h3{
+        font-size: 17px !important;
+        }
 
         img{
             margin-top: -53%;
