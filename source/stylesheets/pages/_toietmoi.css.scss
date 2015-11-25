@@ -156,17 +156,55 @@
         margin-top: 0%;
         margin-left: 0%;
         padding-right: 2%;
+        padding-left: 0;
     }
 
     #description_role_toietmoi{
-    margin-top: -100%;
-    margin-left: 5%;
+        margin-top: -92%;
+        margin-left: 5%;
 
-    p{
-        text-align: left;
+        p{
+            text-align: left;
+        }
+
+        h3{
+        font-size: 17px !important;
+        }
+    }
+
+    #frise_verticale_toietmoi{
+        height: 300px;
+        margin-top: -38%;
+    }
+
+    #projet_toietmoi_contenu2{
+        margin-top: 36%;  
+    }
+
+    #projet_toietmoi_contenu3{
+
+        img{
+            width:50%;
+            margin-top: -61%;
+        }
+    }
+
+    #photo_pieddepage_toietmoi{
+    margin-left: 200px;
+
+    img{
+        width:40%;
+        margin-top: 8%;
     }
 }
-
-
+     
 
 }
+
+
+
+
+
+
+
+
