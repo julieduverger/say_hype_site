@@ -149,7 +149,7 @@
     background-attachment: scroll;
     height: 800px;
     margin-top: -15%;
-    padding-left: 2%;
+    padding-left: 1%;
 
     }
 
@@ -210,8 +210,9 @@
         #frise_verticale{
             margin-top: 128%;
         }
+    }
 
-        #projet_cotebassin_contenu2{
+    #projet_cotebassin_contenu2{
         background-image: url(../images/cotebassin_photos2_projet.jpg);
         background-clip: content-box;
         background-size: contain;
@@ -219,15 +220,13 @@
         background-repeat: no-repeat;
         background-position: center center;
         background-attachment: scroll;
-        margin-top: 28%;  
+        margin-top: 32%;  
         padding-left: 2%;
         padding-right: 2%;
 
         img{
-            margin-top: -35% !important;
-            width: 54% !important;
-        }
-
+            margin-top: -53%;
+            width: 54%;
         }
     }    
 }
