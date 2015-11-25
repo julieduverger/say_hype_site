@@ -161,7 +161,7 @@
     background-position: center center;
     background-attachment: scroll;
     margin-top: 0%;
-    margin-bottom: 0%;
+    margin-bottom: 3%;
     }
 
     #cotebassin_photo_pieddepage{
@@ -216,7 +216,7 @@
         background-image: url(../images/cotebassin_photos2_projet.jpg);
         background-clip: content-box;
         background-size: contain;
-        height: 500px;
+        height: 500px !important;
         background-repeat: no-repeat;
         background-position: center center;
         background-attachment: scroll;
