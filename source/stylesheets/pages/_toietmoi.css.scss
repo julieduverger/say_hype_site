@@ -103,6 +103,8 @@
     }
 }
 
+
+
 #description_role_toietmoi{
     margin-top: -48%;
     margin-left: 5%;
@@ -127,4 +129,44 @@
 
 .vertical_spacer{
     height: 20px;
+}
+
+/* RESPONSIVE */
+
+
+
+/* RESPONSIVE 13 POUCES */
+
+@media only screen and (min-width: 780px)and (max-width: 1280px){
+    
+    #couverture_img_toietmoi{
+        border: 1px solid #F4F2EE;
+        width: auto;
+        height: 300px;
+    }
+
+    #projet_toietmoi_contenu1{
+        background-image: url(../images/toietmoi_photos9_projet.jpg);
+        background-clip: content-box;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-attachment: scroll;
+        height: 500px;
+        margin-top: 0%;
+        margin-left: 0%;
+        padding-right: 2%;
+    }
+
+    #description_role_toietmoi{
+    margin-top: -100%;
+    margin-left: 5%;
+
+    p{
+        text-align: left;
+    }
+}
+
+
+
 }
