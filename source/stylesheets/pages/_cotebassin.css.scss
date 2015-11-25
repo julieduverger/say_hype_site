@@ -156,17 +156,17 @@
     #projet_cotebassin_contenu3{
     background-image: url(../images/cotebassin_photos3_projet.jpg);
     background-size: contain;
-    height: 1000px;
+    height: 500px;
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: scroll;
     margin-top: 0%;
-    margin-bottom: -30%;
+    margin-bottom: 0%;
     }
 
     #cotebassin_photo_pieddepage{
     background-image: url(../images/cotebassin_photos5_projet.jpg);
-    height: 1000px;
+    height: 490px;
     background-position: center center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -223,10 +223,11 @@
         padding-left: 2%;
         padding-right: 2%;
 
-            img{
-                margin-top: -35%;
-                width: 54%;
-            }
+        img{
+            margin-top: -35% !important;
+            width: 54% !important;
+        }
+
         }
     }    
 }
