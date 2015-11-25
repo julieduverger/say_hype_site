@@ -116,11 +116,15 @@
 	width: 100%;
 }
 
+------------------------
+------------------------
 /* RESPONSIVE */
 
 
 
 /* RESPONSIVE 13 POUCES */
+--------------------------
+--------------------------
 
 
 @media only screen and (min-width: 780px)and (max-width: 1280px){
@@ -129,33 +133,20 @@
 	width: 100%;
 }
 
+.row{
+	margin-left: 185px;
+}
+
 .presentation_projet{
 		width: 500px;
 		margin-left: 500px !important;
 	}
-	
 
-.photos_projet_33prest{
-	margin-top: 1% !important;
-    height: 800px;
-    background-image: url(../images/33prest_photos_projet.jpg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center center;
-    margin: 0 auto;
-    margin-left: 275px;
-	}
-
-	.photos_projet_33prest{
-		margin-top: -110px !important;
-	    height: 800px;
-	    background-image: url(../images/33prest_photos_projet.jpg);
-	    background-size: contain;
-	    background-repeat: no-repeat;
-	    background-position: center center;
-	    margin: 0 auto;
-	    margin-left: 300px;
-	}
+#couverture_img_33prest{
+        border: 1px solid #F4F2EE;
+        width: auto;
+        height: 300px;
+    }	
 
 	#projet_contenu1{
 	    background-image: url(../images/33prest_photos_projet.jpg);
@@ -169,8 +160,8 @@
 	    padding-left: 0%;
 
 	    img{
-	    margin-top: 104%;
-	    width: 54%;
+	    margin-top: 117%;
+	    width: 62%;
 	    }
 }
 
@@ -178,22 +169,45 @@
 	    background-image: url(../images/33prest_photos2_projet.jpg);
 	    background-clip: content-box;
 	    background-size: contain;
-	    height: 1000px;
+	    height: 600px;
 	    background-repeat: no-repeat;
 	    background-position: center center;
 	    background-attachment: scroll;
-	    margin-top: 0%;  
+	    margin-top: 14%;  
 	    padding-left: 0%;
 	}
 
 	#projet_contenu3{
 	    background-image: url(../images/33prest_photos3_projet.jpg);
 	    background-size: contain;
-	    height: 1000px;
+	    height: 600px;
 	    background-repeat: no-repeat;
 	    background-position: center center;
 	    background-attachment: scroll;
 	    margin-top: 0%;
+	}
+
+	#photo_pieddepage{
+	background-image: url(../images/33prest_photos5_projet.jpg);
+	height: 490px;
+	background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 5%;
+    margin-left: 200px;
+	}
+
+	#description_role_33prest{
+	    margin-top: -32%;
+	    margin-left: 3%;
+
+	    p{
+	        text-align: left;
+	    }
+
+	    h3{
+	    	font-size: 17px !important;
+	    }
 	}
 
 	.frise_haut{
