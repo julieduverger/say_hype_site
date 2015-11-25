@@ -115,14 +115,14 @@
 }
 
 
+/* RESPONSIVE */
 
-@media (min-width: 1200px){
-	.container {
-    	width: 100%;
-	}
-}
 
-@media only screen and (min-width: 800px)and (max-width: 1280px){
+
+/* RESPONSIVE 13 POUCES */
+
+
+@media only screen and (min-width: 780px)and (max-width: 1280px){
 
 .presentation_projet{
 		width: 500px;
@@ -203,15 +203,6 @@
 	    }
     }
 
-	.frise_bas{
-    position: relative;
-
-    img{
-	    position: absolute;
-	    right: 0;
-	    width:14%;
-	    }
-    }
 }
 
 @media only screen and (max-width: 780px){
