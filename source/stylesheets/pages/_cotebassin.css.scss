@@ -121,16 +121,15 @@
 
 /* RESPONSIVE */
 
+
+
+/* RESPONSIVE 13 POUCES */
+
 @media only screen and (min-width: 780px)and (max-width: 1280px){
-
-	
-}
-
-@media only screen and (min-width: 800px)and (max-width: 1280px){
 
     p{
      font-size: 14px;
-     line-height: 23px;
+     line-height: 24px !important;
      letter-spacing: 0.5; 
 
     }
@@ -194,6 +193,11 @@
     width: 3%;
     }
 
+    }
+
+    .frise_haut{
+    margin-left: 190px;
+    position: relative;
     }
 
     
