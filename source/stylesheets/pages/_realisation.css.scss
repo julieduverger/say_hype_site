@@ -133,12 +133,10 @@
     margin-left: 40% !important;
     }
 
-    .titre{
-    margin-left: 300px;
-    }
+
 
     .thumbnail a > img {
-    height: 300px;
+    height: 350px;
     }
 
     .thumbnail{
@@ -172,8 +170,11 @@
     }
 
     .titre{
-    padding-top: 1px;
+    padding-top: 2%;
+    padding-bottom: 1%;
+    line-height: 26px;
     margin-left: 200px;
-}
+    font-size: 17px;
+    }
 }
 
