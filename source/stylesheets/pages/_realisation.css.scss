@@ -113,7 +113,7 @@
 
     .list-inline > li {
     width: 25px;
-    height; 25px;
+    height: 25px;
     padding: 0px;
     padding: 0px;
     padding-left: 2px;
@@ -140,10 +140,10 @@
 
     .thumbnail{
     margin-bottom: 0px;
-    border-top: 15px solid transparent;
-    border-left: 15px solid transparent;
-    border-right: 15px solid transparent;
-    border-bottom: 21px solid transparent;
+    border-top: 12px solid transparent;
+    border-left: 12px solid transparent;
+    border-right: 12px solid transparent;
+    border-bottom: 17px solid transparent;
     }
 
     .caption {
@@ -167,5 +167,10 @@
     .row {
         margin-left: 200px;
     }
+
+    .titre{
+    padding-top: 1px;
+    margin-left: 200px;
+}
 }
 
