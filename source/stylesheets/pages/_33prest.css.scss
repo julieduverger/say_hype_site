@@ -112,6 +112,9 @@
     position: relative;
 }
 
+.container{
+	width: 100%;
+}
 
 /* RESPONSIVE */
 
@@ -121,6 +124,10 @@
 
 
 @media only screen and (min-width: 780px)and (max-width: 1280px){
+
+.container{
+	width: 100%;
+}
 
 .presentation_projet{
 		width: 500px;

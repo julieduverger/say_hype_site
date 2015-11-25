@@ -99,13 +99,12 @@
 }
 
 #frise_verticale{
-
-        margin-top: 90%;
+   margin-top: 90%;
 }
 
 .frise_bas{
     position: absolute !important;
-    right: 0%;
+    right: 0% !important;
 }
 
 .signature {
@@ -127,51 +126,54 @@
 
 @media only screen and (min-width: 780px)and (max-width: 1280px){
 
+    .presentation_projet{
+        width: 500px;
+        margin-left: 500px !important;
+    }
+
     p{
      font-size: 14px;
      line-height: 24px !important;
      letter-spacing: 0.5; 
-
     }
 
     #couverture_img_cotebassin{
-    border: 1px solid #F4F2EE;
-    width: auto;
-    height: 300px;
+        border: 1px solid #F4F2EE;
+        width: auto;
+        height: 300px;
     }
 
     #projet_cotebassin_contenu1{
-    background-image: url(../images/cotebassin_photos_projet.jpg);
-    background-clip: content-box;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-attachment: scroll;
-    height: 800px;
-    margin-top: -15%;
-    padding-left: 1%;
-
+        background-image: url(../images/cotebassin_photos_projet.jpg);
+        background-clip: content-box;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-attachment: scroll;
+        height: 800px;
+        margin-top: -15%;
+        padding-left: 1%;
     }
 
     #projet_cotebassin_contenu3{
-    background-image: url(../images/cotebassin_photos3_projet.jpg);
-    background-size: contain;
-    height: 500px;
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-attachment: scroll;
-    margin-top: 0%;
-    margin-bottom: 5%;
+        background-image: url(../images/cotebassin_photos3_projet.jpg);
+        background-size: contain;
+        height: 500px;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-attachment: scroll;
+        margin-top: 0%;
+        margin-bottom: 5%;
     }
 
     #cotebassin_photo_pieddepage{
-    background-image: url(../images/cotebassin_photos5_projet.jpg);
-    height: 490px;
-    background-position: center center;
-    background-size: contain;
-    background-repeat: no-repeat;
-    margin-top: 0%;
-    margin-left: 200px;
+        background-image: url(../images/cotebassin_photos5_projet.jpg);
+        height: 490px;
+        background-position: center center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        margin-top: 0%;
+        margin-left: 200px;
     }
     
     .presentation_projet{
