@@ -137,7 +137,7 @@
 /*----------------------
 -----------------------*/
 
-@media only screen and (min-width: 780px)and (max-width: 1290px){
+@media only screen and (min-width: 1025px)and (max-width: 1290px){
 
     .presentation_projet{
         width: 500px;
@@ -263,4 +263,57 @@
         font-size: 17px !important;
         letter-spacing: 1px;
     }    
+}
+
+/* RESPONSIVE TABLETTE PAYSAGE */
+/*-------------------------------
+--------------------------------*/
+
+@media only screen and (min-width: 780px)and (max-width: 1024px){
+    
+    .frise_haut {
+        margin-left: 190px;
+        position: relative;
+    }
+
+    #couverture_img_cotebassin {
+        height: 300px;
+        margin-left: 200px;
+    }
+
+    #projet_cotebassin_contenu1 {
+        height: 600px;
+        margin-top: 0%;
+        padding-left: 0%;
+    }
+
+    #description_role_cotebassin {
+        margin-top: -42%;
+        margin-left: 4%;
+    }
+
+    #frise_verticale {
+        margin-top: 80%;
+    }
+
+    #projet_cotebassin_contenu2 img {
+        margin-top: -65%;
+    }
+
+    #projet_cotebassin_contenu2 {
+        height: 600px;
+        margin-top: 97%;
+    }
+
+    #projet_cotebassin_contenu3 {
+        height: 600px;
+    }
+
+
+    #cotebassin_photo_pieddepage {
+    height: 490px;
+    margin-left: 200px;
+}
+
+
 }

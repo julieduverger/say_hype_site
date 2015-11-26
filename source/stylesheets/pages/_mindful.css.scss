@@ -125,7 +125,7 @@
 -----------------------*/
 
 
-@media only screen and (min-width: 780px)and (max-width: 1290px){
+@media only screen and (min-width: 1025px)and (max-width: 1290px){
 
     #couverture_img_mindful{
         border: 1px solid #F4F2EE;
@@ -204,5 +204,57 @@
         font-size: 17px !important;
     }  
     
+}
+
+/* RESPONSIVE TABLETTE PAYSAGE */
+/*-------------------------------
+--------------------------------*/
+
+@media only screen and (min-width: 780px)and (max-width: 1024px){
+    
+   .frise_haut {
+        margin-left: 190px !important;
+        position: relative;
+    }
+
+    #couverture_img_mindful {
+        height: 300px;
+        margin-left: 200px;
+    }
+
+    #projet_mindful_contenu1 {
+        height: 600px;
+        padding-left: 0%;
+    }
+
+    #description_role_mindful {
+        margin-top: -43%;
+        margin-left: 4%;
+    }
+
+    #projet_mindful_contenu2 {
+        height: 600px;
+        margin-top: 95%;
+        padding-left: 0%;
+        padding-right: 0%;
+    }
+
+    #projet_mindful_contenu2 img {
+        margin-top: -60%;
+        width: 60%;
+    }
+
+    #projet_mindful_contenu3 {
+        height: 600px;
+        margin-top: 3%;
+        margin-bottom: 2%;
+    }
+
+    #mindful_photo_pieddepage {
+        height: 490px;
+        margin-top: 5%;
+        margin-left: 200px;
+    }
+
 }
 

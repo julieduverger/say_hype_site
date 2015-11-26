@@ -253,6 +253,11 @@
 
 @media only screen and (min-width: 780px)and (max-width: 1024px){
 	
+	#couverture_img_33prest {
+	    height: 300px;
+	    margin-left: 200px;
+	}
+
 	#projet_contenu1 {
 	    height: 800px;
 	    margin-top: -15%;
@@ -266,6 +271,7 @@
 
 	#projet_contenu2 {
 	    margin-top: 25%;
+	    height: 600px;
 	}	
 
 	#projet_contenu3 {
@@ -278,13 +284,20 @@
 	}
 
 	#description_role_33prest {
-	    margin-top: -48%;
+	    margin-top: -54%;
 	    margin-left: 3%;
 	}
 
 	#projet_contenu4 {
 	    height: 350px;
 	}
+
+	#photo_pieddepage {
+	    height: 490px;
+	    margin-left: 200px;
+	}
+
+	
 
 }
 
