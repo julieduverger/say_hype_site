@@ -137,21 +137,23 @@ var $frise_verticale_mindful = $("#frise_verticale_mindful").drawsvg({
 	duration : 2750,
 	});
 
+
 $(window).on("scroll",function(){
 
     
     if ($(window).width() < 1290) {
-        if ($(window).scrollTop() > 800 && $(window).scrollTop() < 830) {
+        if ($(window).scrollTop() > 800 && $(window).scrollTop() < 830 {
             $frise_verticale_mindful.drawsvg('animate');
         } 
     } 
 
     else {
-        if ($(window).scrollTop() > 800 && $(window).scrollTop() < 1100 {
+        if ($(window).scrollTop() > 800 && $(window).scrollTop() < 1100) {
             $frise_verticale_mindful.drawsvg('animate');
         } 
     } 
 });
+
 
 /*--------------
 Frise_soustitre
