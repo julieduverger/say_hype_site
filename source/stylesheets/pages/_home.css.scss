@@ -41,6 +41,11 @@ body{
     background-color: #F6EFEF;
 }
 
+a:focus
+{
+outline: 0;
+} 
+
 #page_accueil{
 	width: 100%;
 	background-color: #F6EFEF;
