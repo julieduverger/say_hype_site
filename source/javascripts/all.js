@@ -117,7 +117,7 @@ $(window).on("scroll",function(){
 
     
     if ($(window).width() < 1290) {
-        if ($(window).scrollTop() > 1200 && $(window).scrollTop() < 1230) {
+        if ($(window).scrollTop() > 1045 && $(window).scrollTop() < 1070) {
             $frise_verticale1.drawsvg('animate');
         } 
     } 
