@@ -111,11 +111,21 @@ Frise_verticale1
 var $frise_verticale1 = $("#frise_verticale1").drawsvg({
 	duration : 2750,
 	});
-$(window).on("scroll",function(){
-    if ($(this).scrollTop() > 1300 && $(this).scrollTop() < 1400) {
-$frise_verticale1.drawsvg('animate');
-}
 
+$(window).on("scroll",function(){
+
+    
+    if ($(window).width() < 1290) {
+        if ($(window).scrollTop() > 1200 && $(window).scrollTop() < 1230 {
+            $frise_verticale1.drawsvg('animate');
+        } 
+    } 
+
+    else {
+        if ($(window).scrollTop() > 1300 && $(window).scrollTop() < 1400) {
+            $frise_verticale1.drawsvg('animate');
+        } 
+    } 
 });
 
 /*----------------------
