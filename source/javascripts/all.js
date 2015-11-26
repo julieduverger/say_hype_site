@@ -34,11 +34,26 @@ $(window).on("scroll", function(){
 
 
 /* Frise haut */
-    var $svg = $("#frise_haut").drawsvg({
-    	duration: 2000,
+var $frise_haut = $("#frise_haut").drawsvg({
+        duration: 2000,
     });
 
-    $svg.drawsvg('animate');
+$(window).on("scroll",function(){
+
+    
+    if ($(window).width() < 1290) {
+        if ($(window).scrollTop() > 215 && $(window).scrollTop() < 230) {
+            $frise_haut.drawsvg('animate');
+        } 
+    } 
+
+    else {
+        if ($(window).scrollTop() > 25 && $(window).scrollTop() < 50) {
+            $frise_haut.drawsvg('animate');
+        } 
+    } 
+});
+    
 
 /* Frise bas */
 
