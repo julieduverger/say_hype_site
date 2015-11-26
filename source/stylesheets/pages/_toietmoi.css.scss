@@ -146,7 +146,7 @@
 /*----------------------
 -----------------------*/
 
-@media only screen and (min-width: 780px)and (max-width: 1290px){
+@media only screen and (min-width: 1025px)and (max-width: 1290px){
     
     #couverture_img_toietmoi{
         height: 300px;
@@ -208,8 +208,73 @@
         width:40%;
         margin-top: 8%;
     }
+
+    }
 }
      
+/* RESPONSIVE TABLETTE PAYSAGE */
+/*-------------------------------
+--------------------------------*/
+
+@media only screen and (min-width: 780px)and (max-width: 1024px){
+    
+    .frise_haut {
+        margin-left: 190px;
+        position: relative;
+    }
+
+    #couverture_img_toietmoi {
+        height: 300px;
+        margin-left: 200px;
+    }
+
+    #projet_toietmoi_contenu1 {
+        height: 600px;
+        margin-top: 0%;
+        margin-left: 0%;
+        padding-right: 2%;
+    }
+
+    #description_role_avecfrise_toietmoi {
+        margin-top: -45%;
+        margin-left: 4%;
+    }
+
+    #description_role_toietmoi {
+        margin-top: -44%;
+        margin-left: 5%;
+    }
+
+    #projet_toietmoi_contenu2 {
+        height: 500px;
+        margin-top: 40%;
+        padding-left: 0%;
+        padding-right: 1%;
+    }
+
+    #projet_toietmoi_contenu3 {
+        height: 300px;
+    }
+
+    #projet_toietmoi_contenu3 img {
+        width: 40%;
+        margin-top: 5%;
+    }
+
+
+    #photo_pieddepage_toietmoi {
+        margin-left: 200px;
+    }
+
+    #photo_pieddepage_toietmoi img {
+        width: 60%;
+        margin-top: 8%;
+    }
+
+    #description_role_avecfrise_toietmoi {
+        margin-top: -44%;
+        margin-left: 4%;
+    }
 
 }
 
