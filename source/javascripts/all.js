@@ -33,7 +33,9 @@ $(window).on("scroll", function(){
 });
 
 
-/* Frise haut */
+/*-------- 
+Frise haut 
+---------*/
 var $frise_haut = $("#frise_haut").drawsvg({
         duration: 2000,
     });
@@ -55,30 +57,56 @@ $(window).on("scroll",function(){
 });
     
 
-/* Frise bas */
+/*-------
+Frise bas
+---------*/
 
 var $frise_bas = $("#frise_bas").drawsvg({
 	duration : 3000,
 	});
-$(window).on("scroll",function(){
-    if ($(this).scrollTop() > 2200 && $(this).scrollTop() < 2250) {
-$frise_bas.drawsvg('animate');
-}
 
+$(window).on("scroll",function(){
+
+    
+    if ($(window).width() < 1290) {
+        if ($(window).scrollTop() > 1650 && $(window).scrollTop() < 1680) {
+            $frise_bas.drawsvg('animate');
+        } 
+    } 
+
+    else {
+        if ($(window).scrollTop() > 2200 && $(window).scrollTop() < 2250) {
+            $frise_bas.drawsvg('animate');
+        } 
+    } 
 });
 
-/* Frise_verticale  */
+/*--------------
+Frise_verticale
+---------------*/
 var $frise_verticale = $("#frise_verticale").drawsvg({
 	duration : 2750,
 	});
-$(window).on("scroll",function(){
-    if ($(this).scrollTop() > 800 && $(this).scrollTop() < 1100) {
-$frise_verticale.drawsvg('animate');
-}
 
+$(window).on("scroll",function(){
+
+    
+    if ($(window).width() < 1290) {
+        if ($(window).scrollTop() > 1015 && $(window).scrollTop() < 1030) {
+            $frise_verticale.drawsvg('animate');
+        } 
+    } 
+
+    else {
+        if ($(window).scrollTop() > 800 && $(window).scrollTop() < 1100) {
+            $frise_verticale.drawsvg('animate');
+        } 
+    } 
 });
 
-/* Frise_verticale1  */
+/*--------------
+Frise_verticale1
+---------------*/
 
 var $frise_verticale1 = $("#frise_verticale1").drawsvg({
 	duration : 2750,
@@ -90,7 +118,9 @@ $frise_verticale1.drawsvg('animate');
 
 });
 
-/* Frise_verticale_mindful  */
+/*----------------------
+Frise_verticale_mindful
+-----------------------*/
 
 var $frise_verticale_mindful = $("#frise_verticale_mindful").drawsvg({
 	duration : 2750,
@@ -102,7 +132,9 @@ $frise_verticale_mindful.drawsvg('animate');
 
 });
 
-/* Frise_soustitre  */
+/*--------------
+Frise_soustitre
+----------------*/
 
 var $svg = $("#frise_soustitre").drawsvg({
 	duration : 5000,
