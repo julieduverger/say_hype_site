@@ -96,6 +96,7 @@ outline: 0;
     padding-right: 10px;
     padding-left: 10px;
     border-radius: 2px;
+
     &:hover{
         text-decoration: none;
         background-color: black;
@@ -214,6 +215,10 @@ a:hover{
 
 #row_presentation_accueil{
     width: calc(100%);
+
+    .row{
+        margin-left: 0px;
+    }
 }
 
 #presentation_accueil_gauche{

@@ -30,7 +30,8 @@
 	color: #F6EFEF;
 
 	&:hover{
-		color: black;
+		color: $couleur_fond;
+        background-color: black;
 	}
 }
 
