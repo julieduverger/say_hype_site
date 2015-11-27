@@ -10,14 +10,6 @@
   }
 
 .presentation_projet{
-	width: 1000px;
-	margin: 0 auto;
-	background-color: white;
-	height: 40%;
-	margin-top: -10%;
-	padding-left: 4%;
-    padding-right: 4%;
-    margin-left: 35% !important;
 
     img{
         margin: 3%;
@@ -141,7 +133,7 @@
 
     .presentation_projet{
         width: 500px;
-        margin-left: 500px !important;
+        margin-left: calc(50% - 150px);
     }
 
     p{
@@ -271,6 +263,11 @@
 
 @media only screen and (min-width: 780px)and (max-width: 1024px){
     
+    .presentation_projet{
+        width: 500px;
+        margin-left: calc(50% - 150px);
+    }
+
     .frise_haut {
         margin-left: 190px;
         position: relative;

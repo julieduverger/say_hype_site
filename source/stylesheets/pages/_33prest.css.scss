@@ -17,7 +17,7 @@
 	margin-top: -10%;
 	padding-left: 4%;
     padding-right: 4%;
-    margin-left: 35% !important;
+    margin-left: calc(50% - 350px);
 
     h2{
     	font-size: 18px;
@@ -29,11 +29,6 @@
 	img{
 		width: 2%;
 	}
-}
-
-.vertical_spacer{
-	background-color: #F6EFEF ;
-	border: none;
 }
 
 #projet_contenu1{
