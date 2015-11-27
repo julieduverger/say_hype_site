@@ -127,19 +127,6 @@
     padding-left: 2px;
     }
 
-    .presentation_projet {
-    margin-left: 12px;
-    background-color: white;
-    height: 40%;
-    margin-top: -10%;
-    padding-left: 4%;
-    padding-right: 4%;
-    width: 500px;
-    margin-left: 40% !important;
-    }
-
-
-
     .thumbnail a > img {
     height: 350px;
     }
@@ -171,7 +158,7 @@
     }
 
     .row {
-        margin-left: 200px;
+        margin-left: 185px;
     }
 
     .titre{
@@ -183,3 +170,15 @@
     }
 }
 
+/* RESPONSIVE TABLETTE PAYSAGE */
+/*-------------------------------
+--------------------------------*/
+
+@media only screen and (min-width: 780px)and (max-width: 1024px){
+
+    .thumbnail a > img {
+        height: 300px;
+        width: auto;
+    }
+
+}    

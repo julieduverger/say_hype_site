@@ -263,6 +263,23 @@
 
 @media only screen and (min-width: 780px)and (max-width: 1024px){
     
+    .presentation_projet h2 {
+        font-size: 35px !important;
+    }
+
+    .presentation_projet h3 {
+        font-size: 18px !important;
+    }
+
+    .presentation_projet h4 {
+        letter-spacing: 1px;
+        line-height: 25px;
+    }
+
+    .presentation_projet p {
+        line-height: 25px;
+    }
+
     .presentation_projet{
         width: 500px;
         margin-left: calc(50% - 150px);
@@ -311,6 +328,11 @@
         height: 490px;
         margin-left: 200px;
     }
+
+    .signature {
+    margin-left: 200px;
+    padding: 5px;
+}
 
 
 

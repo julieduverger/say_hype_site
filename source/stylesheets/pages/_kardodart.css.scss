@@ -115,7 +115,7 @@
 /*----------------------
 -----------------------*/
 
-@media only screen and (min-width: 780px)and (max-width: 1290px){
+@media only screen and (min-width: 1025px)and (max-width: 1290px){
     
     #couverture_img_karodart{
 
@@ -146,6 +146,43 @@
 
     #projet_karodart_contenu32{
         height: 322px;
+    }
+}
+
+/* RESPONSIVE TABLETTE PAYSAGE */
+/*-------------------------------
+--------------------------------*/
+
+@media only screen and (min-width: 780px)and (max-width: 1024px){
+
+    #couverture_img_karodart {
+        height: 300px;
+        margin-left: 200px;
+    }
+
+    #projet_karodart_contenu12 {
+        height: 500px;
+        width: 100%;
+    }
+
+    #projet_karodart_contenu22 {
+        height: 500px;
+        width: 100%;
+    }
+
+    #projet_karodart_contenu32 {
+        width: 100%;
+        height: 278px;
+    }
+
+    #projet_karodart_contenu321 {
+        height: 400px;
+        width: 50%;
+    }
+
+    #projet_karodart_contenu322 {
+        height: 400px;
+        width: 50%;
     }
 }
 
