@@ -65,9 +65,7 @@ $(document).ready(function(){
 
     /* LOADER */
 
-    $(window).load(function() {
-        $(".loader").fadeOut("1000");
-    })
+    
 
     /*-------- 
     Frise haut 
