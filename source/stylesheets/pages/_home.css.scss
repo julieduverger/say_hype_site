@@ -214,30 +214,134 @@ a:hover{
 }
 
 #row_presentation_accueil{
-    width: calc(100%);
-
-    .row{
-        margin-left: 0px;
-    }
+    position:fixed;
+    width: 100%;
 }
+
+#accueil_animation{
+    height: 100vh;
+    margin-left: 300px
+}
+
+#row_presentation_accueil .row{
+    margin-left: 0px;
+}    
+
+/* --- SLIDER --- */
 
 #presentation_accueil_gauche{
-    height: 100vh;   
-    background-image: url(../images/33prest_presentation.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-clip: content-box;
-    padding: 10% 5% 10% 5%;
+    height: 100vh;
 }
 
+
+#img1 {
+    position: absolute;
+    left: calc(50% - 300px);
+    bottom: -850px;
+    z-index: 1;
+    height: 800px;
+    width: 600px;
+}
+
+#img2 {
+    z-index: 2;
+    position: absolute;
+    left: calc(50% - 300px);
+    bottom: -850px;
+    height: 800px;
+    width: 600px;
+}
+
+#img3 {
+    z-index: 3;
+    position: absolute;
+    left: calc(50% - 300px);
+    bottom: -850px;
+    height: 800px;
+    width: 600px;
+}
+
+#img4 {
+    z-index: 4;
+    position: absolute;
+    left: calc(50% - 300px);
+    bottom: -850px;
+    height: 800px;
+    width: 600px;
+}
+
+#img5 {
+    z-index: 5;
+    position: absolute;
+    left: calc(50% - 300px);
+    bottom: calc(50% - 400px);
+    height: 800px;
+    width: 600px;
+    
+}
 
 #presentation_accueil_droite{
     height: 100vh;
-    background-image: url(../images/33prest_presentation.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-clip: content-box;
-    padding: 10% 5% 10% 5%;
+}
+
+#img6 {
+    z-index: 1;
+    position: absolute;
+    left: calc(50% - 300px);
+    top: -850px;
+    height: 800px;
+    width: 600px;
+
+}
+
+#img7 {
+    z-index: 2;
+    position: absolute;
+    left: calc(50% - 300px);
+    top: -850px;
+    height: 800px;
+    width: 600px;
+}
+
+#img8 {
+    z-index: 3;
+    position: absolute;
+    left: calc(50% - 300px);
+    top: -850px;
+    height: 800px;
+    width: 600px;
+}
+
+#img9 {
+    z-index: 4;
+    position: absolute;
+    left: calc(50% - 300px);
+    top: -850px;
+    height: 800px;
+    width: 600px;
+}
+
+#img10 {
+    z-index: 5;
+    position: absolute;
+    left: calc(50% - 300px);
+    bottom: calc(50% - 400px);
+    height: 800px;
+    width: 600px;
+    margin: 0 auto;
+}
+
+/* LOADER */
+ 
+ .loader {
+
+position : fixed;
+z-index: 9999;
+background : url('../images/logo_sayhype.svg') 50% 50% no-repeat;
+top : 0px;
+left : 0px;
+height : 100%;
+width : 100%;
 }
 
 
