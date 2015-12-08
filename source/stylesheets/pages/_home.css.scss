@@ -225,11 +225,12 @@ a:hover{
 #row_presentation_accueil{
     position:fixed;
     width: 100%;
+    margin-left: 0px;
 }
 
 #accueil_animation{
     height: 100vh;
-    margin-left: 300px
+    margin-left: -15px
 }
 
 #row_presentation_accueil .row{
@@ -240,6 +241,7 @@ a:hover{
 
 #presentation_accueil_gauche{
     height: 100vh;
+    margin-left: 300px;
 }
 
 
@@ -291,6 +293,7 @@ a:hover{
 
 #presentation_accueil_droite{
     height: 100vh;
+    margin-left: -300px;
 }
 
 #img6 {
