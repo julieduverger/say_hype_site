@@ -70,6 +70,14 @@
     font-size: 17px;
 }
 
+    .goutte_gauche {
+    vertical-align: middle;
+    }
+
+    .goutte_droite {
+    vertical-align: middle;
+    }
+
 
 
 
@@ -107,6 +115,22 @@
 }
 
 
+}
+
+/* MODAL */
+.modal-content{
+    background-color: #F6ECEC;
+
+    h3{
+    color: #D2B0B0;
+    }
+}
+
+.modal-title {
+    margin: 0;
+    line-height: 1.4;
+    color: #D2B0B0;
+    font-size: 30px !important;
 }
 
 /* RESPONSIVE 13 POUCES */

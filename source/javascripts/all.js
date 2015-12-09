@@ -17,54 +17,13 @@ $(document).ready(function(){
         $("body").toggleClass("with--sidebar")
      });
 
-    /* ACCUEIL GAUCHE */
-
-    $(function() {
-
-                            $("#img5").delay(2000).animate({top:"-1000px" }, 1500);
-                                $("#img5").queue(function(){
-                                        $("#img4").animate({"bottom":($(window).height()/2-400)}, 1500,"linear").delay(2000).animate({top: "-1000px"}, 1500 );
-                                            $("#img4").queue(function(){
-                                                $("#img3").animate({"bottom":($(window).height()/2-400)}, 1500,"linear").delay(2000).animate({top: "-1000px"}, 1500 );
-                                                    $("#img3").queue(function(){
-                                                        $ ("#img2").animate({"bottom":($(window).height()/2-400)}, 1500,"linear").delay(2000).animate({top: "-1000px"}, 1500 );
-                                                             $("#img2").queue(function(){
-                                                                $("#img1").animate({"bottom":($(window).height()/2-400)}, 1500,"linear").delay(2000);
-                                                                    
-                                                                    
-                                                        
-                                                    });
-                                                });
-                                            });
-                                        });
-    });
+    /* ACCUEIL */
 
 
 
 
-    /* ACCUEIL DROITE */
-    $(function() {
-        
 
-    $("#img10").delay(2000).animate({bottom:"-1000px" }, 1500);
-        $("#img10").queue(function(){
-                $("#img9").animate({"top":($(window).height()/2-400)}, 1500,"linear").delay(2000).animate({top: "1500px"}, 1500 );
-                    $("#img9").queue(function(){
-                        $("#img8").animate({"top":($(window).height()/2-400)}, 1500,"linear").delay(2000).animate({top: "1500px"}, 1500 );
-                            $("#img8").queue(function(){
-                                $ ("#img7").animate({"top":($(window).height()/2-400)}, 1500,"linear").delay(2000).animate({top: "1500px"}, 1500 );
-                                     $("#img7").queue(function(){
-                                        $("#img6").animate({"top":($(window).height()/2-400)}, 1500,"linear").delay(2000);
-                                        
-                                
-                            });
-                        });
-                    });
-                });             
-    });
-
-    /* LOADER */
-
+    /* MODAL */
     
 
     /*-------- 

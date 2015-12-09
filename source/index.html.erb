@@ -1,5 +1,5 @@
 ---
-title: Accueil
+title: Say Hype - Studio
 ---
  <div id="page_accueil" class="main">
       <div id="section">
@@ -8,37 +8,43 @@ title: Accueil
 </div> 
 
 
+ <div class="accueil_logo">
+ 	<%= image_tag"logo_sayhype_rose.svg" %> 
+ </div>
 
  <div id="accueil-droite"> 
  </div>
+
+ <div id="tittle" class="text-center">
+ 	<h1>STUDIO DE COMMUNICATION GLOBALE</h1>
+ </div>
+
+
 
         	<div class="row" id="row_presentation_accueil">
         		<div id="accueil_animation">
 
 					            <div class="col-xs-12 col-md-6  "id="presentation_accueil_gauche">
 
-					              	<img src="images/33prest_realisation.jpg" id="img5" class="slideInUp">
+					              	<img src="images/slider_blocgauche1.png" id="img4" class="slideInUp">
 
-									<img src="images/cotebassin_realisation.jpg" id="img4">
+									<img src="images/slider_blocgauche2b.png" id="img3">
 
-									<img src="images/soa_realisation.jpg" id="img3">
+									<img src="images/slider_blocgauche3.png" id="img2">
 
-									<img src="images/mindful_realisation.jpg" id="img2">
-
-									<img src="images/karodart_realisation.jpg" id="img1">             
+          
 					            </div>
 
 					            <div class="col-xs-12 col-md-6" id="presentation_accueil_droite" >
 					              	
-					              	<img src="images/33prest_realisation.jpg" id="img10" class="slideInDown">
+					              	<img src="images/slider_blocdroit1.png" id="img8" class="slideInDown">
 
-									<img src="images/cotebassin_realisation.jpg" id="img9">
+									<img src="images/slider_blocdroit2b.png" id="img7">
 
-									<img src="images/soa_realisation.jpg" id="img8">
+									<img src="images/slider_blocdroit3.png" id="img6">
 
-									<img src="images/mindful_realisation.jpg" id="img7">
+									
 
-									<img src="images/karodart_realisation.jpg" id="img6">     
 					            </div>
 		        </div>
 		    </div>
@@ -52,3 +58,52 @@ title: Accueil
     window.sr = new scrollReveal();
 
 </script>
+
+   <script>
+       jQuery(document).ready(function(){
+                 $(function() {
+
+     	$(document.body).css({"margin-left":"1%"});
+        $("#img4").delay(2500).animate({top:"-1000px" }, 1250);
+            $("#img4").queue(function(){
+                $("#img3").animate({"bottom":($(window).height()/2-400)}, 1250,"linear").delay(2000).animate({top: "-1000px"}, 1250 );
+                    $("#img3").queue(function(){
+                        $("#img2").animate({"bottom":($(window).height()/2-400)}, 1250,"linear").delay(2000);
+                            $("#img2").queue(function(){
+                                        $("#row_presentation_accueil").delay(1000).animate({"margin-left":"150px"}, 1500, "linear")
+                                        $("#tittle").delay(1000).animate({"margin-left":"300px"}, 1500, "linear");
+                                        });
+                                    
+                                       
+
+                                                                    
+                                                                    
+                                                        
+                                                   
+
+                                            });
+                                        });
+    });
+
+               $(function() {
+        
+        $("#nav").hide();
+            $("#img8").delay(2500).animate({bottom:"-1000px" }, 1250);
+                $("#img8").queue(function(){
+                        $("#img7").animate({"top":($(window).height()/2-400)}, 1250,"linear").delay(2000).animate({top: "1500px"}, 1250 );
+                            $("#img7").queue(function(){
+                                $("#img6").animate({"top":($(window).height()/2-400)}, 1250,"linear").delay(2000);
+                                    $("#img6").queue(function(){
+                                                $("#nav").delay(1000).hide().fadeIn(2000)
+                                                $(".accueil_logo").delay(1000).fadeOut(750);
+                                                });
+                                            
+
+                                        
+                                    
+                               
+                            });
+                        });             
+    });
+       });
+   </script>
