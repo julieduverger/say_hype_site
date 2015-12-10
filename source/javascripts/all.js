@@ -14,7 +14,7 @@ $(document).ready(function(){
 
      $("#nav__icon").click(function(e){
         e.preventDefault();
-        $("body").toggleClass("with--sidebar")
+        $(document.body).toggleClass("with--sidebar")
      });
 
     /* ACCUEIL */
