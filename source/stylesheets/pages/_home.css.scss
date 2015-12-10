@@ -343,7 +343,7 @@ a:hover{
 
 /* RESPONSIVE */
 
-@media only screen and (max-width:780px){
+@media only screen and (max-width:779px){
 
 #presentation_contact {
     margin-left: 0px;
@@ -390,7 +390,7 @@ a:hover{
         position: relative;
         margin-top: 15px;
         margin-bottom: 15px;
-        background-color: $couleur_fond;
+        background-color: white;
         display: block;
         width: 60px;
         height: 30px;
@@ -410,8 +410,8 @@ a:hover{
     #menu{
         position: absolute;
         left: 0;
-        top: 0;
-        bottom: 0;
+        top: 40%;
+       
 
         width: 200px;
         background-color: $couleur_fond;
@@ -435,16 +435,23 @@ a:hover{
         }
     }
 
-    #presentation_accueil_gauche {
-    height: 100vh;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-clip: content-box;
-    padding: 2%;
+    #logo{
+        display:none;
     }
 
-    #presentation_accueil_droite{
-    display: none;
+    #presentation_accueil_droite2 {
+        margin-left: 0;
+        display:none;
+    }
+
+    #presentation_accueil_gauche2 {
+        margin-left: 0;
+    }
+
+    #tittle2 {
+        margin-left: 0px;
+        padding-top: 1%;
+        padding-bottom: 5%;
     }
 }
 
