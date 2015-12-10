@@ -372,6 +372,7 @@ a:hover{
     .site-pusher{
         transition-duration: 0.3;
         transform: translateX(0px);
+        @-webkit-transform: translateX(0px);
         height: 100%;
     }
 
@@ -417,6 +418,7 @@ a:hover{
         background-color: $couleur_fond;
 
         transform: translateX(210px * -1);
+        @-webkit-transform: translateX(210px * -1);
 
         a{
             display: block;
@@ -430,6 +432,7 @@ a:hover{
     .with--sidebar{
             .site-pusher{
             transform: translateX(210px);
+            @-webkit-transform: transform: translateX(210px);
             transition-duration: 0.3s;
             height: 100%;
         }
