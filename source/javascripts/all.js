@@ -12,10 +12,12 @@ $(document).ready(function(){
 
      /* MENU RESPONSIVE */   
 
-     $("#nav__icon").click(function(e){
-        e.preventDefault();
-        $(document.body).toggleClass("with--sidebar")
-     });
+        
+        $("#nav__icon").on("click", function() {
+            $("#menu").toggle("slow");
+        });
+
+
 
     /* ACCUEIL */
 

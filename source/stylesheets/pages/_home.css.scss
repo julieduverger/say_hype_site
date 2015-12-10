@@ -345,6 +345,22 @@ a:hover{
 
 @media only screen and (max-width:779px){
 
+
+#menu {
+    display: inline;
+    list-style-type: none;
+    float: left;
+    overflow: hidden;
+    background-color: #FFF;
+    position: absolute;
+    padding-left: 0px;
+    line-height: 50px;
+    font-family: brandon grotesque;
+    width: 200px;
+    z-index: 999;
+    opacity: 0.7;
+}
+
 #presentation_contact {
     margin-left: 0px;
 }
@@ -358,23 +374,7 @@ a:hover{
         display: none;
     }
 
-    .site-content{
-        padding-top:0;
-        padding-left:0;
-    }
 
-    .site-container{
-        overflow: hidden;
-        top: 0;
-        height: 100%;
-    }
-
-    .site-pusher{
-        transition-duration: 0.3;
-        transform: translateX(0px);
-        @-webkit-transform: translateX(0px);
-        height: 100%;
-    }
 
     #nav{
         position: static;
@@ -408,35 +408,7 @@ a:hover{
             @include box-shadow(0 10px 0 1px red, 0 16px 0 1px red, 0 22px 0 1px red);
         }
     }
-    #menu{
-        position: absolute;
-        left: 0;
-        top: 40%;
-       
 
-        width: 200px;
-        background-color: $couleur_fond;
-
-        transform: translateX(210px * -1);
-        @-webkit-transform: translateX(210px * -1);
-
-        a{
-            display: block;
-            height: 40px;
-            line-height: 40px;
-            border-bottom: 1px solid black;
-        }
-
-    }
-
-    .with--sidebar{
-            .site-pusher{
-            transform: translateX(210px);
-            @-webkit-transform: transform: translateX(210px);
-            transition-duration: 0.3s;
-            height: 100%;
-        }
-    }
 
     #logo{
         display:none;
