@@ -12,11 +12,20 @@ $(document).ready(function(){
 
      /* MENU RESPONSIVE */   
 
-        
-        $("#nav__icon").on("click", function() {
-            $("#menu").toggle("slow");
-        });
 
+    if ($(window).width() > 779) {
+        $("#menu2").hide();
+            
+        } 
+
+        else {
+            $("#menu").hide();
+            $("#nav__icon").on("click", function() {
+            $("#menu2").toggle("slow"); 
+                
+        });
+            
+        } 
 
 
     /* ACCUEIL */

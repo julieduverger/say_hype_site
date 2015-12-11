@@ -104,7 +104,7 @@ outline: 0;
 
 
 #menu{
-    display: inline;
+    display: block;
     list-style-type: none;
     float: left;
     overflow: hidden;
@@ -346,14 +346,12 @@ a:hover{
 @media only screen and (max-width:779px){
 
 
-#menu {
-    display: inline;
+#menu2 {
+    display:inline;
     list-style-type: none;
-    float: left;
     overflow: hidden;
+    padding: 0px;
     background-color: #FFF;
-    position: absolute;
-    padding-left: 0px;
     line-height: 50px;
     font-family: brandon grotesque;
     width: 200px;

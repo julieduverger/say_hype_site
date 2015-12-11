@@ -33,16 +33,23 @@
 
   <body>
 
+
 <div class="site-container animsition">
     <div class="site-pusher">
       <div id="page_accueil">
             <div id="nav" class="animisition">
               <a href="#" class="nav__icon" id="nav__icon"></a>
+
+
+
               <div id="logo">  
               <% link_to "/accueil.html", :class => "animsition-link"  do %> 
                <%= image_tag"logo_sayhype.svg" %> 
                 <% end %> 
               </div>
+
+              
+
 
 
                     <ul id="menu" class="menu text-center">
@@ -95,6 +102,31 @@
                       </ul>                  
             </div>
       
+      <!--  MENU TABLETTE */ --> 
+
+                      <ul id="menu2" class="menu text-center">
+                      <li>
+                       <% link_to "/accueil.html", :class => "animsition-link"  do %> 
+                        <i > </i> ACCUEIL
+                       <% end %> 
+                      </li>
+                      <li>
+                       <% link_to "/realisation.html", :class => "animsition-link"  do %> 
+                        <i > </i> REALISATION
+                       <% end %> 
+                      </li>
+
+                      <li>
+                        <% link_to "/lestudio.html", :class => "animsition-link"  do %>
+                        <i > </i> LE STUDIO
+                       <% end %> 
+                      </li>
+                      <li>
+                       <% link_to "/contact.html", :class => "animsition-link"  do %>
+                        <i > </i> CONTACT
+                       <% end %> 
+                      </li>
+                    </ul>
 
                   <div class="site-content">
 

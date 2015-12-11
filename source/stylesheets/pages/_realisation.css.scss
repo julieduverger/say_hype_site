@@ -1,3 +1,8 @@
+#menu2{
+    display:none;
+}
+
+
 .thumbnail > img {
     height: 540px;
     width: 400px;
@@ -149,6 +154,7 @@
 
     #menu{
     width: 210px;
+    display: block !important;
     }
 
     .list-inline > li {
