@@ -62,10 +62,63 @@ title: Say Hype - Studio
 
    <script>
 
-       jQuery(document).ready(function(){
+ 
+
+jQuery(document).ready(function(){
+
+if ($(window).width() < 1290) {
                  $(function() {
 
      	$(document.body).css({"margin-left":"1%"});
+        $("#img4").delay(2500).animate({top:"-1000px" }, 1500);
+            $("#img4").queue(function(){
+                $("#img3").animate({"bottom":($(window).height()/2-250)}, 1500,"linear").delay(2000).animate({top: "-1000px"}, 1500 );
+                    $("#img3").queue(function(){
+                        $("#img2").animate({"bottom":($(window).height()/2-250)}, 1500,"linear").delay(2000);
+                            $("#img2").queue(function(){
+                                        $("#row_presentation_accueil").delay(1000).animate({"margin-left":"90px"}, 1500, "linear")
+                                        $("#tittle").delay(1000).animate({"margin-left":"200px"}, 1500, "linear");
+                                        });
+                                    
+                                       
+
+                                                                    
+                                                                    
+                                                        
+                                                   
+
+                                            });
+                                        });
+      
+    });
+
+               $(function() {
+        
+        $("#nav").hide();
+            $("#img8").delay(2500).animate({bottom:"-1000px" }, 1500);
+                $("#img8").queue(function(){
+                        $("#img7").animate({"top":($(window).height()/2-250)}, 1500,"linear").delay(2000).animate({top: "1500px"}, 1500 );
+                            $("#img7").queue(function(){
+                                $("#img6").animate({"top":($(window).height()/2-250)}, 1500,"linear").delay(2000);
+                                    $("#img6").queue(function(){
+                                                $("#nav").delay(1000).hide().fadeIn(2000)
+                                                $(".accueil_logo").delay(1000).fadeOut(750);
+                                                });
+                                            
+
+                                        
+                                    
+                               
+                            });
+                        }); 
+                        });            
+}
+
+ else {
+
+                  $(function() {
+
+      $(document.body).css({"margin-left":"1%"});
         $("#img4").delay(2500).animate({top:"-1000px" }, 1250);
             $("#img4").queue(function(){
                 $("#img3").animate({"bottom":($(window).height()/2-400)}, 1250,"linear").delay(2000).animate({top: "-1000px"}, 1250 );
@@ -107,5 +160,10 @@ title: Say Hype - Studio
                             });
                         });             
     });
-       });
+
+  } 
+
+});
+
+
    </script>

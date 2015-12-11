@@ -297,6 +297,7 @@
 
     #couverture_img_cotebassin {
         height: 300px;
+        width: 1024px;
         margin-left: 200px;
     }
 
@@ -345,5 +346,42 @@
 
     .goutte_droite {
     vertical-align: middle;
+    }
+}
+
+/* RESPONSIVE TABLETTE PORTRAIT */
+
+@media only screen and (min-width: 400px)and (max-width: 779px){
+
+    #couverture_img_cotebassin {
+        width: 768px;
+        height: 300px;
+        background-image: url("../images/cotebassin_presentation.jpg");
+        margin-left: 0px;
+        padding-right: 1%;
+    }
+
+    .frise_haut {
+        margin-left: -10px;
+        position: relative;
+    }
+
+    #projet_cotebassin_contenu1 {
+        height: 500px;
+        width: 750px;
+        padding-right: 3%;
+    }
+
+    #projet_cotebassin_contenu2 {
+        height: 500px;
+        width: 768px;
+        padding-right: 1%;
+    }
+
+    #cotebassin_photo_pieddepage {
+        height: 490px;
+        width: 758px;
+        margin-left: 0px;
+        padding-right: 1%;
     }
 }

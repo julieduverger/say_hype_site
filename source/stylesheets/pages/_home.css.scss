@@ -432,7 +432,7 @@ a:hover{
 
 /* RESPONSIVE 13 POUCES */
 
-@media only screen and (min-width: 780px)and (max-width: 1200px){
+@media only screen and (min-width: 780px)and (max-width: 1290px){
 
     #nav{
     height: 100%;
@@ -444,4 +444,91 @@ a:hover{
     top: 0px;
     z-index: 10;
     }
+
+    /* --- SLIDER --- */
+
+
+
+    #presentation_accueil_gauche{
+        height: 100vh;
+    }
+
+
+
+    #img2 {
+        z-index: 2;
+        position: absolute;
+        left: calc(50% - 187px);
+        bottom: -1050px;
+        height: 500px;
+        width: 375px;
+    }
+
+    #img3 {
+        z-index: 3;
+        position: absolute;
+        left: calc(50% - 187px);
+        bottom: -1050px;
+        height: 500px;
+        width: 375px;
+    }
+
+    #img4 {
+        z-index: 4;
+        position: absolute;
+        left: calc(50% - 187px);
+        bottom: calc(50% - 250px);
+        height: 500px;
+        width: 375px;
+    }
+
+
+    #presentation_accueil_droite{
+        height: 100vh;
+    }
+
+
+    #img6 {
+        z-index: 2;
+        position: absolute;
+        left: calc(50% - 187px);
+        top: -1050px;
+        height: 500px;
+        width: 375px;
+    }
+
+    #img7 {
+        z-index: 2;
+        position: absolute;
+        left: calc(50% - 187px);
+        top: -1050px;
+        height: 500px;
+        width: 375px;
+    }
+
+        #img8 {
+            z-index: 5;
+            position: absolute;
+            left: calc(50% - 187px);
+            bottom: calc(50% - 250px);
+            height: 500px;
+            width: 375px;
+            margin: 0 auto;
+        }
+
+    .accueil_logo {
+ 
+        margin-left: -175px;
+
+        img{
+        width: 90%;
+        }
+    }
+}
+
+/* RESPONSIVE TABLETTE PORTRAIT */
+
+@media only screen and (min-width: 400px)and (max-width: 779px){
+
+
 }
