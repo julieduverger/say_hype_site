@@ -13,7 +13,12 @@ title: Say Hype - Studio
  	<%= image_tag"logo_sayhype_rose.svg" %> 
  </div>
 
+ <div class="accueil_estampille">
+     <%= image_tag"estampille.svg" %> 
+ </div>
+
  <div id="accueil-droite"> 
+
  </div>
 
  <div id="tittle" class="text-center">
@@ -93,7 +98,7 @@ if ($(window).width() < 1290) {
     });
 
                $(function() {
-        
+        $(".accueil_estampille").hide();
         $("#nav").hide();
             $("#img8").delay(2500).animate({bottom:"-1000px" }, 1500);
                 $("#img8").queue(function(){
@@ -103,6 +108,12 @@ if ($(window).width() < 1290) {
                                     $("#img6").queue(function(){
                                                 $("#nav").delay(1000).hide().fadeIn(2000)
                                                 $(".accueil_logo").delay(1000).fadeOut(750);
+                                                $(".accueil_estampille").delay(2500).hide().fadeIn(1500);
+                                                $(".accueil_estampille").queue(function(){
+                                                    $(".accueil_estampille").css({"transform":"rotate(360deg)"} );
+                                                     
+                                                
+                                                });
                                                 });
                                             
 
@@ -141,7 +152,7 @@ if ($(window).width() < 1290) {
     });
 
                $(function() {
-        
+       $(".accueil_estampille").hide(); 
         $("#nav").hide();
             $("#img8").delay(2500).animate({bottom:"-1000px" }, 1250);
                 $("#img8").queue(function(){
@@ -150,7 +161,13 @@ if ($(window).width() < 1290) {
                                 $("#img6").animate({"top":($(window).height()/2-400)}, 1250,"linear").delay(2000);
                                     $("#img6").queue(function(){
                                                 $("#nav").delay(1000).hide().fadeIn(2000)
-                                                $(".accueil_logo").delay(1000).fadeOut(750);
+                                                $(".accueil_logo").delay(1000).fadeOut(750)
+                                                $(".accueil_estampille").delay(2500).hide().fadeIn(1500);
+                                                $(".accueil_estampille").queue(function(){
+                                                    $(".accueil_estampille").css({"transform":"rotate(360deg)"} );
+                                                     
+                                                
+                                                });
                                                 });
                                             
 
