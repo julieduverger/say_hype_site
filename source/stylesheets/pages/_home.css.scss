@@ -539,9 +539,13 @@ a:hover{
 
     .accueil_logo {
         position: fixed;
-        top: calc(50% - 100px);
+        top: calc(50% - 115px);
         left: 50%;
-        margin-left: -215px;
+        margin-left: -185px;
+
+        img{
+            width: 85%;
+        }
     }
 
     .accueil_estampille {
