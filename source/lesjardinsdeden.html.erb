@@ -17,7 +17,10 @@ title: Les Jardins d'Eden
                          <div class="row">
                                 <div class="col-sm-3 text-left">
                                    <% link_to "/33prest.html", :class => "animsition-link" do %>
-                                   <i>33 Prest</i>
+                                   <div id="fleche_gauche">
+                                    <%= image_tag"fleche_gauche.svg" %> 
+                                   </div>
+                                   <i>Précédent</i>
                                    <% end %> 
                                 </div>
 
@@ -30,7 +33,10 @@ title: Les Jardins d'Eden
 
                                 <div class="col-sm-3 text-right navprojetdroit">
                                    <% link_to "/mindful.html", :class => "animsition-link" do %>
-                                   <i>Mindful Attitude</i>
+                                   <i>Suivant</i>
+                                   <div id="fleche_droite">
+                                     <%= image_tag"fleche_droite.svg" %> 
+                                   </div>
                                    <% end %> 
                                 </div>
                          </div>
@@ -126,7 +132,7 @@ title: Les Jardins d'Eden
 
                         </div>
 
-                        <div id="cotebassin_photo_pieddepage">
+                        <div id="jardinsdeden_photo_pieddepage">
                               
                         </div>  
 

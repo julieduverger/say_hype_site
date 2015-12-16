@@ -13,7 +13,10 @@ title: Alliance
                          <div class="row">
                                 <div class="col-sm-3 text-left">
                                    <% link_to "/titan.html", :class => "animsition-link" do %>
-                                   <i>Titan Composite</i>
+                                   <div id="fleche_gauche">
+                                    <%= image_tag"fleche_gauche.svg" %> 
+                                   </div>
+                                   <i>Précédent</i>
                                    <% end %> 
                                 </div>
 
@@ -26,8 +29,11 @@ title: Alliance
 
                                 <div class="col-sm-3 text-right navprojetdroit">
                                    <% link_to "/karodart.html", :class => "animsition-link" do %>
-                                   <i>Karo d'Art</i>
-                                   <% end %> 
+                                   <i>Suivant</i>
+                                   <div id="fleche_droite">
+                                     <%= image_tag"fleche_droite.svg" %> 
+                                   </div>
+                                   <% end %>
                                 </div>
                          </div>
                     </div>
@@ -137,7 +143,7 @@ title: Alliance
                               </svg>      
                         </div>
 
-                        <div id="alliance_photo_pieddepage" data-sr="wait 0.25s, over 0.75s, ease-in-out 100px">
+                        <div id="alliance_photo_pieddepage">
                               
                         </div>  
 

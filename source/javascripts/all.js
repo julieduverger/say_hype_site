@@ -190,6 +190,19 @@ $(document).ready(function(){
       });
 
 
+    /*---------
+    NAVIGATION
+    -----------*/
+
+    $(".navprojetgauche").hover(function() {
+        $(this).toggleClass("nav_class1");
+    });
+
+    $(".navprojetdroit").hover(function() {
+        $(this).toggleClass("nav_class1");
+    });
+
+
     /* ----------------  */
 
     /*----------------

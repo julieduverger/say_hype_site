@@ -12,9 +12,12 @@ title: Côté Bassin
                <div id="couverture_img_cotebassin">
                     <div class="nav_projet">
                          <div class="row">
-                                <div class="col-sm-3 text-left">
+                                <div class="col-sm-3 text-left navprojetgauche">
                                    <% link_to "/bordeauxbeerfactory.html", :class => "animsition-link" do %>
-                                   <i>Bordeaux Beer Factory</i>
+                                   <div id="fleche_gauche">
+                                    <%= image_tag"fleche_gauche.svg" %> 
+                                   </div>
+                                   <i>Précédent</i>
                                    <% end %> 
                                 </div>
 
@@ -27,7 +30,10 @@ title: Côté Bassin
 
                                 <div class="col-sm-3 text-right navprojetdroit">
                                    <% link_to "/33prest.html", :class => "animsition-link" do %>
-                                   <i>33 Prest</i>
+                                   <i>Suivant</i>
+                                   <div id="fleche_droite">
+                                     <%= image_tag"fleche_droite.svg" %> 
+                                   </div>
                                    <% end %> 
                                 </div>
                          </div>

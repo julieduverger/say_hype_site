@@ -14,7 +14,10 @@ title: Titan Composite
                          <div class="row">
                                 <div class="col-sm-3 text-left">
                                    <% link_to "/toietmoi.html", :class => "animsition-link" do %>
-                                   <i>Toi + Moi en Bermuda</i>
+                                   <div id="fleche_gauche">
+                                    <%= image_tag"fleche_gauche.svg" %> 
+                                   </div>
+                                   <i>Précédent</i>
                                    <% end %> 
                                 </div>
 
@@ -27,7 +30,10 @@ title: Titan Composite
 
                                 <div class="col-sm-3 text-right navprojetdroit">
                                    <% link_to "/alliance.html", :class => "animsition-link" do %>
-                                   <i>Alliance</i>
+                                   <i>Suivant</i>
+                                   <div id="fleche_droite">
+                                     <%= image_tag"fleche_droite.svg" %> 
+                                   </div>
                                    <% end %> 
                                 </div>
                          </div>

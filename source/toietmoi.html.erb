@@ -15,7 +15,10 @@ title: Toi + Moi en Bermuda
                          <div class="row">
                                 <div class="col-sm-3 text-left">
                                    <% link_to "/soa.html", :class => "animsition-link" do %>
-                                   <i>Soa</i>
+                                   <div id="fleche_gauche">
+                                    <%= image_tag"fleche_gauche.svg" %> 
+                                   </div>
+                                   <i>Précédent</i>
                                    <% end %> 
                                 </div>
 
@@ -28,7 +31,10 @@ title: Toi + Moi en Bermuda
 
                                 <div class="col-sm-3 text-right navprojetdroit">
                                    <% link_to "/titan.html", :class => "animsition-link" do %>
-                                   <i>Titan Composite</i>
+                                   <i>Suivant</i>
+                                   <div id="fleche_droite">
+                                     <%= image_tag"fleche_droite.svg" %> 
+                                   </div>
                                    <% end %> 
                                 </div>
                          </div>

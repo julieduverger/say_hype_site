@@ -101,67 +101,38 @@
 
 @media only screen and (min-width: 1025px)and (max-width: 1290px){
 
-    #couverture_img_mindful{
+ #couverture_img_mindful{
         border: 1px solid #F4F2EE;
         width: auto;
         height: 300px;
         margin-left: 200px;
     }
 
-    #projet_mindful_contenu1{
-        background-image: url(../images/mindful_photos_projet.jpg);
-        background-clip: content-box;
-        background-size: contain;
-        background-repeat: no-repeat;
-        background-position: center center;
-        background-attachment: scroll;
-        height: 800px;
-        margin-top: -15%;
-        padding-left: 1%;
-
-    }
-
-    #projet_mindful_contenu2{
-        background-image: url(../images/mindful_photos2_projet.jpg);
-        background-clip: content-box;
-        background-size: contain;
-        height: 500px !important;
-        background-repeat: no-repeat;
-        background-position: center center;
-        background-attachment: scroll;
-        margin-top: 32%;  
-        padding-left: 2%;
-        padding-right: 2%;
-
-        img{
-            margin-top: -53%;
-            width: 70%;
-        }
-    }
-
-    #projet_mindful_contenu3{
-        background-image: url(../images/mindful_photos3_projet.jpg);
-        background-size: contain;
+    #projet_mindful_contenu1 {
         height: 500px;
-        background-repeat: no-repeat;
-        background-position: center center;
-        background-attachment: scroll;
-        margin-top: 0%;
+        margin-top: -1%;
+        padding-left: 2%;
+        width: 550px;
+    }
+
+    #projet_mindful_contenu3 {
+        height: 500px;
+        margin-bottom: 5%;
+        width: 100%;
+        margin-left: 0px;
         margin-bottom: 5%;
     }
 
-    #mindful_photo_pieddepage{
-        background-image: url(../images/mindful_photos4_projet.jpg);
-        height: 490px;
-        background-position: center center;
-        background-size: contain;
-        background-repeat: no-repeat;
-        margin-top: 0%;
+    #mindful_photo_pieddepage {
+        margin-top: 3%;
         margin-left: 200px;
-    }
+        height: 485px;
+        width: auto;
+        margin-right: 0%;
+    } 
 
-    #description_role_mindful{
-        margin-top: -48%;
+    #description_role_cotebassin{
+        margin-top: -56%;
         margin-left: 4%;
 
         p{
@@ -169,15 +140,38 @@
         }        
     }
 
-    #frise_verticale_mindful{
-        margin-top: 110%;
+    #frise_verticale{
+        margin-top: 95%;
         height: 300px;
+    }
+
+    #projet_mindful_contenu2 {
+        margin-top: 32%;
+        padding-left: 2%;
+        padding-right: 0%;
+        width: 490px;
+        height: 500px;
+
+        img{
+            margin-top: -55%;
+            width: 55%;
+        }
     }
 
     #description_role_mindful h3{
         font-size: 17px !important;
-    }  
-    
+        letter-spacing: 1px;
+    }
+
+    #description_role_mindful {
+        margin-top: -60%;
+        margin-left: 4%;
+    }   
+
+    #frise_verticale_mindful {
+        margin-top: 90%;
+    }
+
 }
 
 /* RESPONSIVE TABLETTE PAYSAGE */

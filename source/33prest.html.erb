@@ -12,9 +12,12 @@ title: 33 Prest
                <div id="couverture_img_33prest">
                     <div class="nav_projet">
                         <div class="row">
-                                <div class="col-sm-3 text-left">
+                                <div class="col-sm-3 text-left navprojetgauche">
                                    <% link_to "/cotebassin.html", :class => "animsition-link" do %>
-                                   <i>Côté Bassin</i>
+                                   <div id="fleche_gauche">
+                                    <%= image_tag"fleche_gauche.svg" %> 
+                                   </div>
+                                   <i>Précédent</i>
                                    <% end %> 
                                 </div>
 
@@ -27,7 +30,10 @@ title: 33 Prest
 
                                 <div class="col-sm-3 text-right navprojetdroit">
                                    <% link_to "/lesjardinsdeden.html", :class => "animsition-link" do %>
-                                   <i>Les Jardins d'Eden</i>
+                                   <i>Suivant</i>
+                                   <div id="fleche_droite">
+                                     <%= image_tag"fleche_droite.svg" %> 
+                                   </div>
                                    <% end %> 
                                 </div>
                          </div>
@@ -129,7 +135,7 @@ title: 33 Prest
                               </svg>     
                 </div>
 
-                <div id="photo_pieddepage" data-sr="wait 0.25s, over 0.75s, ease-in-out 100px">
+                <div id="photo_pieddepage">
                               
                 </div>   
 

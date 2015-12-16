@@ -26,19 +26,6 @@
 	border: 1px solid white;
 }
 
-.navprojetdroit{
-	padding-right: 4%;
-}
-
-.nav_projet i{
-	color: #F6EFEF;
-
-	&:hover{
-		color: $couleur_fond;
-        background-color: black;
-	}
-}
-
 
 #projet_cotebassin_contenu1{
     background-image: url(../images/cotebassin_photos_projet.jpg);
@@ -129,6 +116,43 @@
     margin-left: 0px;
 }
 
+.nav_projet{
+    padding-top: 10px;
+    img{
+    width: 32px;
+    }
+}
+
+.navprojetdroit{
+    padding-right: 2%;
+}
+
+.navprojetgauche{
+    padding-left: 2%;
+}
+
+.nav_projet i {
+    color: #F6EFEF;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.nav_class1{
+    img{
+    width: 40px;
+    transition: all 1s;
+    }
+}
+
+#fleche_gauche{
+    display: inline;
+    padding-left: 10px;
+}
+
+#fleche_droite{
+    display: inline;
+    padding-right: 10px;
+}
 /*----------------------
 ------------------------*/
 /* RESPONSIVE */
@@ -143,6 +167,7 @@
 
     .row{
         margin-left: 200px;
+        margin-right: 0px;
     }
 
 

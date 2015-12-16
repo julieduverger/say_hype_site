@@ -46,7 +46,7 @@
 }
 
 #jardinsdeden_photo_pieddepage{
-    background-image: url(../images/cotebassin_photos5_projet.jpg);
+    background-image: url(../images/lesjardinsdeden_photos_pieddepage.jpg);
     height: 1000px;
     width: 2220px;
     background-position: center center;
@@ -87,16 +87,6 @@
     right: 0% !important;
 }
 
-.signature {
-    margin-left: 300px;
-    padding: 5px;
-    background-color: $couleur_fond;
-    margin-bottom: 0;
-
-    p{
-     font-size: 12px;
-    }
-}
 
 #couverture_img_cotebassin .row{
     margin-left: 0px;
@@ -114,7 +104,70 @@
 
 @media only screen and (min-width: 1025px)and (max-width: 1290px){
 
+ #couverture_img_jardineden{
+        border: 1px solid #F4F2EE;
+        width: auto;
+        height: 300px;
+        margin-left: 200px;
+    }
+
+    #projet_jardinsdeden_contenu1 {
+        height: 500px;
+        margin-top: -1%;
+        padding-left: 2%;
+        width: 550px;
+    }
+
+    #projet_jardinsdeden_contenu3 {
+        height: 500px;
+        margin-bottom: 5%;
+        width: 100%;
+        margin-left: 0px;
+        margin-bottom: 5%;
+    }
+
+    #jardinsdeden_photo_pieddepage {
+        margin-top: 3%;
+        margin-left: 200px;
+        height: 485px;
+        width: auto;
+        margin-right: 0%;
+    }
+    
+
+    #description_role_jardinsdeden{
+        margin-top: -56%;
+        margin-left: 4%;
+
+        p{
+            text-align: left;
+        }        
+    }
+
+    #frise_verticale{
+        margin-top: 95%;
+        height: 300px;
+    }
+
+    #projet_jardinsdeden_contenu2 {
+        margin-top: 32%;
+        padding-left: 2%;
+        padding-right: 0%;
+        width: 490px;
+        height: 500px;
+
+        img{
+            margin-top: -55%;
+            width: 55%;
+        }
+    }
+
+    #description_role_jardinsdeden h3{
+        font-size: 17px !important;
+        letter-spacing: 1px;
+    }       
 }
+
 
 /* RESPONSIVE TABLETTE PAYSAGE */
 /*-------------------------------
