@@ -111,35 +111,48 @@
 
 @media only screen and (min-width: 1025px)and (max-width: 1290px){
     
-    #couverture_img_karodart{
-
+    #couverture_img_karodart {
+        width: auto;
         height: 300px;
         margin-left: 200px;
-
-      }
-
-    #projet_karodart_contenu12{
-        height: 500px;
-        margin-top: 2%;
     }
 
-    #projet_karodart_contenu22{
+    #projet_karodart_contenu12 {
+        height: 600px;
+        width: 1000px;
+        margin-top: 5%;
+        margin-left: calc(50% - 500px);
+    }
 
-        height: 500px;
+    #projet_karodart_contenu22 {
+        height: 600px;
+        width: 1000px;
+        margin-top: 1%;
+        margin-left: calc(50% - 500px);
+    }
+
+        #karodart_photo_pieddepage {
+        height: 490px;
+        margin-top: 3%;
+        margin-left: 200px;
+        width: auto;
+    }
+
+        #projet_karodart_contenu32 {
+        height: 360px;
+        width: 1000px;
         margin-top: 0%;
+        margin-left: calc(50% - 500px);
     }
 
-    #projet_karodart_contenu321{
-        height: 400px;
+    #projet_karodart_contenu321 {
+        height: 460px;
+        
     }
 
-    #projet_karodart_contenu322{
-        height: 400px;
-    }
-
-
-    #projet_karodart_contenu32{
-        height: 322px;
+    #projet_karodart_contenu322 {
+        height: 460px;
+        padding-right: 0px;
     }
 }
 
