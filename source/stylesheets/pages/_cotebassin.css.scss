@@ -137,6 +137,7 @@
 
 @media only screen and (min-width: 1025px)and (max-width: 1290px){
 
+
     .presentation_projet{
         width: 500px;
         margin-left: calc(50% - 150px);
@@ -155,37 +156,31 @@
         margin-left: 200px;
     }
 
-    #projet_cotebassin_contenu1{
-        background-image: url(../images/cotebassin_photos_projet.jpg);
-        background-clip: content-box;
-        background-size: contain;
-        background-repeat: no-repeat;
-        background-position: center center;
-        background-attachment: scroll;
-        height: 800px;
-        margin-top: -15%;
-        padding-left: 1%;
+    #projet_cotebassin_contenu1 {
+        height: 500px;
+        margin-top: -1%;
+        padding-left: 2%;
+        width: 550px;
     }
 
-    #projet_cotebassin_contenu3{
-        background-image: url(../images/cotebassin_photos3_projet.jpg);
-        background-size: contain;
+    #projet_cotebassin_contenu3 {
         height: 500px;
-        background-repeat: no-repeat;
-        background-position: center center;
-        background-attachment: scroll;
-        margin-top: 0%;
+        margin-bottom: 5%;
+        width: 100%;
+        margin-left: 0px;
         margin-bottom: 5%;
     }
 
-    #cotebassin_photo_pieddepage{
-        background-image: url(../images/cotebassin_photos5_projet.jpg);
-        height: 490px;
+    #cotebassin_photo_pieddepage {
+        background-image: url("../images/cotebassin_photos5_projet.jpg");
         background-position: center center;
         background-size: contain;
         background-repeat: no-repeat;
-        margin-top: 0%;
+        margin-top: 3%;
         margin-left: 200px;
+        height: 490px;
+        width: auto !important;
+        margin-right: 0%;
     }
     
     .presentation_projet{
@@ -235,25 +230,20 @@
     }
 
     #frise_verticale{
-        margin-top: 128%;
+        margin-top: 95%;
         height: 300px;
     }
 
-    #projet_cotebassin_contenu2{
-        background-image: url(../images/cotebassin_photos2_projet.jpg);
-        background-clip: content-box;
-        background-size: contain;
-        height: 500px !important;
-        background-repeat: no-repeat;
-        background-position: center center;
-        background-attachment: scroll;
-        margin-top: 32%;  
+    #projet_cotebassin_contenu2 {
+        margin-top: 32%;
         padding-left: 2%;
-        padding-right: 2%;
+        padding-right: 0%;
+        width: 500px;
+        height: 500px;
 
         img{
-            margin-top: -53%;
-            width: 54%;
+            margin-top: -55%;
+            width: 55%;
         }
     }
 

@@ -45,7 +45,7 @@
     }
 }
 
-#cotebassin_photo_pieddepage{
+#jardinsdeden_photo_pieddepage{
     background-image: url(../images/cotebassin_photos5_projet.jpg);
     height: 1000px;
     width: 2220px;
@@ -114,130 +114,6 @@
 
 @media only screen and (min-width: 1025px)and (max-width: 1290px){
 
-    .presentation_projet{
-        width: 500px;
-        margin-left: calc(50% - 150px);
-    }
-
-    p{
-     font-size: 14px;
-     line-height: 24px !important;
-     letter-spacing: 0.5; 
-    }
-
-    #couverture_img_cotebassin{
-        border: 1px solid #F4F2EE;
-        width: auto;
-        height: 300px;
-        margin-left: 200px;
-    }
-
-    #projet_cotebassin_contenu1{
-        background-image: url(../images/cotebassin_photos_projet.jpg);
-        background-clip: content-box;
-        background-size: contain;
-        background-repeat: no-repeat;
-        background-position: center center;
-        background-attachment: scroll;
-        height: 800px;
-        margin-top: -15%;
-        padding-left: 1%;
-    }
-
-    #projet_cotebassin_contenu3{
-        background-image: url(../images/cotebassin_photos3_projet.jpg);
-        background-size: contain;
-        height: 500px;
-        background-repeat: no-repeat;
-        background-position: center center;
-        background-attachment: scroll;
-        margin-top: 0%;
-        margin-bottom: 5%;
-    }
-
-    #cotebassin_photo_pieddepage{
-        background-image: url(../images/cotebassin_photos5_projet.jpg);
-        height: 490px;
-        background-position: center center;
-        background-size: contain;
-        background-repeat: no-repeat;
-        margin-top: 0%;
-        margin-left: 200px;
-    }
-    
-    .presentation_projet{
-
-        h2{
-        font-size: 32px !important;
-        }
-
-        h3{
-        font-size: 17px !important;
-        margin-top: 10px;
-        }
-
-        h4{
-        font-size: 16px !important;
-        line-height: 23px;
-        }
-
-        p{
-        margin-top: 20px;
-        }
-
-        img{
-        width: 3%;
-        margin: 2%;
-        }
-    }
-
-    .frise_haut{
-    margin-left: 190px !important;
-    position: relative;
-    }
-
-    .frise_bas{
-    position: absolute !important;
-    right: 0% !important;
-    margin-top: -3% important;
-    }
-
-    #description_role_cotebassin{
-        margin-top: -56%;
-        margin-left: 4%;
-
-        p{
-            text-align: left;
-        }        
-    }
-
-    #frise_verticale{
-        margin-top: 128%;
-        height: 300px;
-    }
-
-    #projet_cotebassin_contenu2{
-        background-image: url(../images/cotebassin_photos2_projet.jpg);
-        background-clip: content-box;
-        background-size: contain;
-        height: 500px !important;
-        background-repeat: no-repeat;
-        background-position: center center;
-        background-attachment: scroll;
-        margin-top: 32%;  
-        padding-left: 2%;
-        padding-right: 2%;
-
-        img{
-            margin-top: -53%;
-            width: 54%;
-        }
-    }
-
-    #description_role_cotebassin h3{
-        font-size: 17px !important;
-        letter-spacing: 1px;
-    }    
 }
 
 /* RESPONSIVE TABLETTE PAYSAGE */
