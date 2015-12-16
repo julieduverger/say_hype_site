@@ -127,67 +127,59 @@
 
 @media only screen and (min-width: 1025px)and (max-width: 1290px){
     
-    #couverture_img_toietmoi{
+    #couverture_img_toietmoi {
+        width: auto;
         height: 300px;
         margin-left: 200px;
     }
 
-    #projet_toietmoi_contenu1{
-        background-image: url(../images/toietmoi_photos9_projet.jpg);
-        background-clip: content-box;
-        background-size: contain;
-        background-repeat: no-repeat;
-        background-position: center center;
-        background-attachment: scroll;
-        height: 500px;
-        margin-top: 0%;
+    #projet_toietmoi_contenu1 {
+        height: 400px;
+        margin-top: 5%;
         margin-left: 0%;
-        padding-right: 2%;
-        padding-left: 0;
+        padding-right: 0%;
+        width: 600px;
     }
 
-    #projet_toietmoi_contenu2{
+    #projet_toietmoi_contenu2 {
         height: 500px;
-    }
-
-    #description_role_toietmoi{
-        margin-top: -92%;
-        margin-left: 5%;
-
-        p{
-            text-align: left;
-        }
-
-        h3{
-        font-size: 17px !important;
-        }
+        width: 460px;
+        margin-top: 36%;
+        padding-left: 0%;
+        padding-right: 0%;
     }
 
     #frise_verticale_toietmoi{
         height: 300px;
-        margin-top: -38%;
     }
 
-    #projet_toietmoi_contenu2{
-        margin-top: 36%;  
+    #description_role_toietmoi h3{
+        font-size: 17px !important;
+        letter-spacing: 1px;
     }
 
-    #projet_toietmoi_contenu3{
-
-        img{
-            width:50%;
-            margin-top: -61%;
-        }
+    #description_role_toietmoi {
+        margin-top: -66%;
+        margin-left: 5%;
     }
 
-    #photo_pieddepage_toietmoi{
-    margin-left: 200px;
-
-    img{
-        width:40%;
-        margin-top: 8%;
+    #description_role_avecfrise_toietmoi {
+        margin-top: -58%;
+        margin-left: 4%;
     }
 
+    #projet_toietmoi_contenu3 img {
+        width: 50%;
+        margin-top: -60%;
+    }
+
+    #photo_pieddepage_toietmoi img {
+        width: 50%;
+        margin-top: 5%;
+    }
+
+    #photo_pieddepage_toietmoi {
+        margin-left: 200px;
     }
 }
      
