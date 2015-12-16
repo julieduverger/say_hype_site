@@ -257,15 +257,16 @@ a:hover{
     padding-left: 0px;
     padding-right: 0%;
     height: 1000px;
+
+    .row{
+    margin-left: 0px;
+    }
 }
 
 #accueil_animation{
     margin-left: -15px
 }
 
-#row_presentation_accueil .row{
-    margin-left: 0px;
-}    
 
 /* --- SLIDER --- */
 
