@@ -1,3 +1,7 @@
+.row{
+    margin-left: 300px;
+}
+
 #couverture_img_cotebassin{
 	border: 1px solid #F4F2EE;
 	width: 2220px;
@@ -137,6 +141,10 @@
 
 @media only screen and (min-width: 1025px)and (max-width: 1290px){
 
+    .row{
+        margin-left: 200px;
+    }
+
 
     .presentation_projet{
         width: 500px;
@@ -246,7 +254,14 @@
     #description_role_cotebassin h3{
         font-size: 17px !important;
         letter-spacing: 1px;
-    }    
+    }   
+
+    .signature {
+        margin-left: 200px;
+        padding: 5px;
+        background-color: #F6EFEF;
+        margin-bottom: 0px;
+    } 
 }
 
 /* RESPONSIVE TABLETTE PAYSAGE */
