@@ -11,106 +11,128 @@
     .row{
     margin-left: 0px;
     }
+}
 
- }
+
 
 #projet_soa_contenu1{
-    background-image: url(../images/33prest_photos_projet.jpg);
+    background-image: url(../images/soa_photos_projet.jpg);
     background-clip: content-box;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: scroll;
-    height: 1000px;
-    margin-top: 0%;
+    height: 800px;
+    width: 1092px;
+    margin-top: 5%;
     padding-left: 2%;
-
-
-    img{
-    margin-top: 84%;
-    width: 50%;
-    }
 }
 
 #projet_soa_contenu2{
-    background-image: url(../images/33prest_photos2_projet.jpg);
+    background-image: url(../images/soa_photos2nb_projet.jpg);
     background-clip: content-box;
     background-size: contain;
     height: 1000px;
+    width: 1092px;
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: scroll;
-    margin-top: 14%;  
-    padding-left: 7%;
-}
+    margin-top: 28%;  
+    padding-left: 2%;
+    padding-right: 2%;
+    margin-bottom: 6%;
 
-#projet_soa_contenu3{
-    background-image: url(../images/33prest_photos3_projet.jpg);
-    background-size: contain;
-    height: 1000px;
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-attachment: scroll;
-    margin-top: 0%;
-}
-
-#projet_soa_contenu4{
-    height: 1000px;
+    img{
+        margin-top: -50%;
+        width: 50%;
+    }
 }
 
 #description_role_soa{
-    margin-top: -32%;
-    margin-left: 3%;
+    margin-top: -33%;
+    margin-left: 4%;
 
     p{
         text-align: left;
     }
 }
 
-#description_role_avecfrise_soa{
-    margin-top: 20%;
-    margin-left: 0%;
+#frise_verticale{
+   margin-top: 90%;
 }
 
-#frise_verticale1{
-    margin-top: -2%;
-}
-
-
-.frise_haut{
-    margin-left: 290px;
-    position: relative;
-}
-
-.container{
-    width: 100%;
-}
-
-#couverture_img_33prest .row{
+#couverture_img_cotebassin .row{
     margin-left: 0px;
 }
-/*----------------------
-------------------------*/
-/* RESPONSIVE */
 
-
+#frise_bas_soa{
+    position: absolute;
+    right: 0px;
+    bottom: 3%;
+}
 
 /* RESPONSIVE 13 POUCES */
 /*----------------------
 -----------------------*/
 
+@media only screen and (min-width: 1025px)and (max-width: 1290px){
 
-@media only screen and (min-width: 1030px)and (max-width: 1290px){
 
-.container{
-    width: 100%;
+
+    #couverture_img_soa{
+        border: 1px solid #F4F2EE;
+        width: auto;
+        height: 300px;
+        margin-left: 200px;
+    }
+
+    #projet_soa_contenu1 {
+        height: 500px;
+        margin-top: -1%;
+        padding-left: 2%;
+        width: 550px;
+    }
+
+
+    #description_role_cotebassin{
+        margin-top: -56%;
+        margin-left: 4%;
+
+        p{
+            text-align: left;
+        }        
+    }
+
+    #frise_verticale{
+        margin-top: 95%;
+        height: 300px;
+    }
+
+    #projet_soa_contenu2 {
+        margin-top: 32%;
+        padding-left: 2%;
+        padding-right: 0%;
+        width: 490px;
+        height: 500px;
+
+        img{
+            margin-top: -60%;
+            width: 65%;
+        }
+    }
+
+    #description_role_cotebassin h3{
+        font-size: 17px !important;
+        letter-spacing: 1px;
+    }   
+
+    #description_role_soa {
+        margin-top: -57%;
+    }
+
+    #frise_bas_soa {
+        bottom: 4%;
+    }
+
+
 }
-
-
-
-
-
-    
-
-}
-

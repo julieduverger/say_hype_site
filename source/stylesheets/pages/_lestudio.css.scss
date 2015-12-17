@@ -1,0 +1,46 @@
+#tittle_studio{
+	padding-top: 2%;
+	margin-left: 300px;
+
+	h1 {
+    font-family: sabon roman;
+    font-size: 75px;
+    letter-spacing: 0px;
+    color:#010101;
+	}
+}
+
+#presentation_studio{
+	margin-left: 300px;
+}
+
+.studio{
+	max-width: 1000px;
+	min-width: 500px;
+	margin: 0 auto;
+}
+
+#vertical_spacer3{
+	height: 100px;
+}
+
+#vertical_spacer4{
+	height: 50px;
+}
+
+#presentation_studio p {
+    text-align: left;
+}
+
+/* ------------------------------------------RESPONSIVE 13 POUCES --------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+@media only screen and (min-width: 1025px)and (max-width: 1290px){
+	
+	#tittle_studio {
+	    margin-left: 200px;
+	}
+
+	#presentation_studio {
+	    margin-left: 200px;
+	}
+}

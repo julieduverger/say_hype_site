@@ -12,8 +12,21 @@
 	}
 }
 
+#tittle_contact{
+    padding-top: 2%;
+
+    h1 {
+    font-family: sabon roman;
+    font-size: 75px;
+    letter-spacing: 0px;
+    color: #010101;
+    } 
+}
+
 #description_contact{
 	margin: 0 auto;
+
+
 }
 
 .formulaire_contact{
@@ -25,7 +38,8 @@
     display: table;
     border-collapse: separate;
     width: 100%;
-    border-bottom: 1px solid #B6925D ;
+    border-bottom: 1px solid #D2B0B0 ;
+    padding-top: 20px;
 }
 
 .form-control {
@@ -36,6 +50,7 @@
     font-size: 16px;
     line-height: 1.4;
     color: #000000;
+    font-family: sabon roman;
     background-color: #F6EFEF;
     background-image: none;
     border: 1px solid #F6EFEF;
@@ -50,7 +65,7 @@
 .envoyer{
 	width: 150px;
 	margin: 0 auto;
-	border: 1px solid #B6925D;
+	border: 1px solid #D2B0B0;
     margin-top: 85px;
     border-radius: 0;
     text-transform: uppercase;
@@ -71,16 +86,23 @@
 }
 
 textarea:focus, input[type="text"]:focus, input[type="password"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="date"]:focus, input[type="month"]:focus, input[type="time"]:focus, input[type="week"]:focus, input[type="number"]:focus, input[type="email"]:focus, input[type="url"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="color"]:focus, .uneditable-input:focus {  
-border-color: #B6925D;
-box-shadow: 0 1px 1px #B6925D inset, 0 0 8px #B6925D;
+border-color: #D2B0B0;
+box-shadow: 0 1px 1px #D2B0B0 inset, 0 0 8px #D2B0B0;
 outline: 0 none;}
 
 /* RESPONSIVE 13 POUCES */
 
-#presentation_contact{
-    margin-left: 200px;
-}
+@media only screen and (min-width: 1025px)and (max-width: 1290px){
 
-#contact{
-    width: 900px;
+    #presentation_contact{
+        margin-left: 200px;
+    }
+
+    #contact{
+        width: 900px;
+    }
+
+    #div_map .row {
+        padding-right: 0px;
+    }
 }

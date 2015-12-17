@@ -31,6 +31,8 @@ $(document).ready(function(){
     /* ACCUEIL */
 
 
+    $("#accueil_estampille2").hide();
+    $("#accueil_estampille2").delay(1000).hide().fadeIn(1500);
 
 
 
@@ -81,6 +83,30 @@ $(document).ready(function(){
         else {
             if ($(window).scrollTop() > 2200 && $(window).scrollTop() < 2250) {
                 $frise_bas.drawsvg('animate');
+            } 
+        } 
+    });
+
+     /*-------
+    Frise bas soa
+    ---------*/
+
+    var $frise_bas1 = $("#frise_bas_soa1").drawsvg({
+        duration : 3000,
+        });
+
+    $(window).on("scroll",function(){
+
+        
+        if ($(window).width() < 1290) {
+            if ($(window).scrollTop() > 970 && $(window).scrollTop() < 1000) {
+                $frise_bas1.drawsvg('animate');
+            } 
+        } 
+
+        else {
+            if ($(window).scrollTop() > 1320 && $(window).scrollTop() < 1350) {
+                $frise_bas1.drawsvg('animate');
             } 
         } 
     });
