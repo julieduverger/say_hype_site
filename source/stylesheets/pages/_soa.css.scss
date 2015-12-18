@@ -165,6 +165,51 @@
 
     #frise_bas_soa {
         bottom: 4%;
-    }
+    }    
+}
+
+/*----------------------------------------* RESPONSIVE 15 POUCES --------------------------------------------------------------------------------------------------(1680 x 900)-----------------------------------------------------*/
+
+@media only screen and (min-width: 1450px)and (max-width: 1690px){
     
+    #couverture_img_soa{
+        border: 1px solid #F4F2EE;
+        width: auto;
+        height: 400px;
+        margin-left: 300px;
+    }
+
+    #projet_soa_contenu1 {
+        height: 700px;
+        margin-top: -1%;
+        padding-left: 2%;
+        width: 750px;
+    }
+
+
+    #frise_verticale{
+        margin-top: 95%;
+        height: 300px;
+    }
+
+    #projet_soa_contenu2 {
+        margin-top: 32%;
+        padding-left: 2%;
+        padding-right: 1%;
+        width: 600px;
+        height: 700px;
+
+        img{
+            margin-top: -60%;
+            width: 70%;
+        }
+    }
+
+    #description_role_soa {
+        margin-top: -42%;
+    }
+
+    #frise_bas_soa {
+        bottom: 4%;
+    }   
 }

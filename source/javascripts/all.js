@@ -87,7 +87,7 @@ $(document).ready(function(){
         }
 
         else {
-            if ($(window).scrollTop() > 2200 && $(window).scrollTop() < 2250) {
+            if ($(window).scrollTop() > 2180 && $(window).scrollTop() < 2230) {
                 $frise_bas.drawsvg('animate');
             } 
         } 
@@ -114,7 +114,13 @@ $(document).ready(function(){
              if ($(window).scrollTop() > 1140 && $(window).scrollTop() < 1150) {
                 $frise_bas1.drawsvg('animate');
             } 
-        }        
+        } 
+
+         else if ($(window).width() > 1450 && $(window).width() < 1690){
+             if ($(window).scrollTop() > 950 && $(window).scrollTop() < 1000) {
+                $frise_bas1.drawsvg('animate');
+            } 
+        }             
 
         else {
             if ($(window).scrollTop() > 1320 && $(window).scrollTop() < 1350) {
