@@ -214,7 +214,61 @@
         margin-top: -40%;
         margin-left: 6%;
     }
+}
 
+/*----------------------------------------* RESPONSIVE 15 POUCES --------------------------------------------------------------------------------------------------(1680 x 900)-----------------------------------------------------*/
+
+@media only screen and (min-width: 1450px)and (max-width: 1690px){
+
+    #couverture_img_titan{
+        height: 400px;
+        margin-left: 300px;
+        width: auto;
+     }
+
+    #projet_titan_contenu1{
+        height: 700px;
+        margin-top: 4%;
+        padding-left: 2%;
+        width: 690px;
+
+
+        img{
+            margin-top: 83%;
+            width: 54%;
+        }
+    }
+
+    #projet_titan_contenu2{
+        height: 700px;
+        margin-top: 39%;  
+        padding-left: 2%;
+        width: 680px;
+    }
+
+    #projet_titan_contenu3 img{
+        width: 60%;
+        margin-top: -67%;
+    }
+
+    #frise_verticale_titan{
+        height: 300px;
+        margin-top: -27%;
+    }
+
+    #description_role_titan{
+        margin-top: -47%;
+        margin-left: 5%;
+
+        h3{
+            font-size: 17px !important;
+        }
+    }
+
+    #description_role_avecfrise {
+        margin-top: -40%;
+        margin-left: 6%;
+    } 
 }
 
 /* RESPONSIVE TABLETTE PAYSAGE */

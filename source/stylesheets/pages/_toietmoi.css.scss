@@ -248,6 +248,73 @@
         right: 0%;
         margin-top: 2%;
     }   
+}
+
+/*----------------------------------------* RESPONSIVE 15 POUCES --------------------------------------------------------------------------------------------------(1680 x 900)-----------------------------------------------------*/
+
+@media only screen and (min-width: 1450px)and (max-width: 1690px){
+ 
+    #couverture_img_toietmoi {
+        width: auto;
+        height: 400px;
+        margin-left: 300px;
+    }
+
+    #projet_toietmoi_contenu1 {
+        height: 700px;
+        margin-top: 0%;
+        margin-left: 0%;
+        padding-right: 0%;
+        width: 800px;
+    }
+
+    #projet_toietmoi_contenu2 {
+        height: 750px;
+        width: 570px;
+        margin-top: 35%;
+        padding-left: 0%;
+        padding-right: 0%;
+        margin-bottom: 2%;
+    }
+
+    #frise_verticale_toietmoi{
+        height: 300px;
+    }
+
+    #description_role_toietmoi h3{
+        font-size: 17px !important;
+        letter-spacing: 1px;
+    }
+
+    #description_role_toietmoi {
+        margin-top: -55%;
+        margin-left: 5%;
+    }
+
+    #description_role_avecfrise_toietmoi {
+        margin-top: -55%;
+        margin-left: 4%;
+    }
+
+    #projet_toietmoi_contenu3 img {
+        width: 50%;
+        margin-top: -75%;
+    }
+
+    #photo_pieddepage_toietmoi img {
+        width: 50%;
+        margin-top: 5%;
+    }
+
+    #photo_pieddepage_toietmoi {
+        margin-left: 200px;
+    } 
+
+    #frise_bas_toietmoi2{
+        position: absolute;
+        right: 0%;
+        margin-top: 2%;
+    }     
 
 }
      
