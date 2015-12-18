@@ -131,15 +131,6 @@
         margin-right: 0%;
     } 
 
-    #description_role_cotebassin{
-        margin-top: -56%;
-        margin-left: 4%;
-
-        p{
-            text-align: left;
-        }        
-    }
-
     #frise_verticale{
         margin-top: 95%;
         height: 300px;
@@ -171,7 +162,75 @@
     #frise_verticale_mindful {
         margin-top: 90%;
     }
+}
 
+/*----------------------------------------* RESPONSIVE 15 POUCES --------------------------------------------------------------------------------------------------(1440 x 900)-----------------------------------------------------*/
+
+@media only screen and (min-width: 1295px)and (max-width: 1450px){
+
+ #couverture_img_mindful{
+        border: 1px solid #F4F2EE;
+        width: auto;
+        height: 300px;
+        margin-left: 200px;
+    }
+
+    #projet_mindful_contenu1 {
+        height: 600px;
+        margin-top: -1%;
+        padding-left: 2%;
+        width: 650px;
+    }
+
+    #projet_mindful_contenu3 {
+        height: 600px;
+        margin-bottom: 5%;
+        width: 100%;
+        margin-left: 0px;
+        margin-bottom: 5%;
+    }
+
+    #mindful_photo_pieddepage {
+        margin-top: 3%;
+        margin-left: 200px;
+        height: 485px;
+        width: auto;
+        margin-right: 0%;
+    } 
+
+
+    #frise_verticale{
+        margin-top: 95%;
+        height: 300px;
+    }
+
+    #projet_mindful_contenu2 {
+        margin-top: 32%;
+        padding-left: 2%;
+        padding-right: 0%;
+        width: 550px;
+        height: 600px;
+
+        img{
+            margin-top: -55%;
+            width: 55%;
+        }
+    }
+
+    #description_role_mindful h3{
+        font-size: 17px !important;
+        letter-spacing: 1px;
+    }
+
+    #description_role_mindful {
+        margin-top: -52%;
+        margin-left: 4%;
+    }   
+
+    #frise_verticale_mindful {
+        margin-top: 95%;
+    }
+    
 }
 
 /* RESPONSIVE TABLETTE PAYSAGE */

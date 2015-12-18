@@ -182,6 +182,74 @@
         margin-left: 200px;
     }
 }
+
+/*----------------------------------------* RESPONSIVE 15 POUCES --------------------------------------------------------------------------------------------------(1440 x 900)-----------------------------------------------------*/
+
+@media only screen and (min-width: 1295px)and (max-width: 1450px){
+
+    #couverture_img_toietmoi {
+        width: auto;
+        height: 300px;
+        margin-left: 200px;
+    }
+
+    #projet_toietmoi_contenu1 {
+        height: 500px;
+        margin-top: 0%;
+        margin-left: 0%;
+        padding-right: 0%;
+        width: 700px;
+    }
+
+    #projet_toietmoi_contenu2 {
+        height: 550px;
+        width: 500px;
+        margin-top: 30%;
+        padding-left: 0%;
+        padding-right: 0%;
+        margin-bottom: 2%;
+    }
+
+    #frise_verticale_toietmoi{
+        height: 300px;
+    }
+
+    #description_role_toietmoi h3{
+        font-size: 17px !important;
+        letter-spacing: 1px;
+    }
+
+    #description_role_toietmoi {
+        margin-top: -60%;
+        margin-left: 5%;
+    }
+
+    #description_role_avecfrise_toietmoi {
+        margin-top: -60%;
+        margin-left: 4%;
+    }
+
+    #projet_toietmoi_contenu3 img {
+        width: 50%;
+        margin-top: -60%;
+    }
+
+    #photo_pieddepage_toietmoi img {
+        width: 50%;
+        margin-top: 5%;
+    }
+
+    #photo_pieddepage_toietmoi {
+        margin-left: 200px;
+    } 
+
+    #frise_bas_toietmoi2{
+        position: absolute;
+        right: 0%;
+        margin-top: 2%;
+    }   
+
+}
      
 /* RESPONSIVE TABLETTE PAYSAGE */
 /*-------------------------------

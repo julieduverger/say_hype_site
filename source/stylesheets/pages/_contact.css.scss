@@ -106,3 +106,21 @@ outline: 0 none;}
         padding-right: 0px;
     }
 }
+
+/*----------------------------------------* RESPONSIVE 15 POUCES --------------------------------------------------------------------------------------------------(1440 x 900)-----------------------------------------------------*/
+
+@media only screen and (min-width: 1295px)and (max-width: 1450px){
+
+    #presentation_contact{
+        margin-left: 200px;
+    }
+
+    #contact{
+        width: 900px;
+    }
+
+    #div_map .row {
+        padding-right: 0px;
+    }
+    
+}

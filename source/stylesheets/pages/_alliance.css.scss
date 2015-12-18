@@ -165,6 +165,56 @@
     }
 }
 
+/*----------------------------------------* RESPONSIVE 15 POUCES --------------------------------------------------------------------------------------------------(1440 x 900)-----------------------------------------------------*/
+
+@media only screen and (min-width: 1295px)and (max-width: 1450px){
+
+    #couverture_img_alliance {
+        width: auto;
+        height: 300px;
+        margin-left: 200px;
+    }
+
+    #projet_alliance_contenu12 {
+        height: 600px;
+        width: 1000px;
+        margin-top: 5%;
+        margin-left: calc(50% - 489px);
+    }
+
+    #projet_alliance_contenu22 {
+        height: 600px;
+        width: 1000px;
+        margin-top: 1%;
+        margin-left: calc(50% - 489px);
+    }
+
+        #alliance_photo_pieddepage {
+        height: 490px;
+        margin-top: 3%;
+        margin-left: 200px;
+        width: auto;
+    }
+
+        #projet_alliance_contenu32 {
+        height: 360px;
+        width: 1000px;
+        margin-top: 0%;
+        margin-left: calc(50% - 489px);
+    }
+
+    #projet_alliance_contenu321 {
+        height: 460px;
+        
+    }
+
+    #projet_alliance_contenu322 {
+        height: 460px;
+        padding-right: 0px;
+    }
+    
+}
+
 /* RESPONSIVE TABLETTE PAYSAGE */
 /*-------------------------------
 --------------------------------*/

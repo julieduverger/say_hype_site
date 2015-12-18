@@ -168,6 +168,69 @@
     }       
 }
 
+/*----------------------------------------* RESPONSIVE 15 POUCES --------------------------------------------------------------------------------------------------(1440 x 900)-----------------------------------------------------*/
+
+@media only screen and (min-width: 1295px)and (max-width: 1450px){
+    
+    #couverture_img_jardineden{
+        border: 1px solid #F4F2EE;
+        width: auto;
+        height: 300px;
+        margin-left: 200px;
+    }
+
+    #projet_jardinsdeden_contenu1 {
+        height: 600px;
+        margin-top: -1%;
+        padding-left: 2%;
+        width: 650px;
+    }
+
+    #projet_jardinsdeden_contenu3 {
+        height: 600px;
+        margin-bottom: 5%;
+        width: 100%;
+        margin-left: 0px;
+        margin-bottom: 5%;
+    }
+
+    #jardinsdeden_photo_pieddepage {
+        margin-top: 3%;
+        margin-left: 200px;
+        height: 485px;
+        width: auto;
+        margin-right: 0%;
+    }
+    
+
+    #description_role_jardinsdeden{
+        margin-top: -46%;
+        margin-left: 4%;
+
+        p{
+            text-align: left;
+        }        
+    }
+
+    #projet_jardinsdeden_contenu2 {
+        margin-top: 32%;
+        padding-left: 2%;
+        padding-right: 0%;
+        width: 550px;
+        height: 600px;
+
+        img{
+            margin-top: -55%;
+            width: 55%;
+        }
+    }
+
+    #description_role_jardinsdeden h3{
+        font-size: 17px !important;
+        letter-spacing: 1px;
+    }   
+}
+
 
 /* RESPONSIVE TABLETTE PAYSAGE */
 /*-------------------------------
