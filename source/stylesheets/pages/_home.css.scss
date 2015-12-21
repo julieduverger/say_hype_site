@@ -382,7 +382,7 @@ a:hover{
     width: 150px;
     z-index: 999;
     opacity: 0.7;
-    transform: translateX(150px * -1);
+    margin-left: -150px;
 
     a{
         text-align: center;
@@ -440,7 +440,7 @@ a:hover{
 
     .with--sidebar{
         .site-pusher{
-            transform: translateX(150px);
+            margin-left: 150px;
         }
     }
 
