@@ -41,7 +41,7 @@ h2{
 
 h3{
     font-family: sabon roman;
-    font-size: 20px !important;
+    font-size: 20px;
 }
 
 h4{
@@ -785,6 +785,99 @@ a:hover{
         top: calc(50% - 100px);
         left: 50%;
         margin-left: 0px;
+        transition: all 4s ease 0s;
+    }
+}
+
+/*----------------------------------------* RESPONSIVE 15 POUCES --------------------------------------------------------------------------------------------------(1920 x 900)-----------------------------------------------------*/
+
+@media only screen and (min-width: 1690px)and (max-width: 1950px){
+    
+
+
+    #presentation_accueil_gauche{
+        height: 100vh;
+    }
+
+
+
+    #img2 {
+        z-index: 2;
+        position: absolute;
+        left: calc(50% - 260px);
+        bottom: -1050px;
+        height: 700px;
+        width: 525px;
+    }
+
+    #img3 {
+        z-index: 3;
+        position: absolute;
+        left: calc(50% - 260px);
+        bottom: -1050px;
+        height: 700px;
+        width: 525px;
+    }
+
+    #img4 {
+        z-index: 4;
+        position: absolute;
+        left: calc(50% - 260px);
+        bottom: calc(50% - 250px);
+        height: 700px;
+        width: 525px;
+    }
+
+
+    #presentation_accueil_droite{
+        height: 100vh;
+    }
+
+
+    #img6 {
+        z-index: 2;
+        position: absolute;
+        left: calc(50% - 300px);
+        top: -1050px;
+        height: 700px;
+        width: 525px;
+    }
+
+    #img7 {
+        z-index: 2;
+        position: absolute;
+        left: calc(50% - 300px);
+        top: -1050px;
+        height: 700px;
+        width: 525px;
+    }
+
+        #img8 {
+            z-index: 5;
+            position: absolute;
+            left: calc(50% - 300px);
+            bottom: calc(50% - 250px);
+            height: 700px;
+            width: 525px;
+            margin: 0 auto;
+        }
+
+    .accueil_logo {
+        position: fixed;
+        top: calc(50% - 115px);
+        left: 50%;
+        margin-left: -185px;
+
+        img{
+            width: 85%;
+        }
+    }
+
+    .accueil_estampille {
+        position: fixed;
+        top: calc(50% - 100px);
+        left: 50%;
+        margin-left: 15px;
         transition: all 4s ease 0s;
     }
 }

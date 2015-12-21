@@ -50,7 +50,7 @@
 
 		img{
 			height: 450px;
-			width: 337px
+			width: 337px;
 		}
 	}
 
@@ -59,7 +59,7 @@
 
 		img{
 			height: 450px;
-			width: 337px
+			width: 337px;
 		}
 	}
 }
@@ -94,7 +94,7 @@
 
 		img{
 			height: 450px;
-			width: 337px
+			width: 337px;
 		}
 	}
 
@@ -103,7 +103,7 @@
 
 		img{
 			height: 450px;
-			width: 337px
+			width: 337px;
 		}
 	}
 
@@ -155,7 +155,7 @@
 
 		img{
 			height: 450px;
-			width: 337px
+			width: 337px;
 		}
 	}
 
@@ -164,7 +164,7 @@
 
 		img{
 			height: 450px;
-			width: 337px
+			width: 337px;
 		}
 	}
 
@@ -176,6 +176,53 @@
 	    img{
 	    width: 70%;
 	    }
+	}	
+}
+
+/*----------------------------------------* RESPONSIVE 15 POUCES --------------------------------------------------------------------------------------------------(1920 x 900)-----------------------------------------------------*/
+
+@media only screen and (min-width: 1690px)and (max-width: 1950px){
+
+#accueil_animation {
+	    margin-left: -15px;
+	    height: 1500px;
 	}
+
+
+	#presentation_accueil_gauche2 {
+	    margin-left: 200px;
+	    margin-top: 0%;
+	    top: calc(25% - 350px);
+	}
+
+	#presentation_accueil_droite2 {
+	    margin-left: -200px;
+	    margin-top: 0%;
+	    top: calc(25% - 350px);
+	    left: calc(50% - 875px);
+	}
+
+	#presentation_accueil_droite2{
+
+		img{
+			height: 700px;
+			width: 525px;
+		}
+	}
+
+	#presentation_accueil_gauche2{
+		padding: 0px;
+
+		img{
+			height: 700px;
+			width: 525px;
+		}
+	}
+
+	#accueil_estampille2 {
+	    position: fixed;
+	    top: calc(50% - 85px);
+	    margin-left: 10px;
+	}	
 	
 }

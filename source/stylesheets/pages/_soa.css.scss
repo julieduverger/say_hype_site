@@ -213,3 +213,46 @@
         bottom: 4%;
     }   
 }
+
+/*----------------------------------------* RESPONSIVE 15 POUCES --------------------------------------------------------------------------------------------------(1920 x 900)-----------------------------------------------------*/
+
+@media only screen and (min-width: 1690px)and (max-width: 1950px){
+    
+#couverture_img_soa{
+        border: 1px solid #F4F2EE;
+        width: auto;
+        height: 400px;
+        margin-left: 300px;
+    }
+
+    #projet_soa_contenu1 {
+        height: 700px;
+        width: 807px;
+        margin-top: 1%;
+    }
+
+    #projet_soa_contenu2 {
+        width: 807px;
+        height: 700px;
+        margin-top: 30%;
+
+        img{
+            margin-top: -57%;
+            width: 65%;
+        }
+    }
+
+
+    #frise_verticale{
+        margin-top: 95% !important;
+    }
+
+    #description_role_soa {
+        margin-top: -44%;
+    }
+
+    #frise_bas_soa {
+        bottom: 4%;
+    }  
+
+}

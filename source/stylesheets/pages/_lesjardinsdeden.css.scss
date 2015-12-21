@@ -291,8 +291,66 @@
     #description_role_jardinsdeden h3{
         font-size: 17px !important;
         letter-spacing: 1px;
-    }  
+    }     
+}
+
+/*----------------------------------------* RESPONSIVE 15 POUCES --------------------------------------------------------------------------------------------------(1920 x 900)-----------------------------------------------------*/
+
+@media only screen and (min-width: 1690px)and (max-width: 1950px){
+
+#couverture_img_jardineden{
+        border: 1px solid #F4F2EE;
+        width: auto;
+        height: 400px;
+        margin-left: 300px;
+    }
+
+    #projet_jardinsdeden_contenu1 {
+        height: 700px;
+        width: 807px;
+        margin-top: 1%;
+    }
+
+    #projet_jardinsdeden_contenu2 {
+        width: 807px;
+        height: 700px;
+        margin-top: 30%;
+
+        img{
+            margin-top: -55%;
+            width: 50%;
+        }
+    }
+
+    #projet_jardinsdeden_contenu3 {
+        height: 700px;
+        margin-bottom: 5%;
+        width: 100%;
+        margin-left: 0px;
+        margin-top: 5%;
+    }
+
+    #jardinsdeden_photo_pieddepage {
+        margin-top: 3%;
+        margin-left: 300px;
+        height: 700px;
+        width: auto;
+        margin-right: 0%;
+    }
+
+    #frise_verticale{
+        margin-top: 95% !important;
+    }
+
+    #description_role_jardineden {
+        margin-top: -43%;
+        margin-left: 4%;
+    }
     
+    #description_role_jardinsdeden{
+        margin-top: -43%;
+        margin-left: 4%;
+    }
 }
 
 

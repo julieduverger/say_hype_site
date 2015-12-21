@@ -116,11 +116,17 @@ $(document).ready(function(){
             } 
         } 
 
-         else if ($(window).width() > 1450 && $(window).width() < 1690){
+        else if ($(window).width() > 1450 && $(window).width() < 1690){
              if ($(window).scrollTop() > 950 && $(window).scrollTop() < 1000) {
                 $frise_bas1.drawsvg('animate');
             } 
-        }             
+        }
+
+        else if ($(window).width() > 1690 && $(window).width() < 1950){
+             if ($(window).scrollTop() > 850 && $(window).scrollTop() < 880) {
+                $frise_bas1.drawsvg('animate');
+            } 
+        }               
 
         else {
             if ($(window).scrollTop() > 1320 && $(window).scrollTop() < 1350) {

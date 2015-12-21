@@ -17,7 +17,7 @@
     background-color: #130E0A;
     color: white;
     font-family : "brandon grotesque";
-    padding: 10px 20px;
+    padding: 10px 10px;
     letter-spacing: 2px;
     font-size: 1.5vh;
     margin-top: -38px;
@@ -181,7 +181,7 @@
     background-color: #130E0A;
     color: white;
     font-family : "brandon grotesque";
-    padding: 10px 20px;
+    padding: 10px 10px;
     letter-spacing: 2px;
     font-size: 11px !important;
     margin-top: -38px;
@@ -243,7 +243,7 @@
     background-color: #130E0A;
     color: white;
     font-family : "brandon grotesque";
-    padding: 10px 20px;
+    padding: 10px 10px;
     letter-spacing: 2px;
     font-size: 11px !important;
     margin-top: -38px;
@@ -306,7 +306,7 @@
     background-color: #130E0A;
     color: white;
     font-family : "brandon grotesque";
-    padding: 10px 20px;
+    padding: 10px 10px;
     letter-spacing: 2px;
     font-size: 11px !important;
     margin-top: -38px;
@@ -326,14 +326,23 @@
 
     #realisation-droite{
 
-    .row {
-        margin-left: 300px;
-        margin-right: -15px;
-        padding: 10px;
-        height: 100%;
-    }
+        .row {
+            margin-left: 300px;
+            margin-right: -15px;
+            padding: 10px;
+            height: 100%;
+        }
+    }    
 }
-    
+
+/*----------------------------------------* RESPONSIVE 15 POUCES --------------------------------------------------------------------------------------------------(1920 x 900)-----------------------------------------------------*/
+
+@media only screen and (min-width: 1690px)and (max-width: 1950px){
+
+    .thumbnail a > img {
+    height: 450px;
+    }
+
 }
 
 /* RESPONSIVE TABLETTE PAYSAGE */
@@ -345,6 +354,32 @@
     .thumbnail a > img {
         height: 300px;
         width: auto;
+    }
+
+    .thumbnail{
+    margin-bottom: 0px;
+    border-top: 12px solid transparent;
+    border-left: 12px solid transparent;
+    border-right: 12px solid transparent;
+    border-bottom: 17px solid transparent;
+    }
+
+    .caption {
+    display: block;
+    position: relative;
+    z-index: 8;
+       
+    h3{
+    background-color: #130E0A;
+    color: white;
+    font-family : "brandon grotesque";
+    padding: 10px 20px;
+    letter-spacing: 2px;
+    font-size: 11px !important;
+    margin-top: -38px;
+    z-index: 9;
+    margin-bottom: 0;;
+        }
     }
 
 } 
