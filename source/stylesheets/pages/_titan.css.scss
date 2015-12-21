@@ -51,18 +51,6 @@
 	height: 100px;
 }
 
-
-
-.frise_bas{
-    position: relative;
-
-    img{
-    position: absolute;
-    right: 0;
-    width:8%;
-    }
-}
-
 #description_role_titan{
     margin-top: -32%;
     margin-left: 13%;
@@ -306,6 +294,60 @@
         margin-top: -55%;
         margin-left: 6%;
     }   
+}
+
+/*----------------------------------------* RESPONSIVE TABLETTE PORTRAIT --------------------------------------------------------------------------------------------(768 x 1024)---------------------------------------------------*/
+
+@media only screen and (min-width: 400px)and (max-width: 779px){
+
+    #couverture_img_titan{
+        height: 300px;
+        margin-left: 0px;
+        width: auto;
+    }
+
+    #projet_titan_contenu1{
+        height: 700px;
+        margin-top: 4%;
+        padding-left: 2%;
+        width: 790px;
+
+
+        img{
+            margin-top: 83%;
+            width: 54%;
+        }
+    }
+
+    #projet_titan_contenu2{
+        height: 700px;
+        margin-top: 100%;  
+        padding-left: 2%;
+        width: 780px;
+    }  
+
+    #description_role_titan{
+        margin-top: -45%;
+        margin-left: 5%;
+    } 
+
+    #description_role_avecfrise {
+        margin-top: -44%;
+        margin-left: 6%;
+    }
+
+    #projet_titan_contenu3 {
+        height: 400px;
+
+        img{
+            width: 50%;
+            margin-top: 6%;
+        }   
+    }
+
+    #frise_verticale_titan{
+    margin-top: -55%;
+    }
 }
 
 /* RESPONSIVE TABLETTE PAYSAGE */

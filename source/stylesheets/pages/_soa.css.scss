@@ -254,5 +254,39 @@
     #frise_bas_soa {
         bottom: 4%;
     }  
+}
 
+/*----------------------------------------* RESPONSIVE TABLETTE PORTRAIT --------------------------------------------------------------------------------------------(768 x 1024)---------------------------------------------------*/
+
+@media only screen and (min-width: 400px)and (max-width: 779px){
+
+ #description_role_soa {
+        margin-top: -47%;
+        margin-left: 4%;
+    }
+
+    #couverture_img_soa {
+        width: 768px;
+        height: 300px;
+        margin-left: 0px;
+        padding-right: 1%;
+    }
+
+
+    #projet_soa_contenu1 {
+        height: 500px;
+        width: 750px;
+        padding-right: 3%;
+    }
+
+    #projet_soa_contenu2 {
+        height: 500px;
+        width: 750px;
+        padding-right: 1%;
+        margin-top: 110%;
+
+        img{
+        margin-top: -60%;
+        }
+    }
 }

@@ -406,3 +406,56 @@
     }
 }
 
+/*----------------------------------------* RESPONSIVE TABLETTE PORTRAIT --------------------------------------------------------------------------------------------(768 x 1024)---------------------------------------------------*/
+
+@media only screen and (min-width: 400px)and (max-width: 779px){
+
+    #description_role_mindful {
+        margin-top: -47%;
+        margin-left: 4%;
+    }
+
+    #couverture_img_mindful {
+        width: 768px;
+        height: 300px;
+        margin-left: 0px;
+        padding-right: 1%;
+    }
+
+    #frise_verticale {
+        margin-top: 82%;
+    }
+
+    #projet_mindful_contenu1 {
+        height: 500px;
+        width: 750px;
+        padding-right: 3%;
+    }
+
+    #projet_mindful_contenu2 {
+        height: 500px;
+        width: 750px;
+        padding-right: 1%;
+        margin-top: 110%;
+
+        img{
+        margin-top: -60%;
+        }
+    }
+
+    #projet_mindful_contenu3 {
+        height: 500px;
+        width: 712px;
+        margin-left: 2%;
+    }
+
+    #mindful_photo_pieddepage {
+        height: 348px;
+        width: auto;
+        margin-left: 0px;
+        padding-right: 1%;
+        background-size: contain;
+    }
+    
+}
+

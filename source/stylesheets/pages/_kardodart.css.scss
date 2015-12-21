@@ -306,6 +306,60 @@
     
 }
 
+/*----------------------------------------* RESPONSIVE TABLETTE PORTRAIT --------------------------------------------------------------------------------------------(768 x 1024)---------------------------------------------------*/
+
+@media only screen and (min-width: 400px)and (max-width: 779px){
+    
+   .frise_bas{
+    display: none;
+   }
+
+    #couverture_img_karodart {
+        width: auto;
+        height: 300px;
+        margin-left: 0px;
+    }
+
+#projet_karodart_contenu12 {
+        height: 500px;
+        width: 700px;
+        margin-top: 5%;
+        margin-left: calc(50% - 358px);
+    }
+
+    #projet_karodart_contenu22 {
+        height: 500px;
+        width: 700px;
+        margin-top: 1%;
+        margin-left: calc(50% - 358px);
+    }
+
+    #projet_karodart_contenu32 {
+        height: 1000px;
+        width: 700px;
+        margin-top: 0%;
+        margin-left: calc(50% - 358px);
+    }
+
+    #projet_karodart_contenu321 {
+        height: 500px;
+        width: 704px;
+        margin-top: 2%;
+        padding-right: 4px;
+        padding-left: 0px;
+    }
+
+    #projet_karodart_contenu322 {
+        height: 500px;
+        width: 704px;
+        padding-right: 4px;
+        padding-left: 0px;
+        margin-top: -5%;
+    }   
+
+
+}
+
 /* RESPONSIVE TABLETTE PAYSAGE */
 /*-------------------------------
 --------------------------------*/

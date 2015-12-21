@@ -97,8 +97,8 @@
 }
 
 .frise_bas{
-    position: absolute !important;
-    right: 0% !important;
+    position: absolute;
+    right: 0%;
 }
 
 .signature {
@@ -715,7 +715,7 @@
     }
 
     #couverture_img_cotebassin {
-        width: 768px;
+        width: auto;
         height: 300px;
         margin-left: 0px;
         padding-right: 1%;
@@ -755,7 +755,7 @@
 
     #cotebassin_photo_pieddepage {
         height: 348px;
-        width: 758px;
+        width: auto;
         margin-left: 0px;
         padding-right: 1%;
         background-size: contain;
