@@ -57,3 +57,22 @@
 	    margin-left: 200px;
 	}	
 }
+
+/*----------------------------------------* RESPONSIVE TABLETTE PORTRAIT --------------------------------------------------------------------------------------------------(768 x 1024)-----------------------------------------------*/
+
+@media only screen and (min-width: 400px)and (max-width: 779px){
+
+	#tittle_studio {
+	    padding-top: 2%;
+	    margin-left: 0px;
+	}
+
+	#presentation_studio {
+	    margin-left: 0px;
+	}
+
+	.studio_p2{
+		margin-top: 4%;
+	}
+	
+}

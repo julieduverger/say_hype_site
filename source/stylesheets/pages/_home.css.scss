@@ -358,18 +358,35 @@ a:hover{
 
 @media only screen and (max-width:779px){
 
+.site-container{
+    overflow:hidden;
+}
 
-#menu2 {
+.site-pusher{
+    transition-duration: 0.8s;
+    transform: translateX(0px);
+}
+
+#menu {
     display:inline;
+    position: absolute;
+    left: 0;
+    top: 50px;
+    bottom: 0;
     list-style-type: none;
     overflow: hidden;
     padding: 0px;
     background-color: #FFF;
     line-height: 50px;
     font-family: brandon grotesque;
-    width: 200px;
+    width: 150px;
     z-index: 999;
     opacity: 0.7;
+    transform: translateX(150px * -1);
+
+    a{
+        text-align: center;
+    }
 }
 
 #presentation_contact {
@@ -404,6 +421,7 @@ a:hover{
         margin-bottom: 15px;
         background-color: white;
         display: block;
+        float: left;
         width: 60px;
         height: 30px;
         cursor: pointer;
@@ -417,6 +435,12 @@ a:hover{
             height: 0;
             left: 20px;
             @include box-shadow(0 10px 0 1px red, 0 16px 0 1px red, 0 22px 0 1px red);
+        }
+    }
+
+    .with--sidebar{
+        .site-pusher{
+            transform: translateX(150px);
         }
     }
 
