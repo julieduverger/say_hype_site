@@ -646,7 +646,7 @@
     }
 
     #frise_verticale {
-        margin-top: 80%;
+        margin-top: 82%;
     }
 
     #projet_cotebassin_contenu2 img {
@@ -690,10 +690,33 @@
         width: 30%;
     }
 
+    .presentation_projet h3 {
+        font-size: 16px !important;
+    }
+
+    .presentation_projet h4 {
+        letter-spacing: 1px;
+        line-height: 28px;
+    }
+
+    .presentation_projet p {
+        line-height: 28px;
+    }
+
+    .frise_haut {
+        margin-left: -10px;
+        position: relative;
+        margin-top: 2%;
+    }
+
+    #description_role_cotebassin {
+        margin-top: -47%;
+        margin-left: 4%;
+    }
+
     #couverture_img_cotebassin {
         width: 768px;
         height: 300px;
-        background-image: url("../images/cotebassin_presentation.jpg");
         margin-left: 0px;
         padding-right: 1%;
     }
@@ -701,6 +724,10 @@
     .frise_haut {
         margin-left: -10px;
         position: relative;
+    }
+
+    #frise_verticale {
+        margin-top: 82%;
     }
 
     #projet_cotebassin_contenu1 {
@@ -711,14 +738,26 @@
 
     #projet_cotebassin_contenu2 {
         height: 500px;
-        width: 768px;
+        width: 750px;
         padding-right: 1%;
+        margin-top: 100%;
+
+        img{
+        margin-top: -50%;
+        }
+    }
+
+    #projet_cotebassin_contenu3 {
+        height: 500px;
+        width: 712px;
+        margin-left: 2%;
     }
 
     #cotebassin_photo_pieddepage {
-        height: 490px;
+        height: 348px;
         width: 758px;
         margin-left: 0px;
         padding-right: 1%;
+        background-size: contain;
     }
 }
