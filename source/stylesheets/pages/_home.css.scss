@@ -930,6 +930,14 @@ a:hover{
 
 @media only screen and (min-width: 500px)and (max-width: 1023px){
 
+ .accueil_logo {
+    -webkit-transform: translateZ(0);
+ }
+
+ .accueil_estampille{
+    -webkit-transform: translateZ(0);
+ }
+
  #img2 {
         z-index: 2;
         position: absolute;
