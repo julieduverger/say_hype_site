@@ -133,11 +133,9 @@
     font-size: 30px !important;
 }
 
-/* RESPONSIVE 13 POUCES */
-/*----------------------
------------------------*/
+/*----------------------------------------* RESPONSIVE 13 POUCES --------------------------------------------------------------------------------------------------(1280 x 700)-----------------------------------------------------*/
 
-@media only screen and (min-width: 780px)and (max-width: 1290px){
+@media only screen and (min-width: 1280px)and (max-width: 1439px){
 
     #nav{
     width: 200px !important;
@@ -212,7 +210,7 @@
 
 /*----------------------------------------* RESPONSIVE 15 POUCES --------------------------------------------------------------------------------------------------(1440 x 900)-----------------------------------------------------*/
 
-@media only screen and (min-width: 1295px)and (max-width: 1450px){
+@media only screen and (min-width: 1440px)and (max-width: 1679px){
 
     .list-inline > li {
     width: 25px;
@@ -275,7 +273,7 @@
 
 /*----------------------------------------* RESPONSIVE 15 POUCES --------------------------------------------------------------------------------------------------(1680 x 900)-----------------------------------------------------*/
 
-@media only screen and (min-width: 1450px)and (max-width: 1690px){
+@media only screen and (min-width: 1680px)and (max-width: 1919px){
 
 .list-inline > li {
     width: 25px;
@@ -337,7 +335,7 @@
 
 /*----------------------------------------* RESPONSIVE 15 POUCES --------------------------------------------------------------------------------------------------(1920 x 900)-----------------------------------------------------*/
 
-@media only screen and (min-width: 1690px)and (max-width: 1950px){
+@media only screen and (min-width: 1920px)and (max-width: 2559px){
 
     .thumbnail a > img {
     height: 450px;

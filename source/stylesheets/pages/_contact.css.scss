@@ -90,9 +90,14 @@ border-color: #D2B0B0;
 box-shadow: 0 1px 1px #D2B0B0 inset, 0 0 8px #D2B0B0;
 outline: 0 none;}
 
-/* RESPONSIVE 13 POUCES */
+/*---------------------------------------------------RESPONSIVE---------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
-@media only screen and (min-width: 1025px)and (max-width: 1290px){
+
+
+
+/*----------------------------------------* RESPONSIVE 13 POUCES --------------------------------------------------------------------------------------------------(1280 x 700)-----------------------------------------------------*/
+
+@media only screen and (min-width: 1280px)and (max-width: 1439px){
 
     #presentation_contact{
         margin-left: 200px;
@@ -109,7 +114,7 @@ outline: 0 none;}
 
 /*----------------------------------------* RESPONSIVE 15 POUCES --------------------------------------------------------------------------------------------------(1440 x 900)-----------------------------------------------------*/
 
-@media only screen and (min-width: 1295px)and (max-width: 1450px){
+@media only screen and (min-width: 1440px)and (max-width: 1679px){
 
     #presentation_contact{
         margin-left: 200px;
