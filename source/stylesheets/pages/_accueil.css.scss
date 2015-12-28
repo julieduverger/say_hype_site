@@ -29,6 +29,10 @@
 
 @media only screen and (min-width: 1280px)and (max-width: 1439px){
 
+	#accueil_estampille2{
+		display: none !important;
+	}
+
 	#tittle2 {
 	    margin-left: 200px;
 	    padding-top: 1%;
@@ -232,6 +236,56 @@
 	    position: fixed;
 	    top: calc(50% - 85px);
 	    margin-left: 10px;
-	}	
+	}		
+}
+
+/*----------------------------------------* RESPONSIVE TABLETTE PORTRAIT ------------------------------------------------------------------------------------------(768 x 1024)-----------------------------------------------------*/
+
+@media only screen and (min-width: 768px)and (max-width: 1023px){
 	
+	.site-pusher{
+		height: 100%;
+	}
+
+	.site-container{
+		height: 100%;
+	}
+
+	#presentation_accueil_gauche2 {
+	    margin-top: 0%;
+	    top: calc(25% - 100px);
+	}
+
+	#presentation_accueil_droite2 {
+	    margin-top: 0%;
+	    top: calc(25% - 100px);
+	}
+
+	#presentation_accueil_droite2{
+		margin: 0;
+
+		img{
+			height: 466px;
+			width: 350px;
+		}
+	}
+
+	#presentation_accueil_gauche2{
+		margin: 0;
+
+		img{
+			height: 466px;
+			width: 350px;
+		}
+	}
+
+	#accueil_animation {
+	    margin-left: 0px;
+	    height: 700px;
+	}
+
+	#accueil_estampille2 {
+		display: none;
+	}	
+
 }

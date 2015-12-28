@@ -275,9 +275,7 @@ a:hover{
     }
 }
 
-#accueil_animation{
-    margin-left: -15px
-}
+
 
 
 /* --- SLIDER --- */
@@ -356,7 +354,7 @@ a:hover{
 
 /* RESPONSIVE */
 
-@media only screen and (max-width:779px){
+@media only screen and (max-width:1024px){
 
 .site-container{
     overflow:hidden;
@@ -467,18 +465,6 @@ a:hover{
             -webkit-transform: translateX(200px);
             -moz-transform: translateX(200px);
         }
-    }
-
-
-
-
-    #presentation_accueil_droite2 {
-        margin-left: 0;
-        display:none;
-    }
-
-    #presentation_accueil_gauche2 {
-        margin-left: 0;
     }
 
     #tittle2 {
@@ -940,11 +926,80 @@ a:hover{
 
 
 
-/* RESPONSIVE TABLETTE PORTRAIT */
+/*----------------------------------------* RESPONSIVE TABLETTE PORTRAIT ------------------------------------------------------------------------------------------(768 x 1024)-----------------------------------------------------*/
 
-@media only screen and (min-width: 400px)and (max-width: 779px){
+@media only screen and (min-width: 768px)and (max-width: 1023px){
+
+ #img2 {
+        z-index: 2;
+        position: absolute;
+        left: calc(50% - 187px);
+        bottom: -1050px;
+        height: 450px;
+        width: 337px;
+    }
+
+    #img3 {
+        z-index: 3;
+        position: absolute;
+        left: calc(50% - 187px);
+        bottom: -1050px;
+        height: 450px;
+        width: 337px;
+    }
+
+    #img4 {
+        z-index: 4;
+        position: absolute;
+        left: calc(50% - 187px);
+        bottom: calc(50% - 150px);
+        height: 450px;
+        width: 337px;
+    }
 
 
+    #presentation_accueil_droite{
+        height: 100vh;
+    }
 
+
+    #img6 {
+        z-index: 2;
+        position: absolute;
+        left: calc(50% - 187px);
+        top: -1050px;
+        height: 450px;
+        width: 337px;
+    }
+
+    #img7 {
+        z-index: 2;
+        position: absolute;
+        left: calc(50% - 187px);
+        top: -1050px;
+        height: 450px;
+        width: 337px;
+    }
+
+     #img8 {
+        z-index: 5;
+        position: absolute;
+        left: calc(50% - 187px);
+        bottom: calc(50% - 150px);
+        height: 450px;
+        width: 337px;
+        margin: 0 auto;
+    }
+
+    #row_presentation_accueil{
+        margin-left: 20px;
+    }
+
+    .accueil_logo {
+        position: fixed;
+        top: calc(50% - 115px);
+        left: 50%;
+        margin-left: -200px;
+    }
 
 }
