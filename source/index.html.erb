@@ -75,6 +75,7 @@ if ($(window).width() < 1290) {
                  $(function() {
 
         $(document.body).css({"margin-left":"1%"});
+        $(".accueil_estampille").css({"display":"none"});
         $("#img4").delay(2500).animate({top:"-1000px" }, 1500);
             $("#img4").queue(function(){
                 $("#img3").animate({"bottom":($(window).height()/2-150)}, 2000,"linear").delay(2500).animate({top: "-1000px"}, 1500 );
@@ -98,9 +99,9 @@ if ($(window).width() < 1290) {
     });
 
                $(function() {
-        $(".accueil_estampille").hide();
+        
         $("#nav").hide();
-        $(".accueil_logo").hide();
+        $(".accueil_logo").css({"display":"none"});
             $("#img8").delay(2500).animate({bottom:"-1000px" }, 1500);
                 $("#img8").queue(function(){
                         $("#img7").animate({"top":($(window).height()/2-300)}, 2000,"linear").delay(2500).animate({top: "1500px"}, 1500 );
