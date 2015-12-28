@@ -77,9 +77,9 @@ if ($(window).width() < 1290) {
         $(document.body).css({"margin-left":"1%"});
         $("#img4").delay(2500).animate({top:"-1000px" }, 1500);
             $("#img4").queue(function(){
-                $("#img3").animate({"bottom":($(window).height()/2-150)}, 1500,"linear").delay(2500).animate({top: "-1000px"}, 1500 );
+                $("#img3").animate({"bottom":($(window).height()/2-150)}, 2000,"linear").delay(2500).animate({top: "-1000px"}, 1500 );
                     $("#img3").queue(function(){
-                        $("#img2").animate({"bottom":($(window).height()/2-150)}, 1500,"linear").delay(2500);
+                        $("#img2").animate({"bottom":($(window).height()/2-150)}, 2000,"linear").delay(2500);
                             $("#img2").queue(function(){
                                         $("#row_presentation_accueil").delay(1000).animate({"margin-left":"20px"}, 1500, "linear")
                                         $("#tittle").delay(1000).animate({"margin-left":"60px"}, 1500, "linear");
@@ -103,11 +103,11 @@ if ($(window).width() < 1290) {
         $(".accueil_logo").hide();
             $("#img8").delay(2500).animate({bottom:"-1000px" }, 1500);
                 $("#img8").queue(function(){
-                        $("#img7").animate({"top":($(window).height()/2-300)}, 1500,"linear").delay(2500).animate({top: "1500px"}, 1500 );
-                        $(".accueil_logo").hide().fadeIn(100).delay(1000).fadeOut(500);
+                        $("#img7").animate({"top":($(window).height()/2-300)}, 2000,"linear").delay(2500).animate({top: "1500px"}, 1500 );
+                
                             $("#img7").queue(function(){
-                                $("#img6").animate({"top":($(window).height()/2-300)}, 1500,"linear").delay(2500);
-                                $(".accueil_logo").hide().fadeIn(100).delay(1000).fadeOut(500);
+                                $("#img6").animate({"top":($(window).height()/2-300)}, 2000,"linear").delay(2500);
+                                
                                     $("#img6").queue(function(){
                                                 $("#nav").delay(1000).hide().fadeIn(2000);
                                             
