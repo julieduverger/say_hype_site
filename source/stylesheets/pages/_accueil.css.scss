@@ -241,7 +241,7 @@
 
 /*----------------------------------------* RESPONSIVE TABLETTE PORTRAIT ------------------------------------------------------------------------------------------(768 x 1024)-----------------------------------------------------*/
 
-@media only screen and (min-width: 768px)and (max-width: 1023px){
+@media only screen and (min-width: 500px)and (max-width: 1023px){
 	
 	.site-pusher{
 		height: 100%;
@@ -271,7 +271,7 @@
 	}
 
 	#presentation_accueil_gauche2{
-		margin: 0;
+		margin-left: -20px;
 
 		img{
 			height: 466px;
@@ -280,7 +280,6 @@
 	}
 
 	#accueil_animation {
-	    margin-left: 0px;
 	    height: 700px;
 	}
 
