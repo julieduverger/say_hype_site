@@ -493,55 +493,90 @@
 	}	
 }
 
-/* RESPONSIVE TABLETTE PAYSAGE */
-/*-------------------------------
---------------------------------*/
+/*----------------------------------------* RESPONSIVE TABLETTE PAYSAGE -----------------------------------------------------------------------------------------------(1024 x 768)-------------------------------------------------*/
 
-@media only screen and (min-width: 780px)and (max-width: 1024px){
-	
-	#couverture_img_33prest {
-	    height: 300px;
-	    margin-left: 200px;
-	}
+@media only screen and (min-width: 1024px)and (max-width: 1279px){
+
+.container{
+	width: 100%;
+}
+
+.row{
+	margin-left: 200px;
+}
+
+
+#couverture_img_33prest{
+        border: 1px solid #F4F2EE;
+        width: auto;
+        height: 300px;
+        margin-left: 200px;
+    }	
 
 	#projet_contenu1 {
-	    height: 800px;
-	    margin-top: -15%;
-	    
-	}
+	    height: auto;
+	    margin-top: -23%;
+	    padding-left: 2%;
+	    width: 400px;
 
-	#projet_contenu1 img {
-	    margin-top: 90%;
-	    width: 60%;
-	}
+	    img{
+	    margin-top: 145%;
+	    width: 80%;
+	    }
+}
 
 	#projet_contenu2 {
-	    margin-top: 25%;
-	    height: 600px;
-	}	
+	    height: 500px;
+	    width: 410px;
+	    margin-top: 23%;
+	    padding-left: 0%;
+	}
 
 	#projet_contenu3 {
-	    height: 575px;
+	    height: 500px;
+	    width: 400px;
 	}
 
-	#description_role_avecfrise_33prest {
-	    margin-top: 10%;
-	    margin-left: 20%;
+	#projet_contenu4{
+		height: 500px;
 	}
 
-	#description_role_33prest {
-	    margin-top: -54%;
-	    margin-left: 3%;
-	}
 
-	#projet_contenu4 {
-	    height: 350px;
-	}
-
-	#photo_pieddepage {
-	    height: 490px;
-	    margin-left: 200px;
+	#photo_pieddepage{
+		height: 400px;
+		width: auto;
 	    margin-top: 5%;
+	    margin-left: 200px;
+	}
+
+	#description_role_33prest{
+	    margin-top: -89%;
+	    margin-left: 3%;
+
+	    p{
+	        text-align: left;
+	    }
+
+	    h3{
+	    	font-size: 17px !important;
+	    }
+	}
+
+	.frise_haut{
+    margin-left: 290px;
+    position: relative;
+
+    img{
+	    position: absolute;
+	    width:20%;
+	    top: 30px;
+	    left:0;
+	    }
+    }
+
+	#frise_verticale1 {
+	    margin-top: -2%;
+	    height: 350px;
 	}
 
 

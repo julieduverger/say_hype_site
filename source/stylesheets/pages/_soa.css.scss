@@ -290,3 +290,45 @@
         }
     }
 }
+
+/*----------------------------------------* RESPONSIVE TABLETTE PAYSAGE -----------------------------------------------------------------------------------------------(1024 x 768)-------------------------------------------------*/
+
+@media only screen and (min-width: 1024px)and (max-width: 1279px){
+
+
+    #couverture_img_soa{
+        border: 1px solid #F4F2EE;
+        width: auto;
+        height: 300px;
+        margin-left: 200px;
+    }
+
+    #projet_soa_contenu1 {
+        margin-top: -28%;
+        padding-left: 2%;
+        height: auto;
+        width: 400px;
+    }
+
+    #description_role_soa {
+        margin-top: -81%;
+        margin-left: 4%;
+    }
+
+
+    #projet_soa_contenu2 {
+        margin-top: 17%;
+        padding-left: 2%;
+        padding-right: 0%;
+        height: 658px;
+        width: 400px;
+        margin-bottom: -10%;
+
+
+        img{
+            margin-top: -20%;
+            width: 60%;
+        }
+    }
+
+}

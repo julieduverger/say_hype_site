@@ -384,3 +384,66 @@
         margin-top: 80%;
     }
 }
+
+/*----------------------------------------* RESPONSIVE TABLETTE PAYSAGE -----------------------------------------------------------------------------------------------(1024 x 768)-------------------------------------------------*/
+
+@media only screen and (min-width: 1024px)and (max-width: 1279px){
+   
+
+    #couverture_img_jardineden{
+        border: 1px solid #F4F2EE;
+        width: auto;
+        height: 300px;
+        margin-left: 200px;
+    }
+
+    #projet_jardinsdeden_contenu1 {
+        margin-top: -25%;
+        padding-left: 2%;
+        height: auto;
+        width: 400px;
+    }
+
+    #projet_jardinsdeden_contenu3 {
+        height: 500px;
+        margin-bottom: 5%;
+        width: 100%;
+        margin-left: 0px;
+        margin-bottom: 5%;
+    }
+
+    #jardinsdeden_photo_pieddepage {
+        margin-top: 3%;
+        margin-left: 200px;
+        height: 485px;
+        width: auto;
+        margin-right: 0%;
+    }
+    
+
+    #projet_jardinsdeden_contenu2 {
+        margin-top: 17%;
+        padding-left: 2%;
+        padding-right: 0%;
+        height: 658px;
+        width: 400px;
+        margin-bottom: -10%;
+
+
+        img{
+            margin-top: -20%;
+            width: 55%;
+        }
+    }
+
+    #description_role_jardinsdeden h3{
+        font-size: 17px !important;
+        letter-spacing: 1px;
+    }   
+
+
+    #description_role_jardinsdeden {
+        margin-top: -78%;
+        margin-left: 4%;
+    }
+}

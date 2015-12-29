@@ -347,43 +347,59 @@
     }
 }
 
-/* RESPONSIVE TABLETTE PAYSAGE */
-/*-------------------------------
---------------------------------*/
+/*----------------------------------------* RESPONSIVE TABLETTE PAYSAGE -----------------------------------------------------------------------------------------------(1024 x 768)-------------------------------------------------*/
 
-@media only screen and (min-width: 780px)and (max-width: 1024px){
+@media only screen and (min-width: 1024px)and (max-width: 1279px){
 
-    #couverture_img_titan {
+   #couverture_img_titan{
         height: 300px;
         margin-left: 200px;
+        width: auto;
+     }
+
+    #projet_titan_contenu1{
+        height: 500px;
+        margin-top: 4%;
+        padding-left: 2%;
+        width: 400px;
+
+
+        img{
+            margin-top: 83%;
+            width: 54%;
+        }
     }
 
-    #projet_titan_contenu1 {
-        height: 600px;
-        margin-top: 2%;
+    #projet_titan_contenu2{
+        height: 500px;
+        margin-top: 39%;  
+        padding-left: 2%;
+        width: 400px;
+    }
+
+    #projet_titan_contenu3 img{
+        width: 60%;
+        margin-top: -67%;
+    }
+
+    #frise_verticale_titan{
+        height: 300px;
+        margin-top: -39%;
     }
 
     #description_role_titan {
-        margin-top: -44%;
-        margin-left: 3%;
+        margin-top: -82%;
+        margin-left: 5%;
+
+
+        h3{
+            font-size: 17px !important;
+        }
     }
 
     #description_role_avecfrise {
-        margin-top: -44%;
+        margin-top: -34%;
         margin-left: 6%;
     }
 
-    #projet_titan_contenu2 {
-        margin-top: 50%;
-        height: 600px;
-    }
-
-    #projet_titan_contenu3 {
-        height: 300px;
-
-        img {
-            width: 40%;
-            margin-top: 2%;
-        }
-    }
 }
