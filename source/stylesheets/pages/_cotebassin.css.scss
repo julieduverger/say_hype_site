@@ -596,93 +596,6 @@
 }
 
 
-/* RESPONSIVE TABLETTE PAYSAGE */
-/*-------------------------------
---------------------------------*/
-
-@media only screen and (min-width: 780px)and (max-width: 1024px){
-    
-    .presentation_projet h2 {
-        font-size: 35px !important;
-    }
-
-    .presentation_projet h3 {
-        font-size: 18px !important;
-    }
-
-    .presentation_projet h4 {
-        letter-spacing: 1px;
-        line-height: 25px;
-    }
-
-    .presentation_projet p {
-        line-height: 25px;
-    }
-
-    .presentation_projet{
-        width: 500px;
-        margin-left: calc(50% - 150px);
-    }
-
-    .frise_haut {
-        margin-left: 190px;
-        position: relative;
-    }
-
-    #couverture_img_cotebassin {
-        height: 300px;
-        width: 1024px;
-        margin-left: 200px;
-    }
-
-    #projet_cotebassin_contenu1 {
-        height: 600px;
-        margin-top: 0%;
-        padding-left: 0%;
-    }
-
-    #description_role_cotebassin {
-        margin-top: -42%;
-        margin-left: 4%;
-    }
-
-    #frise_verticale {
-        margin-top: 82%;
-    }
-
-    #projet_cotebassin_contenu2 img {
-        margin-top: -65%;
-    }
-
-    #projet_cotebassin_contenu2 {
-        height: 600px;
-        margin-top: 97%;
-    }
-
-    #projet_cotebassin_contenu3 {
-        height: 600px;
-    }
-
-
-    #cotebassin_photo_pieddepage {
-        height: 490px;
-        margin-left: 200px;
-    }
-
-    .signature {
-    margin-left: 200px;
-    padding: 5px;
-    }
-
-    .goutte_gauche {
-    vertical-align: middle;
-    }
-
-    .goutte_droite {
-    vertical-align: middle;
-    }
-}
-
 /*----------------------------------------* RESPONSIVE TABLETTE PORTRAIT --------------------------------------------------------------------------------------------(768 x 1024)---------------------------------------------------*/
 
 @media only screen and (min-width: 400px)and (max-width: 779px){
@@ -760,5 +673,141 @@
         margin-left: 0px;
         padding-right: 1%;
         background-size: contain;
+    }
+}
+
+/*----------------------------------------* RESPONSIVE TABLETTE PAYSAGE -----------------------------------------------------------------------------------------------(1024 x 768)-------------------------------------------------*/
+
+@media only screen and (min-width: 1024px)and (max-width: 1279px){
+
+.row{
+        margin-left: 200px;
+        margin-right: 0px;
+    }
+
+
+    .presentation_projet{
+        width: 500px;
+        margin-left: calc(50% - 150px);
+    }
+
+    p{
+     font-size: 14px;
+     line-height: 24px !important;
+     letter-spacing: 0.5; 
+    }
+
+    #couverture_img_cotebassin{
+        border: 1px solid #F4F2EE;
+        width: auto;
+        height: 300px;
+        margin-left: 200px;
+    }
+
+    #projet_cotebassin_contenu1 {
+        margin-top: -25%;
+        padding-left: 2%;
+        height: auto;
+        width: 400px;
+    }
+
+    #projet_cotebassin_contenu3 {
+        height: 500px;
+        margin-bottom: 5%;
+        width: 100%;
+        margin-left: 0px;
+        margin-bottom: 5%;
+    }
+
+    #cotebassin_photo_pieddepage {
+        margin-top: 3%;
+        margin-left: 200px;
+        height: 485px;
+        width: auto;
+        margin-right: 0%;
+    }
+    
+    .presentation_projet{
+
+        h2{
+        font-size: 32px !important;
+        }
+
+        h3{
+        font-size: 17px !important;
+        margin-top: 10px;
+        }
+
+        h4{
+        font-size: 16px !important;
+        line-height: 23px;
+        }
+
+        p{
+        margin-top: 20px;
+        }
+
+        img{
+        width: 3%;
+        margin: 2%;
+        }
+    }
+
+    .frise_haut{
+    margin-left: 190px !important;
+    position: relative;
+    }
+
+    .frise_bas{
+    position: absolute !important;
+    right: 0% !important;
+    margin-top: -3% important;
+    }
+
+    #description_role_cotebassin{
+        margin-top: -56%;
+        margin-left: 4%;
+
+        p{
+            text-align: left;
+        }        
+    }
+
+    #frise_verticale{
+        margin-top: 95%;
+        height: 300px;
+        margin-top: 150%;
+    }
+
+    #projet_cotebassin_contenu2 {
+        margin-top: 17%;
+        padding-left: 2%;
+        padding-right: 0%;
+        height: 658px;
+        width: 400px;
+        margin-bottom: -10%;
+
+
+        img{
+            margin-top: -20%;
+            width: 55%;
+        }
+    }
+
+    #description_role_cotebassin h3{
+        font-size: 17px !important;
+        letter-spacing: 1px;
+    }   
+
+    .signature {
+        margin-left: 200px;
+        padding: 5px;
+        background-color: #F6EFEF;
+        margin-bottom: 0px;
+    } 
+
+    #description_role_cotebassin {
+        margin-top: -78%;
+        margin-left: 4%;
     }
 }

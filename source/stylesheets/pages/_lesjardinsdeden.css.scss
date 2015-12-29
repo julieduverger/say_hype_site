@@ -78,10 +78,6 @@
     }
 }
 
-#frise_verticale{
-   margin-top: 90%;
-}
-
 #couverture_img_cotebassin .row{
     margin-left: 0px;
 }
@@ -339,92 +335,6 @@
 }
 
 
-/* RESPONSIVE TABLETTE PAYSAGE */
-/*-------------------------------
---------------------------------*/
-
-@media only screen and (min-width: 780px)and (max-width: 1024px){
-    
-    .presentation_projet h2 {
-        font-size: 35px !important;
-    }
-
-    .presentation_projet h3 {
-        font-size: 18px !important;
-    }
-
-    .presentation_projet h4 {
-        letter-spacing: 1px;
-        line-height: 25px;
-    }
-
-    .presentation_projet p {
-        line-height: 25px;
-    }
-
-    .presentation_projet{
-        width: 500px;
-        margin-left: calc(50% - 150px);
-    }
-
-    .frise_haut {
-        margin-left: 190px;
-        position: relative;
-    }
-
-    #couverture_img_cotebassin {
-        height: 300px;
-        width: 1024px;
-        margin-left: 200px;
-    }
-
-    #projet_cotebassin_contenu1 {
-        height: 600px;
-        margin-top: 0%;
-        padding-left: 0%;
-    }
-
-    #description_role_cotebassin {
-        margin-top: -42%;
-        margin-left: 4%;
-    }
-
-    #frise_verticale {
-        margin-top: 80%;
-    }
-
-    #projet_cotebassin_contenu2 img {
-        margin-top: -65%;
-    }
-
-    #projet_cotebassin_contenu2 {
-        height: 600px;
-        margin-top: 97%;
-    }
-
-    #projet_cotebassin_contenu3 {
-        height: 600px;
-    }
-
-
-    #cotebassin_photo_pieddepage {
-        height: 490px;
-        margin-left: 200px;
-    }
-
-    .signature {
-    margin-left: 200px;
-    padding: 5px;
-    }
-
-    .goutte_gauche {
-    vertical-align: middle;
-    }
-
-    .goutte_droite {
-    vertical-align: middle;
-    }
-}
 
 /*----------------------------------------* RESPONSIVE TABLETTE PORTRAIT --------------------------------------------------------------------------------------------(768 x 1024)---------------------------------------------------*/
 
