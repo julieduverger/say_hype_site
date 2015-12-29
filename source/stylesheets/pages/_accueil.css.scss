@@ -286,5 +286,53 @@
 	#accueil_estampille2 {
 		display: none;
 	}	
+}
 
+/*----------------------------------------* RESPONSIVE TABLETTE PORTRAIT ------------------------------------------------------------------------------------------(1024 x 768)---------------------------------------------------*/
+
+@media only screen and (min-width: 1024px)and (max-width: 1279px){
+
+	#accueil_estampille2{
+		display: none !important;
+	}
+
+	#tittle2 {
+	    margin-left: 200px;
+	    padding-top: 1%;
+	    padding-bottom: 1%;
+
+	    h1{
+	    font-family: sabon roman;
+		letter-spacing: 2px;
+		font-size: 20px;
+	    }
+	}
+
+	#presentation_accueil_gauche2 {
+	    margin-left: 180px;
+	    margin-top: 1%;
+	}
+
+	#presentation_accueil_droite2 {
+	    margin-left: -180px;
+	    margin-top: 1%;
+	}
+
+	#presentation_accueil_droite2{
+
+		img{
+			height: 400px;
+			width: 300px;
+		}
+	}
+
+	#presentation_accueil_gauche2{
+		padding: 0px;
+
+		img{
+			height: 400px;
+			width: 300px;
+		}
+	}
+	
 }
