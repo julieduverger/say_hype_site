@@ -357,7 +357,7 @@ a:hover{
 @media only screen and (min-width: 500px) and (max-width:1023px){
 
 .site-container{
-    overflow:hidden;
+    overflow: inherit;
 }
 
 .site-pusher{

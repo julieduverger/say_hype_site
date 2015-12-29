@@ -121,11 +121,23 @@ outline: 0 none;}
     }
 
     #contact{
-        width: 900px;
+        width: 700px;
     }
 
     #div_map .row {
         padding-right: 0px;
+    }   
+}
+
+/*----------------------------------------* RESPONSIVE TABLETTE PORTRAIT ------------------------------------------------------------------------------------------(1024 x 768)---------------------------------------------------*/
+
+@media only screen and (min-width: 1024px)and (max-width: 1279px){
+   
+    #presentation_contact{
+        margin-left: 200px;
     }
-    
+
+    #contact{
+        width: 500px;
+    }
 }
