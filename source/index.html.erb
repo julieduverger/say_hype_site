@@ -105,10 +105,10 @@ if ($(window).width() < 1290) {
             $("#img8").delay(2500).animate({bottom:"-1000px" }, 1500);
                 $("#img8").queue(function(){
                         $("#img7").animate({"top":($(window).height()/2-300)}, 2000,"linear").delay(2000).animate({top: "1500px"}, 1500 );
-                        
+                        $(".accueil_logo").hide().fadeIn(200).delay(1100).fadeOut(500);
                             $("#img7").queue(function(){
                                 $("#img6").animate({"top":($(window).height()/2-300)}, 2000,"linear").delay(2000);
-                                
+                                $(".accueil_logo").hide().fadeIn(200).delay(1100).fadeOut(500);
                                     $("#img6").queue(function(){
                                                 $("#nav").delay(1000).hide().fadeIn(2000);
                                             
