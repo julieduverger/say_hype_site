@@ -354,7 +354,7 @@ a:hover{
 
 /* RESPONSIVE */
 
-@media only screen and (min-width: 500px) and (max-width:1024px){
+@media only screen and (min-width: 500px) and (max-width:1023px){
 
 .site-container{
     overflow:hidden;
@@ -1007,6 +1007,7 @@ a:hover{
 
     #row_presentation_accueil{
         margin-left: 20px;
+        padding: 0px;
     }
 
     .accueil_logo {
@@ -1015,4 +1016,135 @@ a:hover{
         left: 50%;
         margin-left: -200px;
     }
+}
+
+/*----------------------------------------* RESPONSIVE TABLETTE PORTRAIT ------------------------------------------------------------------------------------------(1024 x 768)---------------------------------------------------*/
+
+@media only screen and (min-width: 1024px)and (max-width: 1279px){
+
+#nav{
+    height: 100%;
+    background-color: white;
+    overflow: hidden;
+    position: fixed;
+    width: 200px !important;
+    left: 0px;
+    top: 0px;
+    z-index: 10;
+    }
+
+    #menu{
+        width: 200px;
+    }
+
+    #footer {
+        width: 200px;
+    }
+
+    /* --- SLIDER --- */
+
+    #tittle{
+        margin-bottom: 2%;
+
+        h1{
+        font-family: sabon roman;
+        letter-spacing: 2px;
+        font-size: 20px;
+        }
+    }
+
+
+    #presentation_accueil_gauche{
+        height: 100vh;
+    }
+
+
+
+    #img2 {
+        z-index: 2;
+        position: absolute;
+        left: calc(50% - 142px);
+        bottom: -1050px;
+        height: 450px;
+        width: 337px;
+        -webkit-transform: translateZ(0);
+    }
+
+    #img3 {
+        z-index: 3;
+        position: absolute;
+        left: calc(50% - 187px);
+        bottom: -1050px;
+        height: 450px;
+        width: 337px;
+        -webkit-transform: translateZ(0);
+    }
+
+    #img4 {
+        z-index: 4;
+        position: absolute;
+        left: calc(50% - 187px);
+        bottom: calc(50% - 150px);
+        height: 450px;
+        width: 337px;
+        -webkit-transform: translateZ(0);
+    }
+
+
+    #presentation_accueil_droite{
+        height: 100vh;
+    }
+
+
+    #img6 {
+        z-index: 2;
+        position: absolute;
+        left: calc(50% - 200px);
+        top: -1050px;
+        height: 450px;
+        width: 337px;
+        -webkit-transform: translateZ(0);
+    }
+
+    #img7 {
+        z-index: 2;
+        position: absolute;
+        left: calc(50% - 187px);
+        top: -1050px;
+        height: 450px;
+        width: 337px;
+        -webkit-transform: translateZ(0);
+    }
+
+        #img8 {
+            z-index: 5;
+            position: absolute;
+            left: calc(50% - 187px);
+            bottom: calc(50% - 150px);
+            height: 450px;
+            width: 337px;
+            margin: 0 auto;
+            -webkit-transform: translateZ(0);
+        }
+
+    .accueil_logo {
+        position: fixed;
+        top: calc(50% - 115px);
+        left: 50%;
+        margin-left: -185px;
+        -webkit-transform: translateZ(0);
+
+        img{
+            width: 85%;
+        }
+    }
+
+    .accueil_estampille {
+        position: fixed;
+        top: calc(50% - 100px);
+        left: 50%;
+        margin-left: -50px;
+        transition: all 4s ease 0s;
+        -webkit-transform: translateZ(0);
+    }   
 }

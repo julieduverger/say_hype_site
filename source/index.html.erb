@@ -71,7 +71,7 @@ title: Say Hype - Studio
 
 jQuery(document).ready(function(){
 
-if ($(window).width() < 1290) {
+if ($(window).width() < 1022) {
                  $(function() {
 
         $(document.body).css({"margin-left":"1%"});
@@ -122,7 +122,7 @@ if ($(window).width() < 1290) {
                         }); 
                         });      
 
-} else if ($(window).width() > 1023 && $(window).width() < 1290) {
+} else if ($(window).width() > 1023 && $(window).width() < 1289) {
                  $(function() {
 
      	$(document.body).css({"margin-left":"1%"});
@@ -151,20 +151,18 @@ if ($(window).width() < 1290) {
                $(function() {
         $(".accueil_estampille").hide();
         $("#nav").hide();
+        $(".accueil_logo").hide();
             $("#img8").delay(2500).animate({bottom:"-1000px" }, 1500);
                 $("#img8").queue(function(){
                         $("#img7").animate({"top":($(window).height()/2-300)}, 1500,"linear").delay(2000).animate({top: "1500px"}, 1500 );
+                        $(".accueil_logo").hide().fadeIn(200).delay(1100).fadeOut(500);
                             $("#img7").queue(function(){
                                 $("#img6").animate({"top":($(window).height()/2-300)}, 1500,"linear").delay(2000);
+                                $(".accueil_logo").hide().fadeIn(200).delay(1100).fadeOut(500);
                                     $("#img6").queue(function(){
                                                 $("#nav").delay(1000).hide().fadeIn(2000)
-                                                $(".accueil_logo").delay(1000).fadeOut(750);
-                                                $(".accueil_estampille").delay(2500).hide().fadeIn(2000);
-                                                $(".accueil_estampille").queue(function(){
-                                                    $(".accueil_estampille").css({"transform":"rotate(360deg)"} );
-                                                     
-                                                
-                                                });
+                                               
+                                              
                                                 });
                                             
 
