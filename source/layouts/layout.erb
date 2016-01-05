@@ -1,10 +1,18 @@
 <!doctype html>
 <html lang="fr">
+
+<!-- Made with passion and work by SAY HYPE -->
+
   <head>
+
+      <!-- Use title if it's in the page YAML frontmatter -->
+    <title><%= current_page.data.title || "The Middleman" %></title>
     <meta charset="utf-8">
     <meta name="keywords" content="design, say hype studio, studio de design graphique bordeaux, creation site internet bordeaux, print, dorure, letterpress, identité visuelle, cartes de visites, flyers, agence de communication, studio graphique bordeaux, studio de communication arcachon, studio de communication gironde, identité visuelle bordeaux, graphic design, création de site internet vitrine, création de site internet arcachon , création de site internet bordeaux, haut de gamme, site internet sur mesure">
 
-    <meta name="description" content="Studio de communication spécialisé dans la création d'identité visuelle et de site internet sur Bordeaux et le Bassin d'Arcachon. Identité visuelle, site internet, collages, illustration, typographie, dorure, letterpress.">
+    <meta name="description" content="Studio de communication spécialisé dans la création sur-mesure d'identité visuelle et de site internet. Implanté sur Bordeaux et le Bassin d'Arcachon.">
+
+
 
     <!-- Always force latest IE rendering engine or request Chrome Frame -->
     <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
@@ -14,8 +22,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- Use title if it's in the page YAML frontmatter -->
-    <title><%= current_page.data.title || "The Middleman" %></title>
+
 
 
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -24,7 +31,13 @@
 
     <link rel="icon" type="image/png" href="images/favicon.png" />
 
-
+    <meta property="og:title" content="SAY HYPE - Studio de Communication Globale - Bordeaux" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="http://sayhype-studio.fr" />
+    <meta property="og:image" content="http://example.com/image.jpg" />
+    <meta property="og:description" content="Say Hype est un studio de création graphique spécialisé dans la confection d’identité visuelle. Notre travail est l’aboutissement d’une succession de détails de la création graphique jusqu’à la technique d’impression, le choix du papier, le toucher." />
+    <meta property="og:site_name" content="SAY HYPE - Studio de Communication Globale - Bordeaux" />
+   
 
     
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -37,6 +50,7 @@
 
   <body>
 
+<div class="loader"></div>
 
 <div class="site-container animsition">
     <div class="site-pusher">

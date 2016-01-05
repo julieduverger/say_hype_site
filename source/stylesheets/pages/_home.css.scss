@@ -153,6 +153,20 @@ outline: 0;
     }
 }
 
+/* Loader */
+
+.loader {
+
+position : fixed;
+z-index: 9999;
+background-image: url(../images/logo_sayhype_rose.svg) 50% 50% no-repeat;
+top : 0px;
+left : 0px;
+height : 100%;
+width : 100%;
+cursor : wait;
+}
+
 /* Footer */
 
 .list-inline > li {

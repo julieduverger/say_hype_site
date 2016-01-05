@@ -25,10 +25,9 @@ $(document).ready(function(){
     $("#accueil_estampille2").hide();
     $("#accueil_estampille2").delay(1000).hide().fadeIn(1500);
 
+    /* LOADER */
 
-
-    /* MODAL */
-    
+    $(".loader").fadeOut("1000");
 
     /*-------- 
     Frise haut 
