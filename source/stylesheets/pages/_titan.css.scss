@@ -295,7 +295,7 @@
 
 /*----------------------------------------* RESPONSIVE TABLETTE PORTRAIT --------------------------------------------------------------------------------------------(768 x 1024)---------------------------------------------------*/
 
-@media only screen and (min-width: 400px)and (max-width: 779px){
+@media only screen and (min-width: 760px)and (max-width: 1023px){
 
     #couverture_img_titan{
         height: 300px;
@@ -401,5 +401,52 @@
         margin-top: -34%;
         margin-left: 6%;
     }
+}
 
+/*----------------------------------------* RESPONSIVE MOBILE ----------------------------------------------------------------------------------------------------(300 x 640)-------------------------------------------------------*/
+
+@media only screen and (min-width: 250px)and (max-width: 759px){
+
+    #couverture_img_titan{
+        height: 130px;
+        margin-left: 0px;
+        width: auto;
+    }
+
+    #projet_titan_contenu1{
+        height: 350px;
+        margin-top: 4%;
+        padding-left: 0%;
+        width: auto;
+
+
+        img{
+            margin-top: 83%;
+            width: 54%;
+        }
+    }
+
+    #projet_titan_contenu2{
+        height: 350px;
+        margin-top: 42%;  
+        padding-left: 0%;
+        width: auto;
+    }  
+
+    #description_role_titan{
+        display: none;
+    } 
+
+    #projet_titan_contenu3 {
+        height: 250px;
+
+        img{
+            width: 60%;
+            margin-top: 10%;
+        }   
+    }
+
+    #frise_verticale_titan{
+        display: none;
+    }   
 }

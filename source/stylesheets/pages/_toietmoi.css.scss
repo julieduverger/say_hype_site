@@ -336,7 +336,7 @@
 
 /*----------------------------------------* RESPONSIVE TABLETTE PORTRAIT --------------------------------------------------------------------------------------------(768 x 1024)---------------------------------------------------*/
 
-@media only screen and (min-width: 400px)and (max-width: 779px){
+@media only screen and (min-width: 760px)and (max-width: 1023px){
 
     #couverture_img_toietmoi {
         width: auto;
@@ -433,6 +433,57 @@
     #description_role_toietmoi {
         margin-top: -99%;
         margin-left: 5%;
+    } 
+}
+
+/*----------------------------------------* RESPONSIVE MOBILE ----------------------------------------------------------------------------------------------------(300 x 640)-------------------------------------------------------*/
+
+@media only screen and (min-width: 250px)and (max-width: 759px){
+
+    #couverture_img_toietmoi {
+        width: auto;
+        height: 130px;
+        margin-left: 0px;
+    }
+
+    #projet_toietmoi_contenu1 {
+        height: 200px;
+        width: auto;
+        padding: 0px;
+    }
+
+    #description_role_avecfrise_toietmoi{
+        display: none;
+    }
+
+    #projet_toietmoi_contenu2 {
+        height: 350px;
+        width: auto;
+        margin-top: 10%;
+    }
+
+    #frise_verticale_toietmoi{
+        margin-top: -50%;
+    }
+
+    #projet_toietmoi_contenu3 {
+        height: 200px;
+        margin-top: 10%;
+
+        img {
+            width: 60%;
+            margin-top: 5%;
+            margin-left: 0px;
+        }
+    }
+
+    #photo_pieddepage_toietmoi {
+        margin-left: 0px;
+        margin-top: 0%;
+
+        img{
+            width: 100%;
+        }
     } 
 }
 

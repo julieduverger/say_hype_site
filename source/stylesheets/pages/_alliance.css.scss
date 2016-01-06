@@ -311,7 +311,7 @@
 
 /*----------------------------------------* RESPONSIVE TABLETTE PORTRAIT --------------------------------------------------------------------------------------------(768 x 1024)---------------------------------------------------*/
 
-@media only screen and (min-width: 400px)and (max-width: 779px){
+@media only screen and (min-width: 760px)and (max-width: 1023px){
     
    .frise_bas{
     display: none;
@@ -327,14 +327,14 @@
         height: 500px;
         width: 700px;
         margin-top: 5%;
-        margin-left: calc(50% - 358px);
+        margin-left: calc(50% - 348px);
     }
 
     #projet_alliance_contenu22 {
         height: 500px;
         width: 700px;
         margin-top: 1%;
-        margin-left: calc(50% - 358px);
+        margin-left: calc(50% - 348px);
     }
 
     #alliance_photo_pieddepage {
@@ -348,13 +348,13 @@
         height: 430px;
         width: 700px;
         margin-top: 0%;
-        margin-left: calc(50% - 358px);
+        margin-left: calc(50% - 348px);
     }
 
     #projet_alliance_contenu321 {
         height: 500px;
         width: 704px;
-        margin-top: 2%;
+        margin-top: 7%;
         padding-right: 4px;
         padding-left: 0px;
     }
@@ -368,7 +368,7 @@
 
     #alliance_photo_pieddepage {
         height: 300px;
-        margin-top: 80%;
+        margin-top: 83%;
         margin-left: 0px;
         width: auto;
     }
@@ -421,6 +421,66 @@
         height: 350px;
         padding-right: 0px;
     }
-
 }
 
+/*----------------------------------------* RESPONSIVE MOBILE ----------------------------------------------------------------------------------------------------(300 x 640)-------------------------------------------------------*/
+
+@media only screen and (min-width: 250px)and (max-width: 759px){
+
+   .frise_bas{
+    display: none;
+   }
+
+    #couverture_img_alliance {
+        width: auto;
+        height: 130px;
+        margin-left: 0px;
+    }
+
+#projet_alliance_contenu12 {
+        height: 200px;
+        width: auto;
+        margin-top: 5%;
+    }
+
+    #projet_alliance_contenu22 {
+        height: 200px;
+        width: auto;
+        margin-top: 1%;
+    }
+
+    #alliance_photo_pieddepage {
+        height: 1460px;
+        margin-top: 3%;
+        width: auto;
+    }
+
+    #projet_alliance_contenu32 {
+        height: 200px;
+        width: auto;
+        margin-top: 0%;
+    }
+
+    #projet_alliance_contenu321 {
+        height: 200px;
+        width: auto;
+        margin-top: 10%;
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+
+    #projet_alliance_contenu322 {
+        height: 200px;
+        width: auto;
+        padding-right: 0px;
+        padding-left: 0px;
+        margin-top: 5%;
+    }
+
+    #alliance_photo_pieddepage {
+        height: 146px;
+        margin-top: 85%;
+        margin-left: 0px;
+        width: auto;
+    }    
+}

@@ -89,7 +89,7 @@
 
 /*----------------------------------------* RESPONSIVE 13 POUCES --------------------------------------------------------------------------------------------------(1280 x 700)-----------------------------------------------------*/
 
-@media only screen and (min-width: 1280px)and (max-width: 1439px){
+@media only screen and (min-width: 1250px)and (max-width: 1410px){
  #couverture_img_jardineden{
         border: 1px solid #F4F2EE;
         width: auto;
@@ -138,7 +138,7 @@
     #projet_jardinsdeden_contenu2 {
         margin-top: 32%;
         padding-left: 2%;
-        padding-right: 0%;
+        padding-right: 1%;
         width: 490px;
         height: 500px;
 
@@ -156,7 +156,7 @@
 
 /*----------------------------------------* RESPONSIVE 15 POUCES --------------------------------------------------------------------------------------------------(1440 x 900)-----------------------------------------------------*/
 
-@media only screen and (min-width: 1440px)and (max-width: 1679px){
+@media only screen and (min-width: 1411px)and (max-width: 1659px){
     
     #couverture_img_jardineden{
         border: 1px solid #F4F2EE;
@@ -201,7 +201,7 @@
     #projet_jardinsdeden_contenu2 {
         margin-top: 32%;
         padding-left: 2%;
-        padding-right: 0%;
+        padding-right: 1%;
         width: 550px;
         height: 600px;
 
@@ -219,7 +219,7 @@
 
 /*----------------------------------------* RESPONSIVE 15 POUCES --------------------------------------------------------------------------------------------------(1680 x 900)-----------------------------------------------------*/
 
-@media only screen and (min-width: 1680px)and (max-width: 1919px){
+@media only screen and (min-width: 1660px)and (max-width: 1919px){
 
     #couverture_img_jardineden{
         border: 1px solid #F4F2EE;
@@ -264,7 +264,7 @@
     #projet_jardinsdeden_contenu2 {
         margin-top: 32%;
         padding-left: 2%;
-        padding-right: 0%;
+        padding-right: 1%;
         width: 600px;
         height: 700px;
 
@@ -338,10 +338,10 @@
 
 /*----------------------------------------* RESPONSIVE TABLETTE PORTRAIT --------------------------------------------------------------------------------------------(768 x 1024)---------------------------------------------------*/
 
-@media only screen and (min-width: 400px)and (max-width: 779px){
+@media only screen and (min-width: 760px)and (max-width: 1023px){
 
     #couverture_img_jardineden {
-        width: 768px;
+        width: auto;
         height: 300px;
         margin-left: 0px;
         padding-right: 1%;
@@ -446,4 +446,55 @@
         margin-top: -78%;
         margin-left: 4%;
     }
+}
+
+/*----------------------------------------* RESPONSIVE MOBILE ----------------------------------------------------------------------------------------------------(300 x 640)-------------------------------------------------------*/
+
+@media only screen and (min-width: 250px)and (max-width: 759px){
+
+
+    #couverture_img_jardineden {
+        width: auto;
+        height: 130px;
+        margin-left: 0px;
+        padding-right: 0%;
+    }
+
+    #description_role_avecfrise_cotebassin{
+        display: none;
+    }
+
+    #frise_verticale {
+        display: none;
+    }
+
+    #projet_jardinsdeden_contenu1 {
+        height: 200px;
+        width: auto;
+        padding: 0%;
+        margin: 0px;
+    }
+
+    #projet_jardinsdeden_contenu2 {
+        height: 200px;
+        width: auto;
+        padding-right: 0%;
+        margin-top: 10%;
+    }
+
+    #projet_jardinsdeden_contenu3 {
+        height: 200px;
+        width: auto;
+        margin-left: 0%;
+        margin-top: 10%;
+    }
+
+    #jardinsdeden_photo_pieddepage {
+        height: 187px;
+        width: auto;
+        margin-left: 0px;
+        padding-right: 0%;
+        background-size: contain;
+        margin-top: 10%;
+    }    
 }

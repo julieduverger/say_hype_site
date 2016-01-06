@@ -80,43 +80,6 @@
 
 
 
-
-/*----------------------
-------------------------*/
-/* RESPONSIVE */
-                                        
-
-@media only screen and (max-width:780px){
-    .row {
-    margin-left: 0px;
-    margin-right: -15px;
-    padding: 10px;
-    height: 100%;
-    }
-
-    .presentation_projet {
-    margin-left: 12px;
-    background-color: white;
-    height: 40%;
-    margin-top: -10%;
-    padding-left: 4%;
-    padding-right: 4%;
-    width: 500px;
-    margin-left: 18% !important;
-    }
-
-    .titre{
-    padding-top: 1px;
-    margin-left: 0px;
-}
-
-.signature{
-    margin-left: 0;
-}
-
-
-}
-
 /* MODAL */
 .modal-content{
     background-color: #F6ECEC;
@@ -393,8 +356,8 @@
         height: 100%;
     }
 
-        .thumbnail a > img {
-        height: 300px;
+   .thumbnail a > img {
+        height: 600px;
         width: auto;
     }
 
@@ -503,6 +466,67 @@
         height: 100%;
     }
 }
+    
+}
+
+/*----------------------------------------* RESPONSIVE MOBILE ----------------------------------------------------------------------------------------------------(300 x 640)-------------------------------------------------------*/
+
+@media only screen and (min-width: 250px)and (max-width: 767px){
+
+    #realisation-droite .row {
+        margin-left: 0px;
+        margin-right: 0px;
+        padding: 10px;
+        height: 100%;
+    }
+
+        .thumbnail a > img {
+        height: 300px;
+        width: auto;
+    }
+
+    .thumbnail{
+        margin-bottom: 0px;
+        border-top: 12px solid transparent;
+        border-left: 12px solid transparent;
+        border-right: 12px solid transparent;
+        border-bottom: 17px solid transparent;
+    }
+
+    .caption {
+    display: block;
+    position: relative;
+    z-index: 8;
+       
+        h3{
+            background-color: #130E0A;
+            color: white;
+            font-family : "brandon grotesque";
+            padding: 10px 20px;
+            letter-spacing: 2px;
+            font-size: 11px !important;
+            margin-top: -38px;
+            z-index: 9;
+            margin-bottom: 0;
+        }
+    }
+
+    .signature {
+        margin-left: 0px;
+        padding: 5px;
+        background-color: #F6EFEF;
+        margin-bottom: 0;
+    }
+
+
+    .titre {
+        margin-left: 0px;
+    }
+
+    .signature p {
+        font-size: 10px;
+        line-height: 22px;
+    }
     
 }
 

@@ -16,7 +16,7 @@
 
 .studio{
 	max-width: 1000px;
-	min-width: 500px;
+	min-width: 200px;
 	margin: 0 auto;
 }
 
@@ -76,7 +76,7 @@
 	}	
 }
 
-/*----------------------------------------* RESPONSIVE TABLETTE PORTRAIT ------------------------------------------------------------------------------------------(1024 x 768)---------------------------------------------------*/
+/*----------------------------------------* RESPONSIVE TABLETTE PORTRAIT ------------------------------------------------------------------------------------------(1024 x 768)-------------------------------------------------------*/
 
 @media only screen and (min-width: 1024px)and (max-width: 1279px){
 
@@ -87,4 +87,26 @@
 	#presentation_studio {
 	    margin-left: 200px;
 	}
+}
+
+/*----------------------------------------* RESPONSIVE MOBILE ----------------------------------------------------------------------------------------------------(250 x 640)-------------------------------------------------------*/
+
+@media only screen and (min-width: 300px)and (max-width: 767px){
+
+	#tittle_studio {
+	    margin-left: 0px;
+	}
+
+	#presentation_studio {
+	    margin-left: 0px;
+	}
+
+	#tittle_studio h1 {
+	    font-size: 50px;
+	}
+
+	#presentation_studio p {
+	    font-size: 14px;
+	}
+	
 }
