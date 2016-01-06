@@ -1179,14 +1179,8 @@ a:hover{
     -webkit-transform: translateZ(0);
  }
 
- #img2 {
-        z-index: 2;
-        position: absolute;
-        left: calc(50% - 90px);
-        bottom: -1050px;
-        height: 180px;
-        width: auto;
-        -webkit-transform: translateZ(0);
+    #img2 {
+        display: none;
     }
 
     #img3 {
@@ -1216,13 +1210,7 @@ a:hover{
 
 
     #img6 {
-        z-index: 2;
-        position: absolute;
-        left: calc(50% - 90px);
-        top: -1050px;
-        height: 180px;
-        width: auto;
-        -webkit-transform: translateZ(0);
+        display: none;
     }
 
     #img7 {
@@ -1247,7 +1235,7 @@ a:hover{
     }
 
     #row_presentation_accueil{
-        margin-left: 20px;
+        margin-left: 0px;
         padding: 0px;
     }
 
@@ -1260,6 +1248,10 @@ a:hover{
 
     #tittle h1 {
         font-size: 22px;
+    }
+
+    .loader {
+        display: none;
     }
     
 
