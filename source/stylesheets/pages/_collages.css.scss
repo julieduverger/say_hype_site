@@ -1,0 +1,317 @@
+#couverture_img_collages{
+	border: 1px solid #F4F2EE;
+	width: auto;
+	height: 520px;
+	background-image: url(../images/couverture_img_collages.jpg);
+	background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: 300px;
+
+    .row{
+    	margin-left: 0px;
+    }
+  }
+
+#projet_collages_contenu1{
+	padding: 0px;
+
+	img{
+		height: 1000px;
+		width: auto;
+	}
+}
+
+#projet_collages_contenu2{
+	padding: 0px;
+
+	img{
+		height: 1000px;
+		width: auto;
+	}
+}
+
+#projet_collages_contenu3{
+	padding: 0px;
+
+	img{
+		height: 1000px;
+		width: auto;
+	}
+}
+
+#vertical_spacer5{
+	width: 100%;
+    height: 20px;
+}
+
+/*---------------------------------------------------RESPONSIVE---------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+
+
+/*----------------------------------------* RESPONSIVE 13 POUCES --------------------------------------------------------------------------------------------------(1280 x 700)-----------------------------------------------------*/
+
+@media only screen and (min-width: 1280px)and (max-width: 1439px){
+
+    #couverture_img_collages {
+        width: auto;
+        height: 300px;
+        margin-left: 200px;
+    }
+
+    #projet_collages_contenu1{
+		padding: 0px;
+	
+		img{
+			height: 600px;
+			width: auto;
+		}
+	}
+
+	#projet_collages_contenu2{
+		padding: 0px;
+
+		img{
+			height: 600px;
+			width: auto;
+		}
+	}
+
+	#projet_collages_contenu3{
+		padding: 0px;
+
+		img{
+			height: 600px;
+			width: auto;
+		}
+	}	
+}
+
+/*----------------------------------------* RESPONSIVE 15 POUCES --------------------------------------------------------------------------------------------------(1440 x 900)-----------------------------------------------------*/
+
+@media only screen and (min-width: 1440px)and (max-width: 1679px){
+
+    #couverture_img_collages {
+        width: auto;
+        height: 300px;
+        margin-left: 200px;
+    }
+
+    #projet_collages_contenu1{
+		padding: 0px;
+	
+		img{
+			height: 600px;
+			width: auto;
+		}
+	}
+
+	#projet_collages_contenu2{
+		padding: 0px;
+
+		img{
+			height: 600px;
+			width: auto;
+		}
+	}
+
+	#projet_collages_contenu3{
+		padding: 0px;
+
+		img{
+			height: 600px;
+			width: auto;
+		}
+	}	
+}
+
+/*----------------------------------------* RESPONSIVE 15 POUCES --------------------------------------------------------------------------------------------------(1680 x 900)-----------------------------------------------------*/
+
+@media only screen and (min-width: 1680px)and (max-width: 1919px){
+
+    #couverture_img_collages {
+        width: auto;
+        height: 300px;
+        margin-left: 300px;
+    }
+
+    #projet_collages_contenu1{
+		padding: 0px;
+	
+		img{
+			height: 700px;
+			width: auto;
+		}
+	}
+
+	#projet_collages_contenu2{
+		padding: 0px;
+
+		img{
+			height: 700px;
+			width: auto;
+		}
+	}
+
+	#projet_collages_contenu3{
+		padding: 0px;
+
+		img{
+			height: 700px;
+			width: auto;
+		}
+	}
+}
+
+/*----------------------------------------* RESPONSIVE 15 POUCES --------------------------------------------------------------------------------------------------(1920 x 900)-----------------------------------------------------*/
+
+@media only screen and (min-width: 1920px)and (max-width: 2560px){
+
+    #couverture_img_collages {
+        width: auto;
+        height: 300px;
+        margin-left: 300px;
+    }
+
+    #projet_collages_contenu1{
+		padding: 0px;
+	
+		img{
+			height: 850px;
+			width: auto;
+		}
+	}
+
+	#projet_collages_contenu2{
+		padding: 0px;
+
+		img{
+			height: 850px;
+			width: auto;
+		}
+	}
+
+	#projet_collages_contenu3{
+		padding: 0px;
+
+		img{
+			height: 850px;
+			width: auto;
+		}
+	}	
+}
+
+/*----------------------------------------* RESPONSIVE TABLETTE PORTRAIT --------------------------------------------------------------------------------------------(768 x 1024)---------------------------------------------------*/
+
+@media only screen and (min-width: 760px)and (max-width: 1023px){
+
+    #couverture_img_collages {
+        width: auto;
+        height: 300px;
+        margin-left: 0px;
+    }
+
+    #projet_collages_contenu1{
+		padding: 0px;
+	
+		img{
+			height: 400px;
+			width: auto;
+		}
+	}
+
+	#projet_collages_contenu2{
+		padding: 0px;
+
+		img{
+			height: 400px;
+			width: auto;
+		}
+	}
+
+	#projet_collages_contenu3{
+		padding: 0px;
+
+		img{
+			height: 400px;
+			width: auto;
+		}
+	}
+}
+
+/*----------------------------------------* RESPONSIVE TABLETTE PAYSAGE -----------------------------------------------------------------------------------------------(1024 x 768)-------------------------------------------------*/
+
+@media only screen and (min-width: 1024px)and (max-width: 1279px){
+
+    #couverture_img_collages {
+        width: auto;
+        height: 300px;
+        margin-left: 200px;
+    }
+
+    #projet_collages_contenu1{
+		padding: 0px;
+	
+		img{
+			height: 500px;
+			width: auto;
+		}
+	}
+
+	#projet_collages_contenu2{
+		padding: 0px;
+
+		img{
+			height: 500px;
+			width: auto;
+		}
+	}
+
+	#projet_collages_contenu3{
+		padding: 0px;
+
+		img{
+			height: 500px;
+			width: auto;
+		}
+	}
+}
+
+/*----------------------------------------* RESPONSIVE MOBILE ----------------------------------------------------------------------------------------------------(300 x 640)-------------------------------------------------------*/
+
+@media only screen and (min-width: 250px)and (max-width: 759px){
+
+    #couverture_img_collages {
+        width: auto;
+        height: 130px;
+        margin-left: 0px;
+    }
+
+    #projet_collages_contenu1{
+		padding: 0px;
+	
+		img{
+			height: 200px;
+			width: auto;
+		}
+	}
+
+	#projet_collages_contenu2{
+		padding: 0px;
+
+		img{
+			height: 200px;
+			width: auto;
+		}
+	}
+
+	#projet_collages_contenu3{
+		padding: 0px;
+
+		img{
+			height: 200px;
+			width: auto;
+		}
+	}	
+}
