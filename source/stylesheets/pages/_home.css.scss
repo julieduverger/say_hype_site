@@ -55,11 +55,11 @@ p{
 }
 
 a {
-    color: #000059;
+    color: #010101;
     text-decoration: none;
 
     &:hover{
-    color:#000059;
+    color:#010101;
     }
 }
 
@@ -609,7 +609,7 @@ a:hover{
         position: fixed;
         top: calc(50% - 100px);
         left: 50%;
-        margin-left: -50px;
+        margin-left: -40px;
         transition: all 4s ease 0s;
 
     }

@@ -26,50 +26,41 @@
 #description_contact{
 	margin: 0 auto;
 
-
+    a:hover{
+    color: #D2B0B0;
+    }
 }
 
-.formulaire_contact{
-	margin: 0 auto;
+#social_media {
+    i{
+        color: #F6ECEC;
+    }
+    li{
+        background-color:#e4cece;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+    li:hover{
+        background-color:#130E0A;
+    }
+    .fa{
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    }
 }
 
-.input-group {
-    position: relative;
-    display: table;
-    border-collapse: separate;
-    width: 100%;
-    border-bottom: 1px solid #D2B0B0 ;
-    padding-top: 20px;
+#separator {
+    width: 50px;
+    border-top: 1px solid #010101;
+    height: 30px;
+    margin: 0 auto;
 }
 
-.form-control {
-    display: block;
-    width: 100%;
-    height: 36px;
-    padding: 6px 12px;
-    font-size: 16px;
-    line-height: 1.4;
-    color: #000000;
-    font-family: sabon roman;
-    background-color: #F6EFEF;
-    background-image: none;
-    border: 1px solid #F6EFEF;
-    border-radius: 2px;
-    -webkit-box-shadow: inset 0 1px 1px #F6EFEF;
-    box-shadow: inset 0 1px 1px #F6EFEF;
-    -webkit-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
-    -o-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
-    transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
-}
-
-.envoyer{
-	width: 150px;
-	margin: 0 auto;
-	border: 1px solid #D2B0B0;
-    margin-top: 85px;
-    border-radius: 0;
-    text-transform: uppercase;
-    transition: all .5s ease;
+#separator2 {
+    width: 50px;
+    border-bottom: 1px solid #010101;
+    height: 40px;
+    margin: 0 auto;
 }
 
 #div_map .row{
