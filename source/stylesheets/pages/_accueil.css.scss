@@ -26,7 +26,7 @@
 
 /*----------------------------------------* RESPONSIVE 13 POUCES --------------------------------------------------------------------------------------------------(1280 x 700)-----------------------------------------------------*/
 
-@media only screen and (min-width: 1280px)and (max-width: 1439px){
+@media only screen and (min-width: 1260px)and (max-width: 1419px){
 
 	#accueil_estampille2{
 		display: none !important;
@@ -75,7 +75,7 @@
 
 /*----------------------------------------* RESPONSIVE 15 POUCES --------------------------------------------------------------------------------------------------(1440 x 900)-----------------------------------------------------*/
 
-@media only screen and (min-width: 1440px)and (max-width: 1679px){
+@media only screen and (min-width: 1420px)and (max-width: 1659px){
 
 	#tittle2 {
 	    margin-left: 200px;
@@ -119,7 +119,7 @@
 	#accueil_estampille2 {
 	    position: fixed;
 	    top: calc(50% - 85px);
-	    margin-left: 5px;
+	    margin-left: 12px;
 
 	    img{
 	    width: 70%;
@@ -129,7 +129,7 @@
 
 /*----------------------------------------* RESPONSIVE 15 POUCES --------------------------------------------------------------------------------------------------(1680 x 900)-----------------------------------------------------*/
 
-@media only screen and (min-width: 1680px)and (max-width: 1919px){
+@media only screen and (min-width: 1660px)and (max-width: 1899px){
 
 	#vertical_spacer4{
 		display: none;
@@ -194,7 +194,7 @@
 
 /*----------------------------------------* RESPONSIVE 15 POUCES --------------------------------------------------------------------------------------------------(1920 x 900)-----------------------------------------------------*/
 
-@media only screen and (min-width: 1920px)and (max-width: 1950px){
+@media only screen and (min-width: 1900px)and (max-width: 2559px){
 
 #accueil_animation {
 	    margin-left: -15px;
