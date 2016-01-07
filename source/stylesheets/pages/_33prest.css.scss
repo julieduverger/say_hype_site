@@ -1,6 +1,6 @@
 #couverture_img_33prest{
 	border: 1px solid #F4F2EE;
-	width: 2223px;
+	width: auto;
 	height: 520px;
 	background-image: url(../images/33prest_presentation.jpg);
 	background-position: center center;
@@ -17,7 +17,7 @@
 	margin-top: -10%;
 	padding-left: 4%;
     padding-right: 4%;
-    margin-left: calc(50% - 350px);
+    margin-left: calc(50% - 335px);
 
     h2{
     	font-size: 18px;
@@ -99,7 +99,7 @@
 #photo_pieddepage{
 	background-image: url(../images/33prest_photos5_projet.jpg);
 	height: 700px;
-	width: 2223px;
+	width: auto;
 	background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;

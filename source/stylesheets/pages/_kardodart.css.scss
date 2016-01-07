@@ -1,96 +1,39 @@
 #couverture_img_karodart{
 	border: 1px solid #F4F2EE;
-	width: 2220px;
+	width: auto;
 	height: 520px;
 	background-image: url(../images/karodart_presentation.jpg);
 	background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
     margin-left: 300px;
-  }
-
-
-
-
-#projet_karodart_contenu12{
-    background-image: url(../images/karodart_photos_projet.jpg);
-    background-clip: content-box;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-attachment: scroll;
-    height: 1000px;
-    width: 1820px;
-    margin-top: 5%;
-    padding-left: 0%;
-    padding-right: 0%;
-
 }
 
-#projet_karodart_contenu22{
-    background-image: url(../images/karodart_photos2_projet.jpg);
-    background-clip: content-box;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-attachment: scroll;
-    height: 1000px;
-    width: 1820px;
-    margin-top: 0%;
-    padding-left: 0%;
-    padding-right: 0%;
-    padding-top: 1%;
+#projet_karodart_contenu1{
+    padding: 0px;
 
-}
-
-#projet_karodart_contenu32{
-    background-clip: content-box;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-attachment: scroll;
-    height: 800px;
-    width: 1820px;
-    margin-top: 0%;
-    padding-left: 0%;
-    padding-right: 0%;
-
-
-    .container{
-    	padding: 0;
-    	margin-top: -5%;
+    img{
+        height: 1100px;
+        width: auto;
     }
+}
 
-    .row{
-    margin-left: 0px;
-    padding: 0;
+#projet_karodart_contenu2{
+    padding: 0px;
+
+    img{
+        height: 1100px;
+        width: auto;
     }
-
 }
 
-#projet_karodart_contenu321{
-	background-image: url(../images/karodart_photos3_projet.jpg);
-	background-clip: content-box;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-attachment: scroll;
-    height: 800px;
-    margin-top: 0%;
-    padding-left: 0%;
-    padding-right: 0.5%;
-}
-#projet_karodart_contenu322{
-	background-image: url(../images/karodart_photos4_projet.jpg);
-	background-clip: content-box;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-attachment: scroll;
-    height: 800px;
-    margin-top: 0%;
-    padding-left: 0.5%;
-    padding-right: 15px;
+#projet_karodart_contenu3{
+    padding: 0px;
+
+    img{
+        height: 500px;
+        width: auto;
+    }
 }
 
 #frise_bas_karodart{
@@ -104,62 +47,47 @@
 
 /*---------------------------------------------------RESPONSIVE---------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
-
-
-
 /*----------------------------------------* RESPONSIVE 13 POUCES --------------------------------------------------------------------------------------------------(1280 x 700)-----------------------------------------------------*/
 
+@media only screen and (min-width: 1260px)and (max-width: 1419px){
 
-@media only screen and (min-width: 1280px)and (max-width: 1439px){
-    
     #couverture_img_karodart {
         width: auto;
         height: 300px;
         margin-left: 200px;
     }
 
-    #projet_karodart_contenu12 {
-        height: 600px;
-        width: 1000px;
-        margin-top: 5%;
-        margin-left: calc(50% - 500px);
+    #projet_karodart_contenu1{
+        padding: 0px;
+    
+        img{
+            height: 600px;
+            width: auto;
+        }
     }
 
-    #projet_karodart_contenu22 {
-        height: 600px;
-        width: 1000px;
-        margin-top: 1%;
-        margin-left: calc(50% - 500px);
+    #projet_karodart_contenu2{
+        padding: 0px;
+
+        img{
+            height: 600px;
+            width: auto;
+        }
     }
 
-        #karodart_photo_pieddepage {
-        height: 490px;
-        margin-top: 3%;
-        margin-left: 200px;
-        width: auto;
-    }
+    #projet_karodart_contenu3{
+        padding: 0px;
 
-        #projet_karodart_contenu32 {
-        height: 360px;
-        width: 1000px;
-        margin-top: 0%;
-        margin-left: calc(50% - 500px);
-    }
-
-    #projet_karodart_contenu321 {
-        height: 460px;
-        
-    }
-
-    #projet_karodart_contenu322 {
-        height: 460px;
-        padding-right: 0px;
-    }
+        img{
+            height: 275px;
+            width: auto;
+        }
+    }   
 }
 
 /*----------------------------------------* RESPONSIVE 15 POUCES --------------------------------------------------------------------------------------------------(1440 x 900)-----------------------------------------------------*/
 
-@media only screen and (min-width: 1440px)and (max-width: 1679px){
+@media only screen and (min-width: 1420px)and (max-width: 1659px){
 
     #couverture_img_karodart {
         width: auto;
@@ -167,151 +95,113 @@
         margin-left: 200px;
     }
 
-    #projet_karodart_contenu12 {
-        height: 600px;
-        width: 1000px;
-        margin-top: 5%;
-        margin-left: calc(50% - 489px);
+    #projet_karodart_contenu1{
+        padding: 0px;
+    
+        img{
+            height: 600px;
+            width: auto;
+        }
     }
 
-    #projet_karodart_contenu22 {
-        height: 600px;
-        width: 1000px;
-        margin-top: 1%;
-        margin-left: calc(50% - 489px);
+    #projet_karodart_contenu2{
+        padding: 0px;
+
+        img{
+            height: 600px;
+            width: auto;
+        }
     }
 
-        #karodart_photo_pieddepage {
-        height: 490px;
-        margin-top: 3%;
-        margin-left: 200px;
-        width: auto;
-    }
+    #projet_karodart_contenu3{
+        padding: 0px;
 
-        #projet_karodart_contenu32 {
-        height: 360px;
-        width: 1000px;
-        margin-top: 0%;
-        margin-left: calc(50% - 489px);
-    }
-
-    #projet_karodart_contenu321 {
-        height: 460px;
-        
-    }
-
-    #projet_karodart_contenu322 {
-        height: 460px;
-        padding-right: 0px;
-    }
+        img{
+            height: 275px;
+            width: auto;
+        }
+    }   
 }
 
 /*----------------------------------------* RESPONSIVE 15 POUCES --------------------------------------------------------------------------------------------------(1680 x 900)-----------------------------------------------------*/
 
-@media only screen and (min-width: 1680px)and (max-width: 1919px){
+@media only screen and (min-width: 1660px)and (max-width: 1899px){
 
     #couverture_img_karodart {
         width: auto;
-        height: 400px;
+        height: 300px;
         margin-left: 300px;
     }
 
-    #projet_karodart_contenu12 {
-        height: 600px;
-        width: 1100px;
-        margin-top: 5%;
-        margin-left: calc(50% - 660px);
+    #projet_karodart_contenu1{
+        padding: 0px;
+    
+        img{
+            height: auto;
+            width: 1000px;
+        }
     }
 
-    #projet_karodart_contenu22 {
-        height: 600px;
-        width: 1100px;
-        margin-top: 1%;
-        margin-left: calc(50% - 660px);
+    #projet_karodart_contenu2{
+        padding: 0px;
+
+        img{
+            height: auto;
+            width: 1000px;
+        }
     }
 
-        #karodart_photo_pieddepage {
-        height: 600px;
-        margin-top: 3%;
-        margin-left: 300px;
-        width: auto;
-    }
+    #projet_karodart_contenu3{
+        padding: 0px;
 
-        #projet_karodart_contenu32 {
-        height: 430px;
-        width: 1100px;
-        margin-top: 0%;
-        margin-left: calc(50% - 660px);
+        img{
+            height: auto;
+            width: 1000px;
+        }
     }
-
-    #projet_karodart_contenu321 {
-        height: 500px;
-        
-    }
-
-    #projet_karodart_contenu322 {
-        height: 500px;
-        padding-right: 15px;
-    }  
 }
 
 /*----------------------------------------* RESPONSIVE 15 POUCES --------------------------------------------------------------------------------------------------(1920 x 900)-----------------------------------------------------*/
 
-@media only screen and (min-width: 1920px)and (max-width: 2560px){
+@media only screen and (min-width: 1900px)and (max-width: 2560px){
 
- #couverture_img_karodart {
+    #couverture_img_karodart {
         width: auto;
-        height: 400px;
+        height: 300px;
         margin-left: 300px;
     }
 
-    #projet_karodart_contenu12 {
-        height: 600px;
-        width: 1100px;
-        margin-top: 5%;
-        margin-left: calc(50% - 750px);
-    }
-
-    #projet_karodart_contenu22 {
-        height: 600px;
-        width: 1100px;
-        margin-top: 1%;
-        margin-left: calc(50% - 750px);
-    }
-
-        #karodart_photo_pieddepage {
-        height: 600px;
-        margin-top: 3%;
-        margin-left: 300px;
-        width: auto;
-    }
-
-        #projet_karodart_contenu32 {
-        height: 430px;
-        width: 1100px;
-        margin-top: 0%;
-        margin-left: calc(50% - 750px);
-    }
-
-    #projet_karodart_contenu321 {
-        height: 500px;
-        
-    }
-
-    #projet_karodart_contenu322 {
-        height: 500px;
-        padding-right: 15px;
-    }  
+    #projet_karodart_contenu1{
+        padding: 0px;
     
+        img{
+            height: auto;
+            width: 1200px;
+        }
+    }
+
+    #projet_karodart_contenu2{
+        padding: 0px;
+
+        img{
+            height: auto;
+            width: 1200px;
+        }
+    }
+
+    #projet_karodart_contenu3{
+        padding: 0px;
+
+        img{
+            height: auto;
+            width: 1200px;
+        }
+    }
 }
 
 /*----------------------------------------* RESPONSIVE TABLETTE PORTRAIT --------------------------------------------------------------------------------------------(768 x 1024)---------------------------------------------------*/
 
 @media only screen and (min-width: 760px)and (max-width: 1023px){
-    
-   .frise_bas{
-        display: none;
-   }
 
     #couverture_img_karodart {
         width: auto;
@@ -319,86 +209,69 @@
         margin-left: 0px;
     }
 
-#projet_karodart_contenu12 {
-        height: 500px;
-        width: 700px;
-        margin-top: 5%;
-        margin-left: calc(50% - 358px);
+    #projet_karodart_contenu1{
+        padding: 0px;
+    
+        img{
+            height: auto;
+            width: 700px;
+        }
     }
 
-    #projet_karodart_contenu22 {
-        height: 500px;
-        width: 700px;
-        margin-top: 1%;
-        margin-left: calc(50% - 358px);
+    #projet_karodart_contenu2{
+        padding: 0px;
+
+        img{
+            height: auto;
+            width: 700px;
+        }
     }
 
-    #projet_karodart_contenu32 {
-        height: 1000px;
-        width: 700px;
-        margin-top: 0%;
-        margin-left: calc(50% - 358px);
+    #projet_karodart_contenu3{
+        padding: 0px;
+
+        img{
+            height: auto;
+            width: 700px;
+        }
     }
-
-    #projet_karodart_contenu321 {
-        height: 500px;
-        width: 704px;
-        margin-top: 4%;
-        padding-right: 4px;
-        padding-left: 0px;
-    }
-
-    #projet_karodart_contenu322 {
-        height: 500px;
-        width: 704px;
-        padding-right: 4px;
-        padding-left: 0px;
-        margin-top: -5%;
-    }   
-
-
 }
 
 /*----------------------------------------* RESPONSIVE TABLETTE PAYSAGE -----------------------------------------------------------------------------------------------(1024 x 768)-------------------------------------------------*/
 
 @media only screen and (min-width: 1024px)and (max-width: 1279px){
 
-
- #couverture_img_karodart {
+    #couverture_img_karodart {
         width: auto;
         height: 300px;
         margin-left: 200px;
     }
 
-    #projet_karodart_contenu12 {
-        height: 500px;
-        width: 750px;
-        margin-top: 5%;
-        margin-left: calc(50% - 375px);
+    #projet_karodart_contenu1{
+        padding: 0px;
+    
+        img{
+            height: auto;
+            width: 700px;
+        }
     }
 
-    #projet_karodart_contenu22 {
-        height: 500px;
-        width: 750px;
-        margin-top: 1%;
-        margin-left: calc(50% - 375px);
+    #projet_karodart_contenu2{
+        padding: 0px;
+
+        img{
+            height: auto;
+            width: 700px;
+        }
     }
 
-    #projet_karodart_contenu32 {
-        height: 290px;
-        width: 750px;
-        margin-top: 0%;
-        margin-left: calc(50% - 375px);
-    }
+    #projet_karodart_contenu3{
+        padding: 0px;
 
-    #projet_karodart_contenu321 {
-        height: 350px;
-        
-    }
-
-    #projet_karodart_contenu322 {
-        height: 350px;
-        padding-right: 0px;
+        img{
+            height: auto;
+            width: 700px;
+        }
     }
 }
 
@@ -412,44 +285,30 @@
         margin-left: 0px;
     }
 
-#projet_karodart_contenu12 {
-        height: 200px;
-        width: auto;
-        margin-top: 5%;
+    #projet_karodart_contenu1{
+        padding: 0px;
+    
+        img{
+            height: auto;
+            width: 300px;
+        }
     }
 
-    #projet_karodart_contenu22 {
-        height: 200px;
-        width: auto;
-        margin-top: 1%;
+    #projet_karodart_contenu2{
+        padding: 0px;
+
+        img{
+            height: auto;
+            width: 300px;
+        }
     }
 
-    #karodart_photo_pieddepage {
-        height: 1460px;
-        margin-top: 3%;
-        width: auto;
-    }
+    #projet_karodart_contenu3{
+        padding: 0px;
 
-    #projet_karodart_contenu32 {
-        height: 450px;
-        width: auto;
-        margin-top: 0%;
-    }
-
-    #projet_karodart_contenu321 {
-        height: 200px;
-        width: auto;
-        margin-top: 7%;
-        padding-right: 0px;
-        padding-left: 0px;
-    }
-
-    #projet_karodart_contenu322 {
-        height: 200px;
-        width: auto;
-        padding-right: 0px;
-        padding-left: 0px;
-        margin-top: 2%;
+        img{
+            height: auto;
+            width: 300px;
+        }
     }  
 }
-

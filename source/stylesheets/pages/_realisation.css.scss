@@ -123,15 +123,23 @@
     }
 
     .thumbnail a > img {
-    height: 350px;
+        height: 350px;
+    }
+
+    .thumbnail .caption {
+        padding: 0;
+        color: #333333;
+        bottom : -21px;
+        margin-right: 20%;
+        margin-left: 20%;
     }
 
     .thumbnail{
     margin-bottom: 0px;
-    border-top: 12px solid transparent;
-    border-left: 12px solid transparent;
-    border-right: 12px solid transparent;
-    border-bottom: 17px solid transparent;
+    border-top: 10px solid transparent;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 14px solid transparent;
     }
 
     .caption {
@@ -362,12 +370,21 @@
         width: auto;
     }
 
+    .thumbnail .caption {
+        padding: 0;
+        color: #333333;
+        bottom : -21px;
+        margin-right: 20%;
+        margin-left: 20%;
+    }
+
     .thumbnail{
-    margin-bottom: 0px;
-    border-top: 12px solid transparent;
-    border-left: 12px solid transparent;
-    border-right: 12px solid transparent;
-    border-bottom: 17px solid transparent;
+        margin-bottom: 0px;
+        border-top: 10px solid transparent;
+        border-left: 10px solid transparent;
+        border-right: 10px solid transparent;
+        border-bottom: 14px solid transparent;
+        margin-bottom: 20px;
     }
 
     .caption {
@@ -423,12 +440,20 @@
     height: 300px;
     }
 
+    .thumbnail .caption {
+        padding: 0;
+        color: #333333;
+        bottom : -21px;
+        margin-right: 20%;
+        margin-left: 20%;
+    }
+
     .thumbnail{
     margin-bottom: 0px;
-    border-top: 12px solid transparent;
-    border-left: 12px solid transparent;
-    border-right: 12px solid transparent;
-    border-bottom: 17px solid transparent;
+    border-top: 10px solid transparent;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 14px solid transparent;
     }
 
     .caption {
