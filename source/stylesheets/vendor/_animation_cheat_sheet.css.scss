@@ -29,6 +29,8 @@ slideDown
   animation-timing-function: ease;
   -webkit-animation-timing-function: ease;
 
+
+
   visibility: visible !important;
 }
 
@@ -83,11 +85,19 @@ slideInDown
   animation-name: slideInDown;
   -webkit-animation-name: slideInDown;
 
+
   animation-duration: 1.5s;
   -webkit-animation-duration: 1.5s;
 
   animation-timing-function: ease;
   -webkit-animation-timing-function: ease;
+
+  animation-delay: 0.75s;
+  -webkit-animation-delay: 0.75s;
+
+  animation-fill-mode: forwards;
+  -webkit-animation-fill-mode: forwards;
+
 
   visibility: visible !important;
   
@@ -95,12 +105,14 @@ slideInDown
 
 @keyframes slideInDown {
   from {
+    color: white;
     -webkit-transform: translate3d(0, -100%, 0);
     transform: translate3d(0, -100%, 0);
     visibility: visible;
   }
 
   to {
+    color: #010101;
     -webkit-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0);
   }
@@ -108,12 +120,14 @@ slideInDown
 
 @-webkit-keyframes slideInDown {
   from {
+    color: white;
     -webkit-transform: translate3d(0, -100%, 0);
     transform: translate3d(0, -100%, 0);
     visibility: visible;
   }
 
   to {
+    color: #010101;
     -webkit-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0);
   }
@@ -601,17 +615,26 @@ fadeInDown
   animation-timing-function: ease-in-out;
   -webkit-animation-timing-function: ease-in-out;
 
+  animation-delay: 0.75s;
+  -webkit-animation-delay: 0.75s;
+
+  animation-fill-mode: forwards;
+  -webkit-animation-fill-mode: forwards;
+
+
   visibility: visible !important;
   
 }
 
 @keyframes fadeInDown {
   0% {
+    color: white;
     opacity: 0.0;
     transform: translate3d(0, -20px,0);
   }
 
   100% {
+    color: #010101;
     opacity: 1;
     transform: none;
   }
@@ -620,11 +643,13 @@ fadeInDown
 
 @-webkit-keyframes fadeInDown {
   0% {
+    color: white;
     -webkit-transform: translate3d(0, -20px, 0);
     opacity: 0.0;
   }
   
   100% {
+    color: #010101;
     -webkit-transform: none;
     opacity: 1;
   }
