@@ -27,7 +27,13 @@ $(document).ready(function(){
 
     /* LOADER */
 
-    $(".loader").fadeOut("1000");
+    $(".fakeloader").fakeLoader({
+        timeToHide:1200,
+        bgColor:"#F6EFEF",
+        spinner:"spinner5"
+    });    
+
+
 
     /*-------- 
     Frise haut 
