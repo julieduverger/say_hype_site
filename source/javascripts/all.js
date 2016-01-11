@@ -29,9 +29,8 @@ $(document).ready(function(){
 
     $(".fakeloader").fakeLoader({
         timeToHide:1200,
-        bgColor:"#F6EFEF",
-        spinner:"spinner5",
-        imagePath:"images/logo_sayhype_rose.svg"
+        bgColor:"#F6ECEC",
+        spinner:"spinner5"
     });    
 
 

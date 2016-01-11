@@ -105,7 +105,7 @@
             $('.fl').css({
                 'position':'absolute',
                 'left':(winW/2)-(spinnerW/2),
-                'top':(winH/2)-(spinnerH/2)
+                'bottom':(winH/3)-(spinnerH/2)
             });
 
         }
