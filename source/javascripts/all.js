@@ -9,7 +9,6 @@ $(document).ready(function(){
         console.log($(this).scrollTop());
     });
         
-
      /* MENU RESPONSIVE */   
 
      $("#nav__icon").click(function(e){
@@ -17,13 +16,11 @@ $(document).ready(function(){
         $("body").toggleClass("with--sidebar");
      })
 
-
-
     /* ACCUEIL */
-
 
     $("#accueil_estampille2").hide();
     $("#accueil_estampille2").delay(1000).hide().fadeIn(1500);
+
 
     /* LOADER */
 
@@ -223,8 +220,6 @@ $(document).ready(function(){
 
     });
 
-
-
     /*--------------
     Frise_soustitre
     ----------------*/
@@ -277,15 +272,4 @@ $(document).ready(function(){
     $(".navprojetdroit").hover(function() {
         $(this).toggleClass("nav_class1");
     });
-
-
-    /* ----------------  */
-
-    /*----------------
-    Formulaire_contact
-    ------------------*/
-
-            
-
-
 });

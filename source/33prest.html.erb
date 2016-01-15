@@ -178,3 +178,11 @@ title: 33 Prest
 <script>
       window.sr = new scrollReveal();
 </script>
+<script>
+jQuery(document).ready(function(){
+  if ($(window).width() > 1023) {
+$("#nav").show().animate({left: '0px'}, 1000, "easeInOutQuad")
+$("#wrapper-anim").show().animate({"left": '0px'}, 1150, "easeInOutQuad");
+}
+  });
+</script>

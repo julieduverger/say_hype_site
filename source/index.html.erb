@@ -65,9 +65,7 @@ title: Say Hype - Studio
 
 </script>
 
-<script async src="all.js"></script>
-
-   <script>
+<script>
 
  
 
@@ -80,10 +78,10 @@ if ($(window).width() < 760) {
         $(".accueil_estampille").css({"display":"none"});
         $("#img4").delay(2500).animate({top:"-1000px" }, 1500);
             $("#img4").queue(function(){
-                $("#img3").animate({"bottom":($(window).height()/2)}, 2000,"linear").delay(2000);
+                $("#img3").animate({"bottom":($(window).height()/2)}, 2000,"easeInOutQuad").delay(2000);
                     $("#img3").queue(function(){
-                                        $("#row_presentation_accueil").delay(1000).animate({"margin-left":"20px"}, 1500, "linear")
-                                        $("#tittle").delay(1000).animate({"margin-left":"60px"}, 1500, "linear");
+                                        $("#row_presentation_accueil").delay(1000).animate({"margin-left":"20px"}, 1500, "easeInOutQuad")
+                                        $("#tittle").delay(1000).animate({"margin-left":"60px"}, 1500, "easeInOutQuad");
                                         });
                                     
                                        
@@ -104,9 +102,10 @@ if ($(window).width() < 760) {
         $(".accueil_logo").hide();
             $("#img8").delay(2500).animate({bottom:"-1000px" }, 1500);
                 $("#img8").queue(function(){
-                        $("#img7").animate({"top":($(window).height()/2-180)}, 2000,"linear").delay(2000);
+                        $("#img7").animate({"top":($(window).height()/2-180)}, 2000,"easeInOutQuad").delay(2000);
                             $("#img7").queue(function(){
-                                                $("#nav").delay(1000).hide().fadeIn(2000);
+                                               $("#nav").delay(1000).show().animate({left: '0px'}, 2500, "easeInOutQuad")
+                                               
                                             
                                                 });
                                             
@@ -125,12 +124,12 @@ if ($(window).width() < 760) {
         $(".accueil_estampille").css({"display":"none"});
         $("#img4").delay(2500).animate({top:"-1000px" }, 1500);
             $("#img4").queue(function(){
-                $("#img3").animate({"bottom":($(window).height()/2-150)}, 2000,"linear").delay(2000).animate({top: "-1000px"}, 1500 );
+                $("#img3").animate({"bottom":($(window).height()/2-150)}, 2000,"easeInOutQuad").delay(2000).animate({top: "-1000px"}, 1500 );
                     $("#img3").queue(function(){
-                        $("#img2").animate({"bottom":($(window).height()/2-150)}, 2000,"linear").delay(2000);
+                        $("#img2").animate({"bottom":($(window).height()/2-150)}, 2000,"easeInOutQuad").delay(2000);
                             $("#img2").queue(function(){
-                                        $("#row_presentation_accueil").delay(1000).animate({"margin-left":"20px"}, 1500, "linear")
-                                        $("#tittle").delay(1000).animate({"margin-left":"60px"}, 1500, "linear");
+                                        $("#row_presentation_accueil").delay(1000).animate({"margin-left":"20px"}, 1500, "easeInOutQuad")
+                                        $("#tittle").delay(1000).animate({"margin-left":"60px"}, 1500, "easeInOutQuad");
                                         });
                                     
                                        
@@ -151,13 +150,15 @@ if ($(window).width() < 760) {
         $(".accueil_logo").hide();
             $("#img8").delay(2500).animate({bottom:"-1000px" }, 1500);
                 $("#img8").queue(function(){
-                        $("#img7").animate({"top":($(window).height()/2-300)}, 2000,"linear").delay(2000).animate({top: "1500px"}, 1500 );
+                        $("#img7").animate({"top":($(window).height()/2-300)}, 2000,"easeInOutQuad").delay(2000).animate({top: "1500px"}, 1500 );
                         $(".accueil_logo").hide().fadeIn(200).delay(1100).fadeOut(500);
                             $("#img7").queue(function(){
-                                $("#img6").animate({"top":($(window).height()/2-300)}, 2000,"linear").delay(2000);
+                                $("#img6").animate({"top":($(window).height()/2-300)}, 2000,"easeInOutQuad").delay(2000);
                                 $(".accueil_logo").hide().fadeIn(200).delay(1100).fadeOut(500);
                                     $("#img6").queue(function(){
-                                                $("#nav").delay(1000).hide().fadeIn(2000);
+                                                $("#nav").delay(1000).show().animate({left: '0px'}, 2500, "easeInOutQuad")
+                                                $("#wrapper-anim").delay(1000).show().animate({"left": '0px'}, 2250, "easeInOutQuad");
+                                               
                                             
                                                 });
                                             
@@ -169,18 +170,18 @@ if ($(window).width() < 760) {
                         }); 
                         });      
 
-} else if ($(window).width() > 1023 && $(window).width() < 1289) {
+} else if ($(window).width() > 1023 && $(window).width() < 1260) {
                  $(function() {
 
      	$(document.body).css({"margin-left":"1%"});
         $("#img4").delay(2500).animate({top:"-1000px" }, 1500);
             $("#img4").queue(function(){
-                $("#img3").animate({"bottom":($(window).height()/2-150)}, 1500,"linear").delay(2000).animate({top: "-1000px"}, 1500 );
+                $("#img3").animate({"bottom":($(window).height()/2-150)}, 2000,"easeInOutQuad").delay(2000).animate({top: "-1000px"}, 1500 );
                     $("#img3").queue(function(){
-                        $("#img2").animate({"bottom":($(window).height()/2-150)}, 1500,"linear").delay(2000);
+                        $("#img2").animate({"bottom":($(window).height()/2-150)}, 2000,"easeInOutQuad").delay(2000);
                             $("#img2").queue(function(){
-                                        $("#row_presentation_accueil").delay(1000).animate({"margin-left":"90px"}, 1500, "linear")
-                                        $("#tittle").delay(1000).animate({"margin-left":"200px"}, 1500, "linear");
+                                        $("#row_presentation_accueil").delay(1000).animate({"margin-left":"90px"}, 1500, "easeInOutQuad")
+                                        $("#tittle").delay(1000).animate({"margin-left":"200px"}, 1500, "easeInOutQuad");
                                         });
                                     
                                        
@@ -198,20 +199,21 @@ if ($(window).width() < 760) {
                $(function() {
         $(".accueil_estampille").hide();
         $("#nav").hide();
+        $("#wrapper-anim").hide();
+        $(".accueil_logo").hide();
             $("#img8").delay(2500).animate({bottom:"-1000px" }, 1500);
                 $("#img8").queue(function(){
-                        $("#img7").animate({"top":($(window).height()/2-300)}, 1500,"linear").delay(2000).animate({top: "1500px"}, 1500 );
+                        $("#img7").animate({"top":($(window).height()/2-300)}, 2000,"easeInOutQuad").delay(2000).animate({top: "1500px"}, 1500 );
+                            $(".accueil_logo").hide().fadeIn(200).delay(1100).fadeOut(500);
                             $("#img7").queue(function(){
-                                $("#img6").animate({"top":($(window).height()/2-300)}, 1500,"linear").delay(2000);
+                                $("#img6").animate({"top":($(window).height()/2-300)}, 2000,"easeInOutQuad").delay(2000);
+                                $(".accueil_logo").hide().fadeIn(200).delay(1100).fadeOut(500);
                                     $("#img6").queue(function(){
-                                                $("#nav").delay(1000).hide().fadeIn(2000)
-                                                $(".accueil_logo").delay(1000).fadeOut(750)
-                                                $(".accueil_estampille").delay(2500).hide().fadeIn(1500);
-                                                $(".accueil_estampille").queue(function(){
-                                                    $(".accueil_estampille").css({"transform":"rotate(360deg)", "@-webkit-transform":"rotate(360deg)" } );
-                                                     
-                                                
-                                                });                                                     
+                                                $("#nav").delay(1000).show().animate({left: '0px'}, 2500, "easeInOutQuad")
+                                                $("#wrapper-anim").delay(1000).show().animate({"left": '0px'}, 2000, "easeInOutQuad")
+                                                $(".accueil_logo").delay(1000).fadeOut(750);
+
+                                                   
                                                 });
                                             
 
@@ -225,19 +227,19 @@ if ($(window).width() < 760) {
 
 
 
-} else if ($(window).width() > 1290 && $(window).width() < 1450){ 
+} else if ($(window).width() > 1261 && $(window).width() < 1449){ 
 
 $(function() {
 
       $(document.body).css({"margin-left":"1%"});
-        $("#img4").delay(2500).animate({top:"-1000px" }, 1250);
+        $("#img4").delay(2500).animate({top:"-1000px" }, 1750);
             $("#img4").queue(function(){
-                $("#img3").animate({"bottom":($(window).height()/2-150)}, 1250,"linear").delay(2000).animate({top: "-1000px"}, 1250 );
+                $("#img3").animate({"bottom":($(window).height()/2-150)}, 1750,"easeInOutQuad").delay(2000).animate({top: "-1000px"}, 1750 );
                     $("#img3").queue(function(){
-                        $("#img2").animate({"bottom":($(window).height()/2-150)}, 1250,"linear").delay(2000);
+                        $("#img2").animate({"bottom":($(window).height()/2-150)}, 1750,"easeInOutQuad").delay(1500);
                             $("#img2").queue(function(){
-                                        $("#row_presentation_accueil").delay(1000).animate({"margin-left":"100px"}, 1500, "linear")
-                                        $("#tittle").delay(1000).animate({"margin-left":"200px"}, 1500, "linear");
+                                        $("#row_presentation_accueil").delay(1000).animate({"margin-left":"100px"}, 1500, "easeInOutQuad")
+                                        $("#tittle").delay(1000).animate({"margin-left":"200px"}, 1500, "easeInOutQuad");
                                         });
                                     
                                        
@@ -254,13 +256,15 @@ $(function() {
                $(function() {
        $(".accueil_estampille").hide(); 
         $("#nav").hide();
-            $("#img8").delay(2500).animate({bottom:"-1000px" }, 1250);
+        $("#wrapper-anim").hide();
+            $("#img8").delay(2500).animate({bottom:"-1000px" }, 1750);
                 $("#img8").queue(function(){
-                        $("#img7").animate({"top":($(window).height()/2-300)}, 1250,"linear").delay(2000).animate({top: "1500px"}, 1250 );
+                        $("#img7").animate({"top":($(window).height()/2-300)}, 1750,"easeInOutQuad").delay(2000).animate({top: "1500px"}, 1750 );
                             $("#img7").queue(function(){
-                                $("#img6").animate({"top":($(window).height()/2-300)}, 1250,"linear").delay(2000);
+                                $("#img6").animate({"top":($(window).height()/2-300)}, 1750,"easeInOutQuad").delay(1500);
                                     $("#img6").queue(function(){
-                                                $("#nav").delay(1000).hide().fadeIn(2000)
+                                                $("#nav").delay(1000).show().animate({left: '0px'}, 2500, "easeInOutQuad")
+                                                $("#wrapper-anim").delay(1000).show().animate({"left": '0px'}, 2250, "easeInOutQuad")
                                                 $(".accueil_logo").delay(1000).fadeOut(750)
                                                 $(".accueil_estampille").delay(2500).hide().fadeIn(1500);
                                                 $(".accueil_estampille").queue(function(){
@@ -283,14 +287,14 @@ $(function() {
 $(function() {
 
       $(document.body).css({"margin-left":"1%"});
-        $("#img4").delay(2500).animate({top:"-1000px" }, 1250);
+        $("#img4").delay(2500).animate({top:"-1000px" }, 1750);
             $("#img4").queue(function(){
-                $("#img3").animate({"bottom":($(window).height()/2-150)}, 1250,"linear").delay(2000).animate({top: "-1000px"}, 1250 );
+                $("#img3").animate({"bottom":($(window).height()/2-150)}, 1750,"easeInOutQuad").delay(2000).animate({top: "-1000px"}, 1750 );
                     $("#img3").queue(function(){
-                        $("#img2").animate({"bottom":($(window).height()/2-150)}, 1250,"linear").delay(2000);
+                        $("#img2").animate({"bottom":($(window).height()/2-150)}, 1750,"easeInOutQuad").delay(1500);
                             $("#img2").queue(function(){
-                                        $("#row_presentation_accueil").delay(1000).animate({"margin-left":"150px"}, 1500, "linear")
-                                        $("#tittle").delay(1000).animate({"margin-left":"200px"}, 1500, "linear");
+                                        $("#row_presentation_accueil").delay(1000).animate({"margin-left":"150px"}, 1500, "easeInOutQuad")
+                                        $("#tittle").delay(1000).animate({"margin-left":"200px"}, 1500, "easeInOutQuad");
                                         });
                                     
                                        
@@ -307,13 +311,15 @@ $(function() {
                $(function() {
        $(".accueil_estampille").hide(); 
         $("#nav").hide();
-            $("#img8").delay(2500).animate({bottom:"-1000px" }, 1250);
+        $("#wrapper-anim").hide();
+            $("#img8").delay(2500).animate({bottom:"-1000px" }, 1750);
                 $("#img8").queue(function(){
-                        $("#img7").animate({"top":($(window).height()/2-300)}, 1250,"linear").delay(2000).animate({top: "1500px"}, 1250 );
+                        $("#img7").animate({"top":($(window).height()/2-300)}, 1750,"easeInOutQuad").delay(2000).animate({top: "1500px"}, 1750 );
                             $("#img7").queue(function(){
-                                $("#img6").animate({"top":($(window).height()/2-300)}, 1250,"linear").delay(2000);
+                                $("#img6").animate({"top":($(window).height()/2-300)}, 1750,"easeInOutQuad").delay(1500);
                                     $("#img6").queue(function(){
-                                                $("#nav").delay(1000).hide().fadeIn(2000)
+                                                $("#nav").delay(1000).show().animate({left: '0px'}, 2500, "easeInOutQuad")
+                                                $("#wrapper-anim").delay(1000).show().animate({"left": '0px'}, 2250, "easeInOutQuad")
                                                 $(".accueil_logo").delay(1000).fadeOut(750)
                                                 $(".accueil_estampille").delay(2500).hide().fadeIn(1500);
                                                 $(".accueil_estampille").queue(function(){
@@ -332,19 +338,19 @@ $(function() {
     }); 
 
 
-} else if ($(window).width() > 1690 && $(window).width() < 1950){ 
+} else if ($(window).width() > 1691 && $(window).width() < 1949){ 
 
 $(function() {
 
       $(document.body).css({"margin-left":"1%"});
-        $("#img4").delay(2500).animate({top:"-1000px" }, 1250);
+        $("#img4").delay(2500).animate({top:"-1000px" }, 1750);
             $("#img4").queue(function(){
-                $("#img3").animate({"bottom":($(window).height()/2-250)}, 1250,"linear").delay(2000).animate({top: "-1000px"}, 1250 );
+                $("#img3").animate({"bottom":($(window).height()/2-250)}, 1750,"easeInOutQuad").delay(2000).animate({top: "-1000px"}, 1750 );
                     $("#img3").queue(function(){
-                        $("#img2").animate({"bottom":($(window).height()/2-250)}, 1250,"linear").delay(2000);
+                        $("#img2").animate({"bottom":($(window).height()/2-250)}, 1750,"easeInOutQuad").delay(1500);
                             $("#img2").queue(function(){
-                                        $("#row_presentation_accueil").delay(1000).animate({"margin-left":"150px"}, 1500, "linear")
-                                        $("#tittle").delay(1000).animate({"margin-left":"300px"}, 1500, "linear");
+                                        $("#row_presentation_accueil").delay(1000).animate({"margin-left":"150px"}, 1500, "easeInOutQuad")
+                                        $("#tittle").delay(1000).animate({"margin-left":"300px"}, 1500, "easeInOutQuad");
                                         });
                                     
                                        
@@ -361,13 +367,15 @@ $(function() {
                $(function() {
        $(".accueil_estampille").hide(); 
         $("#nav").hide();
-            $("#img8").delay(2500).animate({bottom:"-1000px" }, 1250);
+        $("#wrapper-anim").hide();
+            $("#img8").delay(2500).animate({bottom:"-1000px" }, 1750);
                 $("#img8").queue(function(){
-                        $("#img7").animate({"top":($(window).height()/2-450)}, 1250,"linear").delay(2000).animate({top: "1500px"}, 1250 );
+                        $("#img7").animate({"top":($(window).height()/2-450)}, 1750,"easeInOutQuad").delay(2000).animate({top: "1500px"}, 1750 );
                             $("#img7").queue(function(){
-                                $("#img6").animate({"top":($(window).height()/2-450)}, 1250,"linear").delay(2000);
+                                $("#img6").animate({"top":($(window).height()/2-450)}, 1750,"easeInOutQuad").delay(1500);
                                     $("#img6").queue(function(){
-                                                $("#nav").delay(1000).hide().fadeIn(2000)
+                                                $("#nav").delay(1000).show().animate({left: '0px'}, 2500, "easeInOutQuad")
+                                                $("#wrapper-anim").delay(1000).show().animate({"left": '0px'}, 2250, "easeInOutQuad")    
                                                 $(".accueil_logo").delay(1000).fadeOut(750)
                                                 $(".accueil_estampille").delay(2500).hide().fadeIn(1500);
                                                 $(".accueil_estampille").queue(function(){
@@ -396,14 +404,14 @@ $(function() {
                   $(function() {
 
       $(document.body).css({"margin-left":"1%"});
-        $("#img4").delay(2500).animate({top:"-1000px" }, 1250);
+        $("#img4").delay(2500).animate({top:"-1000px" }, 1750);
             $("#img4").queue(function(){
-                $("#img3").animate({"bottom":($(window).height()/2-400)}, 1250,"linear").delay(2000).animate({top: "-1000px"}, 1250 );
+                $("#img3").animate({"bottom":($(window).height()/2-400)}, 1750,"easeInOutQuad").delay(2000).animate({top: "-1000px"}, 1750 );
                     $("#img3").queue(function(){
-                        $("#img2").animate({"bottom":($(window).height()/2-400)}, 1250,"linear").delay(2000);
+                        $("#img2").animate({"bottom":($(window).height()/2-400)}, 1750,"easeInOutQuad").delay(1500);
                             $("#img2").queue(function(){
-                                        $("#row_presentation_accueil").delay(1000).animate({"margin-left":"150px"}, 1500, "linear")
-                                        $("#tittle").delay(1000).animate({"margin-left":"300px"}, 1500, "linear");
+                                        $("#row_presentation_accueil").delay(1000).animate({"margin-left":"150px"}, 1500, "easeInOutQuad")
+                                        $("#tittle").delay(1000).animate({"margin-left":"300px"}, 1500, "easeInOutQuad");
                                         });
                                     
                                        
@@ -420,17 +428,19 @@ $(function() {
                $(function() {
        $(".accueil_estampille").hide(); 
         $("#nav").hide();
-            $("#img8").delay(2500).animate({bottom:"-1000px" }, 1250);
+          $("#wrapper-anim").hide();
+            $("#img8").delay(2500).animate({bottom:"-1000px" }, 1750);
                 $("#img8").queue(function(){
-                        $("#img7").animate({"top":($(window).height()/2-400)}, 1250,"linear").delay(2000).animate({top: "1500px"}, 1250 );
+                        $("#img7").animate({"top":($(window).height()/2-400)}, 1750,"easeInOutQuad").delay(2000).animate({top: "1500px"}, 1750 );
                             $("#img7").queue(function(){
-                                $("#img6").animate({"top":($(window).height()/2-400)}, 1250,"linear").delay(2000);
+                                $("#img6").animate({"top":($(window).height()/2-400)}, 1750,"easeInOutQuad").delay(1500);
                                     $("#img6").queue(function(){
-                                                $("#nav").delay(1000).hide().fadeIn(2000)
+                                                $("#nav").delay(1000).show().animate({left: '0px'}, 2500, "easeInOutQuad")
+                                                $("#wrapper-anim").delay(1000).show().animate({"left": '0px'}, 2250, "easeInOutQuad")
                                                 $(".accueil_logo").delay(1000).fadeOut(750)
                                                 $(".accueil_estampille").delay(2500).hide().fadeIn(1500);
                                                 $(".accueil_estampille").queue(function(){
-                                                    $(".accueil_estampille").css({"transform":"rotate(360deg)"} );
+                                                    $(".accueil_estampille").css({"transform":"rotate(360deg)","@-webkit-transform":"rotate(360deg)"} );
                                                      
                                                 
                                                 });
