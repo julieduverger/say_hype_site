@@ -30,7 +30,12 @@ $(document).ready(function(){
         spinner:"spinner5"
     });    
 
+    /*-------- 
+    SlideInDown
+    ---------*/
 
+    $(".presentation_projet h2").addClass("slideInDown");
+    $(".presentation_projet h3").addClass("slideInDown");
 
     /*-------- 
     Frise haut 

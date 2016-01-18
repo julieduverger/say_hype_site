@@ -44,8 +44,8 @@ title: Côté Bassin
 
                          <div class="presentation_projet text-center">
                               <br> </br>
-                              <h2 class="slideInDown">COTE BASSIN</h2>
-                              <h3 class="slideInDown">Spécialiste de l'immobilier</h3>
+                              <h2 class="">COTE BASSIN</h2>
+                              <h3 class="">Spécialiste de l'immobilier</h3>
                               <%= image_tag "losange.png"%> 
                               
                               <h4 class="fadeInDown">DIRECTION ARTISTIQUE – CREATION DE L’ IDENTITÉ VISUELLE</h4>
@@ -170,9 +170,9 @@ title: Côté Bassin
 </script>
 
 <script>
-  if ($(window).width() > 1023) {
-$("#nav").show().animate({left: '0px'}, 1000, "easeInOutQuad")
-$("#wrapper-anim").show().animate({"left": '0px'}, 1150, "easeInOutQuad");
-}
+jQuery(document).ready(function(){
+                                                  $("#nav").show().animate({left: '0px'}, 1000, "easeInOutQuad")
+                                                $("#wrapper-anim").show().animate({"left": '0px'}, 1150, "easeInOutQuad")
   });
+</script>
 </script>
