@@ -34,7 +34,7 @@ $(document).ready(function(){
     SlideInDown
     ---------*/
 
-    $(".presentation_projet h2").addClass("slideInDown");
+    $("#essai").addClass("slideInDown");
     $(".presentation_projet h3").addClass("slideInDown");
 
     /*-------- 
