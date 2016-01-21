@@ -3,9 +3,19 @@
 //= require bootstrap-sprockets
 //= require_tree .
 
+$(window).load(function(){
+    /*-------- 
+    SlideInDown
+    ---------*/
+        $(".titreh2").addClass("slideInDown");
+        $(".titreh3").addClass("slideInDown");
+        $(".titreh4").addClass("slideInDown");
+        $(".titrehp").addClass("slideInDown");
+
+});
+
 $(document).ready(function(){
 
-    $(window).load(function(){
 
         $(window).on("scroll",function(){
             console.log($(this).scrollTop());
@@ -36,10 +46,6 @@ $(document).ready(function(){
         SlideInDown
         ---------*/
 
-        $(".titreh2").addClass("slideInDown");
-        $(".titreh3").addClass("slideInDown");
-        $(".titreh4").addClass("slideInDown");
-        $(".titrehp").addClass("slideInDown");
 
         /*-------- 
         fadeInDown
@@ -285,6 +291,4 @@ $(document).ready(function(){
         $(".navprojetdroit").hover(function() {
             $(this).toggleClass("nav_class1");
         });
-
-    });
 });
