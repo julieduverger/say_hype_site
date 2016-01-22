@@ -4,14 +4,12 @@
 //= require_tree .
 
 $(window).load(function(){
-    /*-------- 
-    SlideInDown
-    ---------*/
         $(".titreh2").addClass("slideInDown");
         $(".titreh3").addClass("slideInDown");
-        $(".titreh4").addClass("slideInDown");
-        $(".titrehp").addClass("slideInDown");
-
+        $(".titreh4").addClass("fadeInDown");
+        $(".titrehp").addClass("fadeInDown");
+        $("#tittle_studio").addClass("slideInDown");
+        $("#tittle_contact").addClass("slideInDown");
 });
 
 $(document).ready(function(){
@@ -42,14 +40,6 @@ $(document).ready(function(){
             spinner:"spinner5"
         });    
 
-        /*-------- 
-        SlideInDown
-        ---------*/
-
-
-        /*-------- 
-        fadeInDown
-        ---------*/
 
         /*-------- 
         Frise haut 
