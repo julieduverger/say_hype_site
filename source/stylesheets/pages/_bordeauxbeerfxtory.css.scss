@@ -1,12 +1,8 @@
-.row{
-    margin-left: 300px;
-}
-
-#couverture_bbf_cotebassin{
+#couverture_img_bbf{
 	border: 1px solid #F4F2EE;
 	width: auto;
 	height: 520px;
-	background-image: url(../images/cotebassin_presentation.jpg);
+	background-image: url(../images/bbf_photos8_projet.jpg);
 	background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -392,6 +388,7 @@
         height: 500px;
         width: 712px;
         margin-left: 2%;
+        margin-top: 2%;
     }
 
     #bbf_photo_pieddepage {
@@ -399,7 +396,7 @@
         width: auto;
         margin-left: 0px;
         padding-right: 1%;
-        background-size: contain;
+        background-size: cover;
     }
 }
 
@@ -529,7 +526,7 @@
         width: auto;
         margin-left: 0px;
         padding-right: 0%;
-        background-size: contain;
+        background-size: cover;
         margin-top: 10%;
     }
 }

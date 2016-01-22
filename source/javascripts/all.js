@@ -10,6 +10,11 @@ $(window).load(function(){
         $(".titrehp").addClass("fadeInDown");
         $("#tittle_studio").addClass("slideInDown");
         $("#tittle_contact").addClass("slideInDown");
+        $(".fakeloader").fakeLoader({
+        timeToHide:1200,
+        bgColor:"#F6ECEC",
+        spinner:"spinner5"
+        });   
 });
 
 $(document).ready(function(){
@@ -35,10 +40,12 @@ $(document).ready(function(){
         /* LOADER */
 
         $(".fakeloader").fakeLoader({
-            timeToHide:1200,
-            bgColor:"#F6ECEC",
-            spinner:"spinner5"
-        });    
+        timeToHide:1200,
+        bgColor:"#F6ECEC",
+        spinner:"spinner5"
+        });  
+
+ 
 
 
         /*-------- 
