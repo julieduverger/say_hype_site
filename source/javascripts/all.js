@@ -10,11 +10,6 @@ $(window).load(function(){
         $(".titrehp").addClass("fadeInDown");
         $("#tittle_studio").addClass("slideInDown");
         $("#tittle_contact").addClass("slideInDown");
-        $(".fakeloader").fakeLoader({
-        timeToHide:1200,
-        bgColor:"#F6ECEC",
-        spinner:"spinner5"
-        });   
 });
 
 $(document).ready(function(){
@@ -35,18 +30,6 @@ $(document).ready(function(){
 
         $("#accueil_estampille2").hide();
         $("#accueil_estampille2").delay(1000).hide().fadeIn(1500);
-
-
-        /* LOADER */
-
-        $(".fakeloader").fakeLoader({
-        timeToHide:1200,
-        bgColor:"#F6ECEC",
-        spinner:"spinner5"
-        });  
-
- 
-
 
         /*-------- 
         Frise haut 

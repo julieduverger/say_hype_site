@@ -1,60 +1,3 @@
-/* LOADER */
-
-#spinner{
-    background-image: url(../images/logo_sayhype_rose.svg);
-    background-repeat: no-repeat;
-    background-position : right 50% top 40%;
-}
-
-.spinner5 {
-  width: 32px;
-  height: 32px;
-  position: relative;
-}
-
-.cube1, .cube2 {
-  background-color: #D2B0B0;
-  width: 10px;
-  height: 10px;
-  position: absolute;
-  top: 0;
-  left: 0;
-  
-  -webkit-animation: cubemove 1.8s infinite ease-in-out;
-  animation: cubemove 1.8s infinite ease-in-out;
-}
-
-.cube2 {
-  -webkit-animation-delay: -0.9s;
-  animation-delay: -0.9s;
-}
-
-@-webkit-keyframes cubemove {
-  25% { -webkit-transform: translateX(42px) rotate(-90deg) scale(0.5) }
-  50% { -webkit-transform: translateX(42px) translateY(42px) rotate(-180deg) }
-  75% { -webkit-transform: translateX(0px) translateY(42px) rotate(-270deg) scale(0.5) }
-  100% { -webkit-transform: rotate(-360deg) }
-}
-
-@keyframes cubemove {
-  25% { 
-    transform: translateX(42px) rotate(-90deg) scale(0.5);
-    -webkit-transform: translateX(42px) rotate(-90deg) scale(0.5);
-  } 50% { 
-    transform: translateX(42px) translateY(42px) rotate(-179deg);
-    -webkit-transform: translateX(42px) translateY(42px) rotate(-179deg);
-  } 50.1% { 
-    transform: translateX(42px) translateY(42px) rotate(-180deg);
-    -webkit-transform: translateX(42px) translateY(42px) rotate(-180deg);
-  } 75% { 
-    transform: translateX(0px) translateY(42px) rotate(-270deg) scale(0.5);
-    -webkit-transform: translateX(0px) translateY(42px) rotate(-270deg) scale(0.5);
-  } 100% { 
-    transform: rotate(-360deg);
-    -webkit-transform: rotate(-360deg);
-  }
-}
-
 #tittle {
     padding-top: 1%;
     margin-top: 0px;
@@ -646,27 +589,6 @@ a:hover{
 
 @media only screen and (min-width: 1259px)and (max-width: 1419px){
 
-    .spinner5 {
-      width: 15px;
-      height: 15px;
-      position: relative;
-    }
-
-    .cube1, .cube2 {
-      background-color: #D2B0B0;
-      width: 6px;
-      height: 6px;
-      position: absolute;
-      top: 0;
-      left: 0;
-    }
-
-    #spinner{
-        background-image: url(../images/logo_sayhype_rose2.svg);
-        background-repeat: no-repeat;
-        background-position : right 49% top 40%;
-    }
-
      #wrapper-anim{
         height: 100%;
         background-color: rgba(233, 196, 199, 0.1);
@@ -676,7 +598,6 @@ a:hover{
         left: -200px;
         top: 0px;
         z-index: 10;
-        margin-top: 1%;
         margin-bottom: 4%;    
     }
 
@@ -805,27 +726,6 @@ a:hover{
 
 @media only screen and (min-width: 1420px)and (max-width: 1659px){
 
-    .spinner5 {
-      width: 15px;
-      height: 15px;
-      position: relative;
-    }
-
-    .cube1, .cube2 {
-      background-color: #D2B0B0;
-      width: 6px;
-      height: 6px;
-      position: absolute;
-      top: 0;
-      left: 0;
-    }
-
-    #spinner{
-        background-image: url(../images/logo_sayhype_rose2.svg);
-        background-repeat: no-repeat;
-        background-position : right 49% top 40%;
-    }
-
      #wrapper-anim{
         height: 100%;
         background-color: rgba(233, 196, 199, 0.1);
@@ -835,7 +735,6 @@ a:hover{
         left: -200px;
         top: 0px;
         z-index: 10;
-        margin-top: 1%;
         margin-bottom: 4%;    
     }
 
@@ -963,27 +862,6 @@ a:hover{
 /*----------------------------------------* RESPONSIVE 15 POUCES --------------------------------------------------------------------------------------------------(1680 x 900)-----------------------------------------------------*/
 
 @media only screen and (min-width: 1660px) and (max-width: 1899px){
-
-    .spinner5 {
-      width: 15px;
-      height: 15px;
-      position: relative;
-    }
-
-    .cube1, .cube2 {
-      background-color: #D2B0B0;
-      width: 6px;
-      height: 6px;
-      position: absolute;
-      top: 0;
-      left: 0;
-    }
-
-    #spinner{
-        background-image: url(../images/logo_sayhype_rose.svg);
-        background-repeat: no-repeat;
-        background-position : right 49% top 40%;
-    }
     
     /* --- SLIDER --- */
 
@@ -1089,29 +967,6 @@ a:hover{
 
 @media only screen and (min-width: 1900px)and (max-width: 2550px){
 
-    .spinner5 {
-      width: 15px;
-      height: 15px;
-      position: relative;
-    }
-
-    .cube1, .cube2 {
-      background-color: #D2B0B0;
-      width: 6px;
-      height: 6px;
-      position: absolute;
-      top: 0;
-      left: 0;
-    }
-
-    #spinner{
-        background-image: url(../images/logo_sayhype_rose.svg);
-        background-repeat: no-repeat;
-        background-position : right 49% top 40%;
-    }
-    
-
-
     #presentation_accueil_gauche{
         height: 100vh;
     }
@@ -1204,27 +1059,6 @@ a:hover{
 /*----------------------------------------* RESPONSIVE TABLETTE PORTRAIT ------------------------------------------------------------------------------------------(768 x 1024)-----------------------------------------------------*/
 
 @media only screen and (min-width: 760px)and (max-width: 1022px){
-
-    .spinner5 {
-      width: 15px;
-      height: 15px;
-      position: relative;
-    }
-
-    .cube1, .cube2 {
-      background-color: #D2B0B0;
-      width: 6px;
-      height: 6px;
-      position: absolute;
-      top: 0;
-      left: 0;
-    }
-
-    #spinner{
-        background-image: url(../images/logo_sayhype_rose.svg);
-        background-repeat: no-repeat;
-        background-position : right 49% top 40%;
-    }
 
  .accueil_logo {
     -webkit-transform: translateZ(0);
@@ -1330,27 +1164,6 @@ a:hover{
 /*----------------------------------------* RESPONSIVE TABLETTE PAYSAGE ------------------------------------------------------------------------------------------(1024 x 768)---------------------------------------------------*/
 
 @media only screen and (min-width: 1023px)and (max-width: 1259px){
-
-    .spinner5 {
-      width: 15px;
-      height: 15px;
-      position: relative;
-    }
-
-    .cube1, .cube2 {
-      background-color: #D2B0B0;
-      width: 6px;
-      height: 6px;
-      position: absolute;
-      top: 0;
-      left: 0;
-    }
-
-    #spinner{
-        background-image: url(../images/logo_sayhype_rose2.svg);
-        background-repeat: no-repeat;
-        background-position : right 49% top 40%;
-    }
 
     #accueil_estampille2{
         display: none !important;
@@ -1496,27 +1309,6 @@ a:hover{
 /*----------------------------------------* RESPONSIVE MOBILE ----------------------------------------------------------------------------------------------------(300 x 640)-------------------------------------------------------*/
 
 @media only screen and (min-width: 250px)and (max-width: 759px){
-
-    .spinner5 {
-      width: 15px;
-      height: 15px;
-      position: relative;
-    }
-
-    .cube1, .cube2 {
-      background-color: #D2B0B0;
-      width: 6px;
-      height: 6px;
-      position: absolute;
-      top: 0;
-      left: 0;
-    }
-
-    #spinner{
-        background-image: url(../images/logo_sayhype_rose2.svg);
-        background-repeat: no-repeat;
-        background-position : right 49% top 40%;
-    }
 
  .accueil_logo {
     -webkit-transform: translateZ(0);
