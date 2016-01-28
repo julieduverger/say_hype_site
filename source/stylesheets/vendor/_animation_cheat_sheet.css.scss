@@ -92,7 +92,6 @@ slideInDown
 @keyframes slideInDown {
   from {
     color: white;
-    -webkit-transform: translate3d(0, -100%, 0);
     transform: translate3d(0, -100%, 0);
     visibility: visible;
     opacity: 1;
@@ -100,7 +99,6 @@ slideInDown
 
   to {
     color: #010101;
-    -webkit-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0);
     opacity: 1;
   }
@@ -109,16 +107,14 @@ slideInDown
 @-webkit-keyframes slideInDown {
   from {
     color: white;
-    transform: translate3d(0, -100%, 0);
-    transform: translate3d(0, -100%, 0);
+    -webkit-transform: translate3d(0, -100%, 0);
     visibility: visible;
     opacity: 1;
   }
 
   to {
     color: #010101;
-    transform: translate3d(0, 0, 0);
-    transform: translate3d(0, 0, 0);
+    -webkit-transform: translate3d(0, 0, 0);
     opacity:1;
   }
 }
