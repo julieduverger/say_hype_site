@@ -1,23 +1,57 @@
-#presentation_accueil_gauche2{
-    margin-left: 300px;
+
+#fond2{
+	width: 2000px;
+	height: 100%;
+	background-color: #24272C;
+    margin-bottom: 1%;
 }
 
-#presentation_accueil_droite2{
-    margin-left: -300px;
+#accueil_encart3{
+	position: absolute;
+	bottom: 10%;
+	right: -40%;
+	height: 190px;
+	width: 40%;
+	background-color: #F7E7E9;
+	z-index: 10;
 }
 
-#tittle2{
-	margin-left: 300px;
-	padding-top: 1%;
-	padding-bottom: 5%;
+#encart_accueil2{
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	height: 190px;
+	width: 100%;
+	background-color: #FBF3F4;
+	h1{
+	color:#FBF3F4;
+	letter-spacing: 2px;
+    font-size: 20px;
+    margin-top: 0px;
+}
 }
 
-#accueil_estampille2{
-    position: fixed;
-    top: calc(50% - 125px);
-    left: 50%;
-    margin-left: 15px;
+#image_accueil1{
+	position: absolute;
+	top: calc(50% - 500px);
+	left: calc(50% - 850px);
+	width: 2000px;
+	height: 1000px;
+	img{
+		position: absolute;
+		top: -169px;
+		left: -50px;
+		width: 100%;
+		-webkit-transition: transform 5s ease-in;
+	    -moz-transition: transform 5s ease-in;
+	    -o-transition: transform 5s ease-in;
+	    transition: transform 5s ease-in;
+    }
 }
+
+
+
+
 
 /*---------------------------------------------------RESPONSIVE---------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
@@ -28,48 +62,33 @@
 
 @media only screen and (min-width: 1260px)and (max-width: 1419px){
 
-	#accueil_estampille2{
-		display: none !important;
-	}
+#fond2{
+	width: 900px;
+}
 
-	#tittle2 {
-	    margin-left: 200px;
-	    padding-top: 1%;
-	    padding-bottom: 1%;
-
-	    h1{
-	    font-family: sabon roman;
-		letter-spacing: 2px;
-		font-size: 20px;
-	    }
-	}
-
-	#presentation_accueil_gauche2 {
-	    margin-left: 200px;
-	    margin-top: 1%;
-	}
-
-	#presentation_accueil_droite2 {
-	    margin-left: -200px;
-	    margin-top: 1%;
-	}
-
-	#presentation_accueil_droite2{
-
-		img{
-			height: 450px;
-			width: 337px;
-		}
-	}
-
-	#presentation_accueil_gauche2{
-		padding: 0px;
-
-		img{
-			height: 450px;
-			width: 337px;
-		}
-	}
+#image_accueil1{
+top: calc(50% - 335px);
+    left: calc(50% - 400px);
+    width: 1000px;
+    height: 670px;
+img{
+    width: 1100px;
+    top: -60px;
+    left: -82px;
+}
+}
+#accueil_encart3{
+	height: 140px;
+}
+#encart_accueil2{
+	height: 140px;
+	h1{
+	color:#FBF3F4;
+	letter-spacing: 2px;
+    font-size: 17px;
+    margin-top: 0px;
+}
+}
 		
 }
 
@@ -77,325 +96,216 @@
 
 @media only screen and (min-width: 1420px)and (max-width: 1659px){
 
-	#tittle2 {
-	    margin-left: 200px;
-	    padding-top: 1%;
-	    padding-bottom: 1%;
-
-	    h1{
-	    font-family: sabon roman;
-		letter-spacing: 2px;
-		font-size: 20px;
-	    }
-	}
-
-	#presentation_accueil_gauche2 {
-	    margin-left: 200px;
-	    margin-top: 1%;
-	}
-
-	#presentation_accueil_droite2 {
-	    margin-left: -200px;
-	    margin-top: 1%;
-	}
-
-	#presentation_accueil_droite2{
-
-		img{
-			height: 450px;
-			width: 337px;
-		}
-	}
-
-	#presentation_accueil_gauche2{
-		padding: 0px;
-
-		img{
-			height: 450px;
-			width: 337px;
-		}
-	}
-
-	#accueil_estampille2 {
-	    position: fixed;
-	    top: calc(50% - 85px);
-	    margin-left: 12px;
-
-	    img{
-	    width: 70%;
-	    }
-	}		
+#fond2{
+	width: 900px;
 }
 
-/*----------------------------------------* RESPONSIVE 15 POUCES --------------------------------------------------------------------------------------------------(1680 x 900)-----------------------------------------------------*/
+#image_accueil1{
+    top: calc(50% - 400px);
+    left: calc(50% - 550px);
+    width: 1300px;
+    height: 800px;
+img{
+    width: 1500px;
+    top: -110px;
+    left: -82px;
+}
+}
+#accueil_encart3{
+	height: 140px;
+}
+#encart_accueil2{
+	height: 140px;
+	h1{
+	color:#FBF3F4;
+	letter-spacing: 2px;
+    font-size: 17px;
+    margin-top: 0px;
+}
+}
+
+
+
+	
+}
+
+/*----------------------------------------* RESPONSIVE 15 POUCES --------------------------------------------------------------------------------------------------(1680 x 1050)-----------------------------------------------------*/
 
 @media only screen and (min-width: 1660px)and (max-width: 1899px){
 
-	#vertical_spacer4{
-		display: none;
-	}
+#fond2{
+	width: 1300px;
+}
 
-	#accueil_animation {
-	    margin-left: -15px;
-	    height: 1500px;
-	}
-
-	#tittle2 {
-	    margin-left: 200px;
-	    padding-top: 1%;
-	    padding-bottom: 1%;
-
-	    h1{
-	    font-family: sabon roman;
-		letter-spacing: 2px;
-		font-size: 20px;
-	    }
-	}
-
-	#presentation_accueil_gauche2 {
-	    margin-left: 200px;
-	    margin-top: 0%;
-	    top: calc(25% - 225px);
-	}
-
-	#presentation_accueil_droite2 {
-	    margin-left: -200px;
-	    margin-top: 0%;
-	    top: calc(25% - 225px);
-	}
-
-	#presentation_accueil_droite2{
-
-		img{
-			height: 450px;
-			width: 337px;
-		}
-	}
-
-	#presentation_accueil_gauche2{
-		padding: 0px;
-
-		img{
-			height: 450px;
-			width: 337px;
-		}
-	}
-
-	#accueil_estampille2 {
-	    position: fixed;
-	    top: calc(50% - 85px);
-	    margin-left: 5px;
-
-	    img{
-	    width: 70%;
-	    }
-	}		
+#image_accueil1{
+    top: calc(50% - 400px);
+    left: calc(50% - 500px);
+    width: 1300px;
+    height: 800px;
+img{
+    width: 1500px;
+    top: -110px;
+    left: -82px;
+}
+}
+#accueil_encart3{
+	height: 140px;
+}
+#encart_accueil2{
+	height: 140px;
+	h1{
+	color:#FBF3F4;
+	letter-spacing: 2px;
+    font-size: 17px;
+    margin-top: 0px;
+}
+}
+	
 }
 
 /*----------------------------------------* RESPONSIVE 15 POUCES --------------------------------------------------------------------------------------------------(1920 x 900)-----------------------------------------------------*/
 
-@media only screen and (min-width: 1900px)and (max-width: 2559px){
+@media only screen and (min-width: 1900px)and (max-width: 2000px){
 
-#accueil_animation {
-	    margin-left: -15px;
-	    height: 1500px;
-	}
-
-
-	#presentation_accueil_gauche2 {
-	    margin-left: 200px;
-	    margin-top: 0%;
-	    top: calc(25% - 350px);
-	}
-
-	#presentation_accueil_droite2 {
-	    margin-left: -200px;
-	    margin-top: 0%;
-	    top: calc(25% - 350px);
-	    left: calc(50% - 875px);
-	}
-
-	#presentation_accueil_droite2{
-
-		img{
-			height: 700px;
-			width: 525px;
-		}
-	}
-
-	#presentation_accueil_gauche2{
-		padding: 0px;
-
-		img{
-			height: 700px;
-			width: 525px;
-		}
-	}
-
-	#accueil_estampille2 {
-	    position: fixed;
-	    top: calc(50% - 85px);
-	    margin-left: 10px;
-	}				
+#fond2{
+	width: 1300px;
 }
 
-/*----------------------------------------* RESPONSIVE TABLETTE PORTRAIT ------------------------------------------------------------------------------------------(768 x 1024)-----------------------------------------------------*/
-
-@media only screen and (min-width: 760px)and (max-width: 1023px){
-	
-	.site-pusher{
-		height: 100%;
-	}
-
-	.site-container{
-		height: 100%;
-	}
-
-	#presentation_accueil_gauche2 {
-	    margin-top: 0%;
-	    top: calc(25% - 100px);
-	}
-
-	#presentation_accueil_droite2 {
-	    margin-top: 0%;
-	    top: calc(25% - 100px);
-	}
-
-	#presentation_accueil_droite2{
-		margin: 0;
-
-		img{
-			height: 466px;
-			width: 350px;
-		}
-	}
-
-	#presentation_accueil_gauche2{
-		margin-left: -20px;
-
-		img{
-			height: 466px;
-			width: 350px;
-		}
-	}
-
-	#accueil_animation {
-	    height: 500px;
-	}
-
-	#accueil_estampille2 {
-		display: none;
-	}		
+#image_accueil1{
+    top: calc(50% - 500px);
+    left: calc(50% - 650px);
+    width: 1600px;
+    height: 1000px;
+img{
+    width: 1800px;
+    top: -110px;
+    left: -82px;
+}
+}
+			
 }
 
 /*----------------------------------------* RESPONSIVE TABLETTE PAYSAGE ------------------------------------------------------------------------------------------(1024 x 768)---------------------------------------------------*/
 
-@media only screen and (min-width: 1024px)and (max-width: 1279px){
+@media only screen and (min-width: 1000px)and (max-width: 1249px){
 
-	#accueil_estampille2{
-		display: none !important;
-	}
-
-	#tittle2 {
-	    margin-left: 200px;
-	    padding-top: 1%;
-	    padding-bottom: 1%;
-
-	    h1{
-	    font-family: sabon roman;
-		letter-spacing: 2px;
-		font-size: 20px;
-	    }
-	}
-
-	#presentation_accueil_gauche2 {
-	    margin-left: 180px;
-	    margin-top: 1%;
-	}
-
-	#presentation_accueil_droite2 {
-	    margin-left: -180px;
-	    margin-top: 1%;
-	}
-
-	#presentation_accueil_droite2{
-
-		img{
-			height: 400px;
-			width: 300px;
-		}
-	}
-
-	#presentation_accueil_gauche2{
-		padding: 0px;
-
-		img{
-			height: 400px;
-			width: 300px;
-		}
-	}	
+#fond2{
+	width: 750px;
 }
+
+#image_accueil1{
+	top: calc(50% - 335px);
+    left: calc(50% - 400px);
+    width: 1000px;
+    height: 670px;
+img{
+    width: 1100px;
+    top: -60px;
+    left: -82px;
+}
+}
+
+#accueil_encart3{
+	height: 110px;
+}
+#encart_accueil2{
+	height: 110px;
+	h1{
+    color: #FBF3F4;
+    letter-spacing: 2px;
+    font-size: 15px;
+    margin-top: 0px;
+	}
+}
+
+}
+
+
+/*----------------------------------------* RESPONSIVE TABLETTE PORTRAIT ------------------------------------------------------------------------------------------(768 x 1024)-----------------------------------------------------*/
+
+@media only screen and (min-width: 760px)and (max-width: 999px){
+
+#fond2{
+	width: 750px;
+}
+
+#image_accueil1{
+	top: calc(50% - 335px);
+	left: calc(50% - 375px);
+	width: 750px;
+	height: 670px;
+img{
+    width: 1100px;
+    top: -60px;
+    left: -214px;
+}
+}
+
+#accueil_encart3{
+	bottom: 20%;
+	right: -50%;
+	height: 110px;
+	width: 50%;
+}
+#encart_accueil2{
+	height: 110px;
+	width: 100%;
+	background-color: #FBF3F4;
+	h1{
+    color: #FBF3F4;
+    letter-spacing: 2px;
+    font-size: 14px;
+    margin-top: 0px;
+	}
+}
+		
+}
+
+
 
 /*----------------------------------------* RESPONSIVE MOBILE ----------------------------------------------------------------------------------------------------(300 x 640)-------------------------------------------------------*/
 
 @media only screen and (min-width: 250px)and (max-width: 759px){
 
-	.site-pusher{
-		height: 100%;
-	}
+#fond2{
+	width: 750px;
+}
 
-	.site-container{
-		height: 100%;
-	}
+#image_accueil1{
+	top: calc(50% - 335px);
+	left: calc(50% - 375px);
+	width: 750px;
+	height: 670px;
+img{
+    width: 1100px;
+    top: -60px;
+    left: -388px;
+}
+}
 
-	#accueil_estampille2{
-		display: none !important;
-	}
-
-
-	#tittle2 {
-	    margin-left: 200px;
-	    padding-top: 1%;
-	    padding-bottom: 1%;
-
-	    h1{
-	    font-family: sabon roman;
-		letter-spacing: 2px;
-		font-size: 20px;
-	    }
-	}
-
-	#presentation_accueil_gauche2 {
-	margin-left: 0px;
-		
-	}
-
-	#presentation_accueil_droite2 {
-	margin-left: 0px;
-
-	}
-
-	.accueil_logo{
-		display: block;
-	}
-
-	#presentation_accueil_droite2{
-
-		img{
-			height: 180px;
-			width: auto;
-		}
-	}
-
-	#presentation_accueil_gauche2{
-		padding: 0px;
-
-		img{
-			height:180px;
-			width: auto;
-		}
+#accueil_encart3{
+	bottom: 15%;
+	right: -80%;
+	height: 80px;
+	width: 80%;
+}
+#encart_accueil2{
+	height: 80px;
+	width: 100%;
+	background-color: #FBF3F4;
+	h1{
+    color: #FBF3F4;
+    letter-spacing: 2px;
+    line-height: 17px;
+    font-size: 11px;
+    margin: 0px;
 	}
 }
+
+	
+}
+
+
 
 
 

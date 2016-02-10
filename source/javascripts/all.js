@@ -10,6 +10,28 @@ $(window).load(function(){
         $(".titrehp").addClass("fadeInDown");
         $("#tittle_studio").addClass("slideInDown");
         $("#tittle_contact").addClass("slideInDown");
+
+        $.fn.typewriter = function(opt,callback) {
+        var i=0;
+        var typeone = function(self, text, content) {
+                if (text.length > 0) {
+                        i=i+1;
+                        var next = text.match(/(\s*(<[^>]*>)?)*(&.*?;|.?)/)[0];
+                        text = text.substr(next.length);
+                        $(self).html(content+next);
+                        setTimeout(function(){
+                                typeone(self, text, content+next);
+                        }, opt['delay']);
+                        if(text.length==0) if (callback!=null) callback();
+                }
+        }
+        this.each(function() {
+                opt = opt || { 'delay': 125 };
+                typeone(this, $(this).html(), '');
+        });
+        return this;
+}
+
 });
 
 $(document).ready(function(){

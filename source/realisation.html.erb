@@ -272,8 +272,9 @@ title: Réalisations
 </script>
 <script>
 jQuery(document).ready(function(){
-                                                  $("#nav").show().animate({left: '0px'}, 1000, "easeInOutQuad")
-                                                $("#wrapper-anim").show().animate({"left": '0px'}, 1150, "easeInOutQuad")
+$(document.body).css({"background-color":"white"}); 
+$("#nav").delay(1000).show().animate({left: '0px'}, 2500, "easeInOutQuad")
+$("#wrapper-anim").delay(1000).css({"background-color":"#F7E7E9"}).show().animate({"left": '0px'}, 2250, "easeInOutQuad");
   });
 </script>
 
