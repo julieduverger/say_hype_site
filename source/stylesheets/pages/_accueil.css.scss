@@ -33,15 +33,15 @@
 
 #image_accueil1{
 	position: absolute;
-	top: calc(50% - 500px);
+	top: calc(50% - 600px);
 	left: calc(50% - 850px);
 	width: 2000px;
-	height: 1000px;
+	height: 1200px;
 	img{
-		position: absolute;
-		top: -169px;
-		left: -50px;
-		width: 100%;
+	position: absolute;
+    top: -129px;
+    left: -19px;
+    width: 100%;
 		-webkit-transition: transform 5s ease-in;
 	    -moz-transition: transform 5s ease-in;
 	    -o-transition: transform 5s ease-in;

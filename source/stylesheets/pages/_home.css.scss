@@ -154,8 +154,7 @@ li{
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: #130E0A;
-  opacity: 0.9;
+  background-color: #24272C;
   -webkit-transform: scaleY(0);
   transform: scaleY(0);
   -webkit-transform-origin: 50% 0;
@@ -183,7 +182,7 @@ li{
     stroke-width: 3px;
     fill: transparent;
     stroke: #F3E6E7;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #24272C;
     transition: stroke-width 1s, stroke-dashoffset 1s, stroke-dasharray 1s;
 }
 
@@ -281,7 +280,7 @@ li{
     -webkit-transform: rotate(-45deg);
 
     &:hover{
-        color: rgba(233, 196, 199, 1);
+        color: rgba(233, 196, 199, 0);
     }
 }
 
@@ -308,6 +307,37 @@ li{
     width: 300px;
 }
 
+#presentation{
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-left: 11%;
+    height: 450px;
+    clear: both;
+    padding: 3% 5%;
+}
+
+#presentation h1, p{
+    text-align: center;
+    margin-bottom: 0px;
+    margin: 0px;
+    line-height: 30px;
+    
+}
+
+#presentation h1{
+    font-family: brandon grotesque;
+}
+
+#presentation img {
+    vertical-align: middle;
+    display: block;
+    text-align: center;
+    padding-bottom: 14px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: -22px;
+}
+
 
 #contact-droite h2, p{
     z-index: 10;
@@ -327,7 +357,6 @@ li{
 a:hover{
     text-decoration: none;
 }
-
 
 #presentation_accueil{
     width: calc(100% - 300px);
