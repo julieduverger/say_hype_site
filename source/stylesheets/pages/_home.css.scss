@@ -1,3 +1,31 @@
+#audio{
+    visibility: hidden;
+}
+
+#sound-bottom{
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
+    width: 50px;
+    height: 40px;
+    cursor: pointer;
+    img{
+        width: 60%;
+    }
+}
+
+#sound-bottom-off{
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
+    width: 50px;
+    height: 40px;
+    cursor: pointer;
+    img{
+        width: 60%;
+    }
+}
+
 .fakeloader{
     background-color: #24272C !important;
 }
@@ -280,7 +308,7 @@ li{
     -webkit-transform: rotate(-45deg);
 
     &:hover{
-        color: rgba(233, 196, 199, 0);
+        color: rgba(233, 196, 199, 1);
     }
 }
 

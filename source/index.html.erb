@@ -111,6 +111,19 @@ title: Say Hype - Studio
         <div id="enter_site2"></div>
 </div>
 
+<div id="sound-bottom">
+    <img src="../images/egaliseur.gif" alt="egaliseur Say Hype-Studio">
+</div>
+<div id="sound-bottom-off">
+    <img src="../images/egaliseur-off.png" alt="egaliseur Say Hype-Studio">
+</div>
+
+<audio id="audio" controls="controls"
+autoplay="autopplay" loop="loop" preload="none">
+  <source src="../images/ballast-projetsynesthesique-experience1.mp3" type="audio/mp3" />
+
+</audio>
+
 
 
 
@@ -125,6 +138,19 @@ $("#nav").hide();
 $(".encart_accueil").hide();
 $("#image4").hide();
 $("#image3").hide();
+$("#sound-bottom-off").hide();
+
+$("#sound-bottom").click(function() {
+$("audio").trigger("pause"),
+$("#sound-bottom-off").show();
+$("#sound-bottom").hide();
+});
+$("#sound-bottom-off").click(function() {
+$("audio").trigger("play"),
+$("#sound-bottom-off").hide();
+$("#sound-bottom").show();
+});
+
 
 if ($(window).width() < 739) {
     $("#image5").css({"mask":"url(#maskidm)"}).addClass("intro-m").delay(1500).delay(5000).fadeOut(1000);
@@ -180,7 +206,8 @@ $("#image5 img").delay(1500).css({"transition-delay":"1.5s","transform":"scale(0
                     $("#enter_site").delay(100).animate({"height":"0%"}, 400, "easeInOutQuad");
                         $("#enter_site2").queue(function(){
                             $("#h_2").show().typewriter(null,function(){
-                            $(document.body).click(function(){ window.location = 'realisation.html'});
+                                $("#fond").click(function() {window.location.href = 'realisation.html'});
+
                     });
                             
 
@@ -213,5 +240,17 @@ $("#accueil_encart1").queue(function(){
 
 
 });
+
+$(document).ready(function(){
+                
+                //Check if browser is IE or not
+                if (navigator.userAgent.search("MSIE") >= 0) {
+                     window.location = 'navigateur.html';
+                }
+                //Check if browser is Opera or not
+                else if (navigator.userAgent.search("Opera") >= 0) {
+                    window.location = 'navigateur.html';
+                }
+            })
 </script>
 

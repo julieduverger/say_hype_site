@@ -48,10 +48,6 @@ $(document).ready(function(){
             $("body").toggleClass("with--sidebar");
          })
 
-        /* ACCUEIL */
-
-        $("#accueil_estampille2").hide();
-        $("#accueil_estampille2").delay(1000).hide().fadeIn(1500);
 
         /*-------- 
         Frise haut 
