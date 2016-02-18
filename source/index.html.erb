@@ -164,12 +164,21 @@ $("#sound-bottom").show();
 
 
 if ($(window).width() < 739) {
+    $(audio).trigger("pause");
+    $("#sound-bottom-off").hide();
+    $("#sound-bottom").hide();
     $("#image5").css({"mask":"url(#maskidm)"}).addClass("intro-m").delay(1500).delay(5000).fadeOut(1000);
     $(".site-content").css({"height":"98vh","background-color":"#24272C"});}
 else if ($(window).width() > 740 && $(window).width() < 1022) {
+    $(audio).trigger("pause");
+    $("#sound-bottom-off").hide();
+    $("#sound-bottom").hide();
     $("#image5").css({"mask":"url(#maskid7-2)"}).addClass("intro7-2").delay(1500).delay(5000).fadeOut(1000);
     $(".site-content").css({"height":"98vh","background-color":"#24272C"});}
 else if ($(window).width() > 1010 && $(window).width() < 1280) {
+    $(audio).trigger("pause");
+    $("#sound-bottom-off").hide();
+    $("#sound-bottom").hide();
     $("#image5").css({"mask":"url(#maskid10-3)"}).addClass("intro10").delay(1500).delay(5000).fadeOut(1000);}
 else if ($(window).width() > 1281 && $(window).width() < 1419) {
     $("#image5").css({"mask":"url(#maskid12)"}).addClass("intro12").delay(1500).delay(5000).fadeOut(1000);}
