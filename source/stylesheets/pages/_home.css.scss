@@ -188,8 +188,6 @@ li{
   right: 0;
 }
 
-
-
 #section {
     position: absolute;
     margin-left: 10%;
@@ -423,7 +421,7 @@ a:hover{
 }
 
 .intro10{
-    -webkit-mask-image: url(../images/intro-10.svg);
+    -webkit-mask-image: url(../images/intro-10-3.svg);
     -webkit-mask-repeat: no-repeat;
     -webkit-mask-position: 50% 50%;
 }
@@ -583,7 +581,7 @@ a:hover{
 }
 
 #menu {
-    display:inline;
+    display: flex;
     position: absolute;
     left: 0;
     top: 250px;
