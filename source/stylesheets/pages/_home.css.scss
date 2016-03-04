@@ -1053,9 +1053,22 @@ left: -112px;
 
 /*----------------------------------------* RESPONSIVE TABLETTE PORTRAIT ------------------------------------------------------------------------------------------(768 x 1024)-----------------------------------------------------*/
 
-@media only screen and (min-width: 760px)and (max-width: 1022px){
+@media only screen and (min-width: 781px)and (max-width: 1022px){
 
   /* INTRO */
+
+       #wrapper-anim{
+        height: 100%;
+        background-color: rgba(233, 196, 199, 0.1);
+        overflow: inherit;
+        position: static;
+        width: 60px;
+        left: -0px;
+        top: 0px;
+        z-index: 10;
+        margin-top: 0%;
+        margin-bottom: 0%;    
+    }
 
 #svg1, #svg2, #svg3{
     display: none;
