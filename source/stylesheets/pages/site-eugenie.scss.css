@@ -1,0 +1,54 @@
+<div id="menu_button">
+<div id="button-on"> 
+  <div class="line_actualites"> 
+    <img src="http://www.eugeniebarron-evenements.fr/wp-content/uploads/2016/02/line_rs.svg">
+</div>Actualités
+  <div class="line_actualites2"> 
+   <img id="line_rs2" src="http://www.eugeniebarron-evenements.fr/wp-content/uploads/2016/02/line_rs.svg">
+</div>
+</div>
+
+<div id="button-off"> Actualités </div>
+</div>
+
+
+<div id="menu_rs">
+<div class="cover_rs">
+<div id="rs"> 
+<div> <img src="http://www.eugeniebarron-evenements.fr/wp-content/uploads/2016/02/eugeniebarron-logo-rs-01.svg"> </div>
+<div id="blog_rs"> 
+<h6>Une multitude de photos et d'inspiration qui rythment notre quotidien </h6>
+</div>
+<div><h6> Capturez tous nos moments </h6>
+<ul class="list-inline social text-center animsition">
+<li>
+  <a target="_blank" https://www.instagram.com/eugenieb33/">
+  <i class="fa fa-instagram"></i>
+  </a>
+
+</li>
+
+<li>
+  <a target="_blank" href="https://www.facebook.com/eugeniebarronevenements/?pnref=lhc">
+  <i class="fa fa-facebook"></i>
+  </a>
+</li>
+
+<li>
+  <a target="_blank" https://twitter.com/barroneugenie">
+  <i class="fa fa-twitter"></i>
+  </a>
+</li>
+</ul> 
+</div>                 
+
+<div id="contact_rs"> 
+<h6> Envoyez-nous un mail </h6>
+</div>
+</div>
+
+
+
+
+</div>
+</div>
