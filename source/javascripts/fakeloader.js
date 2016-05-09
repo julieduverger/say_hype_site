@@ -110,12 +110,20 @@
 
         }
 
+        $(window).ready(function(){
+                centerLoader();
+              $(window).resize(function(){
+                centerLoader();
+              });
+        });
+
         $(window).load(function(){
                 centerLoader();
               $(window).resize(function(){
                 centerLoader();
               });
         });
+
 
 
 }(jQuery));

@@ -743,7 +743,7 @@ a:hover{
         overflow: hidden;
         position: fixed;
         width: 200px !important;
-        left: -200px;
+        left: 0px;
         top: 0px;
         z-index: 9;
     }
@@ -852,7 +852,7 @@ img{
         overflow: hidden;
         position: fixed;
         width: 200px;
-        left: -200px;
+        left: 0px;
         top: 0px;
         z-index: 10;
         margin-bottom: 4%;    
@@ -1203,7 +1203,7 @@ img{
     overflow: hidden;
     position: fixed;
     width: 200px !important;
-    left: -200px;
+    left: 0px;
     top: 0px;
     z-index: 10;
 }

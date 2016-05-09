@@ -1,3 +1,48 @@
+a { 
+    text-decoration:none; 
+    color: black;
+} 
+
+#bandeau{
+    background-color: white;
+    height: 300px;
+    width: 0px;
+    position: relative;
+}
+
+#bandeau2{
+    background-color: #F7E7E9;
+    height: 300px;
+    width: auto;
+    margin-right: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#texte_bandeau2 {
+    position: relative;
+    opacity: 0;
+    border: 1px solid black;
+    padding: 20px;
+    font-family: sabon roman;
+    letter-spacing: 2px;
+    font-size: 20px;
+
+    & p{
+    letter-spacing: 2px;
+    }
+}
+
+#line_bandeau{
+    position: absolute;
+    top: 10px;
+    right: -70px;
+    height: 1px;
+    width: 0px;
+    background-color: black;
+}
+
 #couverture_img_ebe{
   border: 1px solid #F4F2EE;
   width: auto;
@@ -42,14 +87,7 @@
 }
 
 #ebe_photo_pieddepage{
-  background-image: url(../images/bbf_photos5_projet.jpg);
-  height: 1000px;
-    width: auto;
-  background-position: center center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    margin-top: 5%;
-    margin-left: 300px;
+    margin-top: 2%;
 }
 
 #projet_ebe_contenu3{
@@ -63,6 +101,8 @@
     margin-top: 0%;
     margin-bottom: 2%;
     margin-left: calc(50% - 615px);
+    position: absolu;
+    top: -40px;
 }
 
 #projet_ebe_contenu4{
@@ -73,7 +113,7 @@
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: scroll;
-    margin-top: 0%;
+    margin-top: -40px;
     margin-bottom: 2%;
     margin-left: calc(50% - 615px);
 }
@@ -128,7 +168,38 @@
 
 /*----------------------------------------* RESPONSIVE 13 POUCES --------------------------------------------------------------------------------------------------(1280 x 700)-----------------------------------------------------*/
 
-@media only screen and (min-width: 1260px)and (max-width: 1419px){
+@media only screen and (min-width: 1250px)and (max-width: 1419px){
+
+#bandeau{
+    background-color: white;
+    height: 250px;
+    width: 0px;
+    position: relative;
+}
+
+#bandeau2{
+    background-color: #F7E7E9;
+    height: 250px;
+    width: auto;
+    margin-right: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#texte_bandeau2 {
+    position: relative;
+    opacity: 0;
+    border: 1px solid black;
+    padding: 20px;
+    font-family: sabon roman;
+    letter-spacing: 2px;
+    font-size: 20px;
+
+    & p{
+    letter-spacing: 2px;
+    }
+}
 
     
     #couverture_img_ebe{
@@ -153,14 +224,30 @@
         margin-bottom: 5%;
     }
 
-    #ebe_photo_pieddepage {
-        margin-top: 3%;
-        margin-left: 200px;
-        height: 485px;
-        width: auto;
-        margin-right: 0%;
-    }
-    
+#projet_ebe_contenu4{
+    height: 500px;
+    width: 100%;
+    margin-left: 0px;
+    margin-top: -40px;
+    margin-bottom: 2%;
+}
+
+#projet_ebe_contenu5{
+    height: 500px;
+    width: 100%;
+    margin-top: 0%;
+    margin-bottom: 2%;
+    margin-left: 0px;
+}
+
+#projet_ebe_contenu6{
+    height: 1000px;
+    margin-top: 0%;
+    margin-bottom: 2%;
+    width: 100%;
+    margin-left: 0px;
+}
+
     #description_role_ebe{
         margin-top: -56%;
         margin-left: 4%;
@@ -199,6 +286,38 @@
 @media only screen and (min-width: 1420px)and (max-width: 1659px){
 
 
+   #bandeau{
+    background-color: white;
+    height: 250px;
+    width: 0px;
+    position: relative;
+}
+
+#bandeau2{
+    background-color: #F7E7E9;
+    height: 250px;
+    width: auto;
+    margin-right: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#texte_bandeau2 {
+    position: relative;
+    opacity: 0;
+    border: 1px solid black;
+    padding: 20px;
+    font-family: sabon roman;
+    letter-spacing: 2px;
+    font-size: 20px;
+
+    & p{
+    letter-spacing: 2px;
+    }
+}
+
+    
     #couverture_img_ebe{
         border: 1px solid #F4F2EE;
         width: auto;
@@ -214,20 +333,36 @@
     }
 
     #projet_ebe_contenu3 {
-        height: 600px;
+        height: 500px;
         margin-bottom: 5%;
         width: 100%;
         margin-left: 0px;
         margin-bottom: 5%;
     }
 
-    #ebe_photo_pieddepage {
-        margin-top: 3%;
-        margin-left: 200px;
-        height: 485px;
-        width: auto;
-        margin-right: 0%;
-    }
+    #projet_ebe_contenu4{
+    height: 500px;
+    width: 100%;
+    margin-left: 0px;
+    margin-top: -60px;
+    margin-bottom: 2%;
+}
+
+#projet_ebe_contenu5{
+    height: 500px;
+    width: 100%;
+    margin-top: 0%;
+    margin-bottom: 2%;
+    margin-left: 0px;
+}
+
+#projet_ebe_contenu6{
+    height: 1000px;
+    margin-top: 0%;
+    margin-bottom: 2%;
+    width: 100%;
+    margin-left: 0px;
+}
 
     #description_role_ebe{
         margin-top: -46%;
@@ -264,7 +399,7 @@
 
 /*----------------------------------------* RESPONSIVE 15 POUCES --------------------------------------------------------------------------------------------------(1680 x 900)-----------------------------------------------------*/
 
-@media only screen and (min-width: 1670px)and (max-width: 1899px){
+@media only screen and (min-width: 1660px)and (max-width: 1899px){
 
 
     #couverture_img_ebe{
@@ -282,19 +417,35 @@
     }
 
     #projet_ebe_contenu3 {
-        height: 700px;
+        height: 650px;
         margin-bottom: 5%;
         width: 100%;
         margin-left: 0px;
     }
 
-    #ebe_photo_pieddepage {
-        margin-top: 3%;
-        margin-left: 300px;
-        height: 600px;
-        width: auto;
-        margin-right: 0%;
-    }
+#projet_ebe_contenu4{
+    height: 650px;
+    width: 100%;
+    margin-left: 0px;
+    margin-top: -60px;
+    margin-bottom: 2%;
+}
+
+#projet_ebe_contenu5{
+    height: 650px;
+    width: 100%;
+    margin-top: 0%;
+    margin-bottom: 2%;
+    margin-left: 0px;
+}
+
+#projet_ebe_contenu6{
+    height: 1300px;
+    margin-top: 0%;
+    margin-bottom: 2%;
+    width: 100%;
+    margin-left: 0px;
+}
 
     #description_role_ebe{
         margin-top: -40%;
@@ -342,12 +493,12 @@
 
     #projet_ebe_contenu1 {
         height: 700px;
-        width: 807px;
+        width: 790px;
         margin-top: 1%;
     }
 
     #projet_ebe_contenu2 {
-        width: 807px;
+        width: 770px;
         height: 700px;
         margin-top: 30%;
 
@@ -362,15 +513,10 @@
         margin-bottom: 5%;
         width: 100%;
         margin-left: 0px;
-        margin-top: 5%;
+        margin-top: 0%;
     }
-
-    #ebe_photo_pieddepage {
-        margin-top: 3%;
-        margin-left: 300px;
-        height: 700px;
-        width: auto;
-        margin-right: 0%;
+    #projet_ebe_contenu4{
+        margin-top: -80px;
     }
 
     #frise_verticale{
@@ -378,7 +524,7 @@
     }
 
     #description_role_ebe {
-        margin-top: -43%;
+        margin-top: -45%;
         margin-left: 4%;
     }
 
@@ -389,6 +535,39 @@
 /*----------------------------------------* RESPONSIVE TABLETTE PORTRAIT --------------------------------------------------------------------------------------------(768 x 1024)---------------------------------------------------*/
 
 @media only screen and (min-width: 760px)and (max-width: 1023px){
+
+#bandeau{
+    background-color: white;
+    height: 250px;
+    width: 0px;
+    position: relative;
+}
+
+#bandeau2{
+    background-color: #F7E7E9;
+    height: 250px;
+    width: auto;
+    margin-right: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+#texte_bandeau2 {
+    position: relative;
+    opacity: 0;
+    border: 1px solid black;
+    padding: 20px;
+    font-family: sabon roman;
+    letter-spacing: 2px;
+    font-size: 20px;
+    margin-top: 30px;
+
+    & p{
+    letter-spacing: 2px;
+    }
+}
 
     #description_role_ebe {
         margin-top: -47%;
@@ -425,23 +604,74 @@
 
     #projet_ebe_contenu3 {
         height: 500px;
-        width: 712px;
+        width: 730px;
         margin-left: 2%;
-        margin-top: 2%;
+        margin-top: -40px;
+        margin-bottom: -6%;
     }
 
-    #ebe_photo_pieddepage {
-        height: 348px;
-        width: auto;
-        margin-left: 0px;
-        padding-right: 1%;
-        background-size: cover;
-    }
+        #projet_ebe_contenu4{
+    height: 500px;
+    width: 730px;
+    margin-left: 0px;
+    margin-top: -60px;
+    margin-bottom: -8%;
+    margin-left: 2%;
+}
+
+#projet_ebe_contenu5{
+    height: 500px;
+    width: 730px;
+    margin-top: 0%;
+    margin-bottom: -13%;
+    margin-left: 0px;
+    margin-left: 2%;
+}
+
+#projet_ebe_contenu6{
+    height: 1000px;
+    margin-top: 0%;
+    margin-bottom: -8%;
+    width: 730px;
+    margin-left: 0px;
+    margin-left: 2%;
+}
 }
 
 /*----------------------------------------* RESPONSIVE TABLETTE PAYSAGE -----------------------------------------------------------------------------------------------(1024 x 768)-------------------------------------------------*/
 
 @media only screen and (min-width: 1024px)and (max-width: 1249px){
+
+#bandeau{
+    background-color: white;
+    height: 250px;
+    width: 0px;
+    position: relative;
+}
+
+#bandeau2{
+    background-color: #F7E7E9;
+    height: 250px;
+    width: auto;
+    margin-right: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#texte_bandeau2 {
+    position: relative;
+    opacity: 0;
+    border: 1px solid black;
+    padding: 20px;
+    font-family: sabon roman;
+    letter-spacing: 2px;
+    font-size: 20px;
+
+    & p{
+    letter-spacing: 2px;
+    }
+}
 
     #couverture_img_ebe{
         border: 1px solid #F4F2EE;
@@ -458,20 +688,38 @@
     }
 
     #projet_ebe_contenu3 {
-        height: 500px;
+        height: 400px;
         margin-bottom: 5%;
         width: 100%;
         margin-left: 0px;
         margin-bottom: 5%;
     }
 
-    #ebe_photo_pieddepage {
-        margin-top: 3%;
-        margin-left: 200px;
-        height: 400px;
-        width: auto;
-        margin-right: 0%;
-    }
+    #projet_ebe_contenu4{
+    height: 400px;
+    width: 100%;
+    margin-left: 0px;
+    margin-top: -60px;
+    margin-bottom: 2%;
+}
+
+#projet_ebe_contenu5{
+    height: 400px;
+    width: 100%;
+    margin-top: 0%;
+    margin-bottom: 2%;
+    margin-left: 0px;
+}
+
+#projet_ebe_contenu6{
+    height: 800px;
+    margin-top: 0%;
+    margin-bottom: 2%;
+    width: 100%;
+    margin-left: 0px;
+}
+
+
 
     #description_role_ebe{
         margin-top: -56%;
@@ -518,6 +766,39 @@
 
 @media only screen and (min-width: 250px)and (max-width: 759px){
 
+#bandeau{
+    background-color: white;
+    height: 200px;
+    width: 0px;
+    position: relative;
+    margin-top: 30px;
+}
+
+#bandeau2{
+    background-color: #F7E7E9;
+    height: 200px;
+    width: auto;
+    margin-right: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+#texte_bandeau2 {
+    position: relative;
+    opacity: 0;
+    border: 1px solid black;
+    padding: 20px;
+    font-family: sabon roman;
+    letter-spacing: 2px;
+    font-size: 20px;
+
+    & p{
+    letter-spacing: 2px;
+    }
+}
+
     #description_role_ebe {
         display:none;
     }
@@ -557,15 +838,32 @@
         height: 200px;
         width: auto;
         margin-left: 0%;
-        margin-top: 10%;
+        margin-top: 0%;
+        margin-bottom: 20px;
     }
 
-    #ebe_photo_pieddepage {
-        height: 146px;
-        width: auto;
-        margin-left: 0px;
-        padding-right: 0%;
-        background-size: cover;
-        margin-top: 10%;
-    }
+    #projet_ebe_contenu4{
+    height: 200px;
+    width: 100%;
+    margin-left: 0px;
+    margin-bottom: 2%;
+    margin-bottom: 20px;
+}
+
+#projet_ebe_contenu5{
+    height: 200px;
+    width: 100%;
+    margin-top: 0%;
+    margin-bottom: 2%;
+    margin-left: 0px;
+    margin-bottom: 20px;
+}
+
+#projet_ebe_contenu6{
+    height: 400px;
+    margin-top: 0%;
+    margin-bottom: 2%;
+    width: 100%;
+    margin-left: 0px;
+}
 }

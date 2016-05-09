@@ -51,12 +51,9 @@
 	padding: 0px;
     margin-bottom: 15px;
     background-color: #FBF3F4;
-    transition: transform 3s ease;
 
 	&:hover{
 		background-color: #130E0A; 
-        transform: scale3d(1.0175, 1.0175, 1.0175);
-        -webkit-transform: scale3d(1.0175, 1.0175, 1.0175);
 	} 
 }
 
@@ -112,7 +109,7 @@
 
 /*----------------------------------------* RESPONSIVE 13 POUCES --------------------------------------------------------------------------------------------------(1280 x 700)-----------------------------------------------------*/
 
-@media only screen and (min-width: 1280px)and (max-width: 1439px){
+@media only screen and (min-width: 1260px)and (max-width: 1419px){
 
     #nav{
     width: 200px !important;
@@ -194,7 +191,7 @@
 
 /*----------------------------------------* RESPONSIVE 15 POUCES --------------------------------------------------------------------------------------------------(1440 x 900)-----------------------------------------------------*/
 
-@media only screen and (min-width: 1440px)and (max-width: 1679px){
+@media only screen and (min-width: 1420px)and (max-width: 1659px){
 
     .list-inline > li {
     width: 25px;
@@ -257,7 +254,7 @@
 
 /*----------------------------------------* RESPONSIVE 15 POUCES --------------------------------------------------------------------------------------------------(1680 x 900)-----------------------------------------------------*/
 
-@media only screen and (min-width: 1680px)and (max-width: 1919px){
+@media only screen and (min-width: 1660px)and (max-width: 1919px){
 
 .list-inline > li {
     width: 25px;

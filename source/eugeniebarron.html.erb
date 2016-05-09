@@ -105,7 +105,18 @@ title: Eugénie Barron Evénements
                         </div> 
 
                          <div class="row">
-                                <div class="col-md-12 col-lg-12" id="projet_ebe_contenu3" data-sr="wait 0.25s, over 1s, ease-in-out 10px">
+
+                          <div id="bandeau">
+                            <div id="bandeau2">
+                              <div id="texte_bandeau2">
+                                <div id="line_bandeau"></div>
+                                <p>
+                                  <a href="http://www.eugeniebarron-evenements.fr/" target="_blank">VOIR LE SITE</a>
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                                <div class="col-md-12 col-lg-12" id="projet_ebe_contenu3" data-sr="wait 0.25s, over 0.8s, ease-in-out 10px">
                                   
                                    
                                 </div>  
@@ -162,7 +173,7 @@ title: Eugénie Barron Evénements
 
                         </div>
 
-                        <div id="bbf_photo_pieddepage">
+                        <div id="ebe_photo_pieddepage" class="text-center">
                               
                         </div>  
 
@@ -205,7 +216,34 @@ title: Eugénie Barron Evénements
 
 <script>
 jQuery(document).ready(function(){
-                                                  $("#nav").show().animate({left: '0px'}, 1000, "easeInOutQuad");
+$("#nav").show().animate({left: '0px'}, 1000, "easeInOutQuad");
+$("#bandeau2").hide();
+
+$(window).on("scroll",function(){
+            if ($(window).width() < 759) {
+                if ($(window).scrollTop() > 700 && $(window).scrollTop() < 720) {
+                    $("#bandeau").animate({"width":"100%"}, 1350, "linear");
+                      $("#bandeau").queue(function(){ 
+                        $("#bandeau2").delay(500).slideDown(600), $("#texte_bandeau2").addClass("fadeInDown");});
+                } 
+            } 
+            else {
+                if ($(window).scrollTop() > 1450 && $(window).scrollTop() < 1500) {
+                    $("#bandeau").animate({"width":"100%"}, 1350, "linear");
+                      $("#bandeau").queue(function(){ 
+                        $("#bandeau2").delay(500).slideDown(600), $("#texte_bandeau2").addClass("fadeInDown");
+    });    
+                } 
+            } 
+});
+
+  $("#texte_bandeau2").mouseenter(function() {
+  $("#line_bandeau").animate({"width":"100px"}, 800);
+});
+$("#texte_bandeau2").mouseleave(function() {
+  $("#line_bandeau").animate({"width":"0px"}, 300);
+});
+
   });
 </script>
 </script>
