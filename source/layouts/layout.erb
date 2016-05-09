@@ -35,7 +35,7 @@
     <meta property="og:title" content="SAY HYPE - Studio de Communication Globale - Bordeaux" />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="http://sayhype-studio.fr" />
-    <meta property="og:image" content="url(../images/og_sayhype.png)" />
+    <meta property="og:image" content="url(../images/sayhype.png)" />
     <meta property="og:description" content="Say Hype est un studio de création graphique spécialisé dans la confection d’identité visuelle." />
     <meta property="og:site_name" content="SAY HYPE - Studio de Communication Globale - Bordeaux" />
    
@@ -58,13 +58,8 @@
 <div class="site-container animsition">
     <div class="site-pusher">
       <div id="page_accueil">
-        <div id="wrapper-anim">
-            <div id="nav"  class="animsition-overlay"
-  data-animsition-overlay="true"
-  data-animsition-in-class="overlay-slide-in-left"
-  data-animsition-in-duration="2000"
-  data-animsition-out-class="overlay-slide-out-left"
-  data-animsition-out-duration="800">
+
+            <div id="nav" class="animisition">
               <a href="#" class="nav__icon" id="nav__icon"></a>
 
 
@@ -81,22 +76,25 @@
 
 
                     <ul id="menu" class="menu text-center">
-                      <li >
-                      <div class=" text-center">
-                           <div  class="text text-menu hvr-underline-from-center"> <% link_to "/realisation.html", :class => "animsition-link"  do %> REALISATION <% end %> </div>
+                      <li id="realisation_menu">
+
+                      <div class="text-center">
+                        <div class="line_menu1"></div>
+                           <div  > <% link_to "/realisation.html", :class => "animsition-link"  do %> REALISATION <% end %> </div>
                         </div>
                       </li>
 
-                      <li>
+                      <li id="lestudio_menu">
                       <div class=" text-center">
-                           <div class="text text-menu hvr-underline-from-center"> <% link_to "/lestudio.html", :class => "animsition-link"  do %> LE STUDIO <% end %> </div>
+                        <div class="line_menu2"></div>
+                           <div> <% link_to "/lestudio.html", :class => "animsition-link"  do %> LE STUDIO <% end %> </div>
                         </div>
                       </li>
 
-                      <li>
+                      <li id="contact_menu">
                       <div class=" text-center">
-
-                           <div class="text text-menu hvr-underline-from-center"> <% link_to "/contact.html", :class => "animsition-link"  do %> CONTACT <% end %> </div>
+                        <div class="line_menu3"></div>
+                           <div> <% link_to "/contact.html", :class => "animsition-link"  do %> CONTACT <% end %> </div>
                         </div>
                       </li>
                     </ul>

@@ -10,6 +10,9 @@ $(window).load(function(){
         $(".titrehp").addClass("fadeInDown");
         $("#tittle_studio").addClass("slideInDown");
         $("#tittle_contact").addClass("slideInDown");
+        $("#realisation_menu").addClass("fadeInRight");
+        $("#lestudio_menu").addClass("fadeInRight2");
+        $("#contact_menu").addClass("fadeInRight3");
 
         $.fn.typewriter = function(opt,callback) {
         var i=0;
@@ -36,6 +39,24 @@ $(window).load(function(){
 
 $(document).ready(function(){
 
+  $("#realisation_menu").mouseenter(function() {
+  $(".line_menu1").animate({"width":"90px"}, 800);
+});
+$("#realisation_menu").mouseleave(function() {
+  $(".line_menu1").animate({"width":"1px"}, 300);
+});
+  $("#lestudio_menu").mouseenter(function() {
+  $(".line_menu2").animate({"width":"90px"}, 800);
+});
+$("#lestudio_menu").mouseleave(function() {
+  $(".line_menu2").animate({"width":"1px"}, 300);
+});
+  $("#contact_menu").mouseenter(function() {
+  $(".line_menu3").animate({"width":"90px"}, 800);
+});
+$("#contact_menu").mouseleave(function() {
+  $(".line_menu3").animate({"width":"1px"}, 300);
+});
 
         $(window).on("scroll",function(){
             console.log($(this).scrollTop());
@@ -278,28 +299,6 @@ $(document).ready(function(){
             transition: function(url){ window.location.href = url; }
           });
 
-            $(".animsition-overlay").animsition({
-                inClass: 'overlay-slide-in-left',
-                outClass: 'overlay-slide-out-left',
-                inDuration: 1500,
-                outDuration: 800,
-                linkElement: '.animsition-link',
-                // e.g. linkElement: 'a:not([target="_blank"]):not([href^=#])'
-                loading: true,
-                loadingParentElement: 'body', //animsition wrapper element
-                loadingClass: 'animsition-loading',
-                loadingInner: '', // e.g '<img src="loading.svg" />'
-                timeout: false,
-                timeoutCountdown: 5000,
-                onLoadEvent: true,
-                browser: [ 'animation-duration', '-webkit-animation-duration'],
-                // "browser" option allows you to disable the "animsition" in case the css property in the array is not supported by your browser.
-                // The default setting is to disable the "animsition" in a browser that does not support "animation-duration".
-                overlay : true,
-                overlayClass : 'animsition-overlay-slide',
-                overlayParentElement : 'body',
-                transition: function(url){ window.location.href = url; }
-            });
 
         /*---------
         NAVIGATION
