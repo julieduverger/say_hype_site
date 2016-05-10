@@ -1,0 +1,32 @@
+/*
+Theme Name: Chandelier Child
+Theme URI: http://chandelier.elated-themes.com/
+Description: A child theme of Chandelier Theme
+Author: Elated Themes
+Author URI: http://themeforest.net/user/elated-themes
+Version: 1.0.0
+Template: chandelier
+*/
+
+
+@font-face {
+    font-family: "brandon grotesque";
+    src: url('brandongrotesque/2DB5BB_0_0.eot');
+    src: url('brandongrotesque/2DB5BB_0_0.eot?#iefix') format('embedded-opentype');
+    src: url('brandongrotesque/2DB5BB_0_0.woff2') format('woff2');
+    src: url('brandongrotesque/2DB5BB_0_0.woff') format('woff');
+}
+html {margin: 1%;}
+body {margin: 0px;}
+#maintenance {background: linear-gradient(to right, #d0caea 0%,#caf9f9 100%); height: 100%; display: flex; }
+#maintenance2 {margin: 1%; border: 3px solid  white; display: flex; align-items: center; justify-content: center; flex-direction: column; width: 100%}
+h1{   
+    font-family: brandon grotesque;
+    text-transform: uppercase;
+    font-size: 20px;
+    letter-spacing: 1px;
+    color: white;
+}
+
+@import url('../chandelier/style.css');
+
